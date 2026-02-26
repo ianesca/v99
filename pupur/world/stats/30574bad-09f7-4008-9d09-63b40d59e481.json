@@ -1,0 +1,44 @@
+{
+  "stats": {
+    "minecraft:used": {
+      "minecraft:oak_leaves": 48,
+      "minecraft:oak_sapling": 1,
+      "minecraft:rose_bush": 1,
+      "minecraft:dirt": 5,
+      "minecraft:birch_log": 2
+    },
+    "minecraft:picked_up": {
+      "minecraft:rose_bush": 1,
+      "minecraft:dirt": 5,
+      "minecraft:oak_sapling": 1
+    },
+    "minecraft:mined": {
+      "minecraft:oak_leaves": 3,
+      "minecraft:bush": 1,
+      "minecraft:dirt": 2,
+      "minecraft:rose_bush": 2,
+      "minecraft:grass_block": 6
+    },
+    "minecraft:killed_by": {
+      "minecraft:skeleton": 2
+    },
+    "minecraft:custom": {
+      "minecraft:time_since_rest": 40362,
+      "minecraft:walk_one_cm": 19097,
+      "minecraft:leave_game": 13,
+      "minecraft:damage_taken": 540,
+      "minecraft:play_time": 66366,
+      "minecraft:jump": 142,
+      "minecraft:time_since_death": 40124,
+      "minecraft:sprint_one_cm": 16082,
+      "minecraft:fall_one_cm": 525,
+      "minecraft:total_world_time": 66366,
+      "minecraft:fly_one_cm": 82680,
+      "minecraft:walk_on_water_one_cm": 57,
+      "minecraft:crouch_one_cm": 911,
+      "minecraft:sneak_time": 618,
+      "minecraft:deaths": 2
+    }
+  },
+  "DataVersion": 4671
+}
