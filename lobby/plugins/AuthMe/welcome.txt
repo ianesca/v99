@@ -1,3 +1,9 @@
-Welcome {PLAYER} on {SERVER} server
-
-This server uses AuthMeReloaded protection!
+&8&m▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+&f
+                      &b¡Hola, &l{PLAYER}&b! ✨
+        &fEs un gusto tenerte con nosotros.
+&f
+      &d¡Prepárate para una gran aventura!
+           &6&l{SERVER} &fte da la bienvenida.
+&f
+&8&m▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬

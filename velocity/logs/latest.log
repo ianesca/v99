@@ -1,16 +1,212 @@
-[11:11:35] [main/INFO] [com.velocitypowered.proxy.VelocityServer]: Booting up Velocity 3.5.0-SNAPSHOT (git-c2fd3c07-b576)...
-[11:11:35] [main/INFO] [com.velocitypowered.proxy.network.ConnectionManager]: Connections will use epoll channels, libdeflate (Linux x86_64) compression, OpenSSL 3.x.x (Linux x86_64) ciphers
-[11:11:35] [main/WARN] [com.velocitypowered.proxy.config.VelocityConfiguration]: The proxy is running in offline mode! This is a security risk and you will NOT receive any support!
-[11:11:36] [main/INFO] [com.velocitypowered.proxy.VelocityServer]: Loading localizations...
-[11:11:36] [main/INFO] [com.velocitypowered.proxy.VelocityServer]: Loading plugins...
-[11:11:36] [main/INFO] [com.velocitypowered.proxy.plugin.VelocityPluginManager]: Loaded plugin authmevelocity 4.2.0 by xQuickGlare, 4drian3d
-[11:11:36] [main/INFO] [com.velocitypowered.proxy.VelocityServer]: Loaded 2 plugins
-[11:11:36] [AuthMeVelocity - Task Executor #0/INFO] [authmevelocity]:  --- AuthMeVelocity ---
-[11:11:36] [AuthMeVelocity - Task Executor #0/INFO] [authmevelocity]: AuthServers: [lobby]
-[11:11:36] [Netty epoll Boss #0/INFO] [com.velocitypowered.proxy.network.ConnectionManager]: Listening on /[0:0:0:0:0:0:0:0]:25565
-[11:11:36] [main/INFO] [com.velocitypowered.proxy.Velocity]: Done (1.97s)!
-[11:38:40] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] fda_ (/187.235.5.189:50798) has connected
-[11:38:40] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] fda_ -> lobby has connected
-[11:54:36] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] fda_ (/187.235.5.189:50798): kicked from server lobby: Server closed
-[11:54:36] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] fda_ -> lobby has disconnected
-[11:54:36] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] fda_ (/187.235.5.189:50798) has disconnected: Has sido echado de lobby: Server closed
+[15:30:13] [main/INFO] [com.velocitypowered.proxy.VelocityServer]: Booting up Velocity 3.5.0-SNAPSHOT (git-c2fd3c07-b576)...
+[15:30:13] [main/INFO] [com.velocitypowered.proxy.network.ConnectionManager]: Connections will use epoll channels, libdeflate (Linux x86_64) compression, OpenSSL 3.x.x (Linux x86_64) ciphers
+[15:30:14] [main/WARN] [com.velocitypowered.proxy.config.VelocityConfiguration]: The proxy is running in offline mode! This is a security risk and you will NOT receive any support!
+[15:30:14] [main/INFO] [com.velocitypowered.proxy.VelocityServer]: Loading localizations...
+[15:30:14] [main/INFO] [com.velocitypowered.proxy.VelocityServer]: Loading plugins...
+[15:30:14] [main/INFO] [com.velocitypowered.proxy.plugin.VelocityPluginManager]: Loaded plugin authmevelocity 4.2.0 by xQuickGlare, 4drian3d
+[15:30:14] [main/INFO] [com.velocitypowered.proxy.VelocityServer]: Loaded 2 plugins
+[15:30:14] [AuthMeVelocity - Task Executor #0/INFO] [authmevelocity]:  --- AuthMeVelocity ---
+[15:30:14] [AuthMeVelocity - Task Executor #0/INFO] [authmevelocity]: AuthServers: [lobby]
+[15:30:14] [Netty epoll Boss #0/INFO] [com.velocitypowered.proxy.network.ConnectionManager]: Listening on /[0:0:0:0:0:0:0:0]:25565
+[15:30:14] [main/INFO] [com.velocitypowered.proxy.Velocity]: Done (1.7s)!
+[15:31:25] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] fda_ (/187.235.5.189:65347) has connected
+[15:31:25] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] fda_ -> lobby has connected
+[15:31:36] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] fda_ -> bedwars has connected
+[15:31:36] [Netty epoll Worker #2/ERROR] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] fda_ -> bedwars: exception encountered in com.velocitypowered.proxy.connection.backend.LoginSessionHandler@589f7877
+java.lang.IllegalStateException: Backend server is online-mode!
+	at com.velocitypowered.proxy.connection.backend.LoginSessionHandler.handle(LoginSessionHandler.java:79)
+	at com.velocitypowered.proxy.protocol.packet.EncryptionRequestPacket.handle(EncryptionRequestPacket.java:100)
+	at com.velocitypowered.proxy.connection.MinecraftConnection.channelRead(MinecraftConnection.java:155)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:356)
+	at com.velocitypowered.proxy.protocol.netty.AutoReadHolderHandler.channelRead(AutoReadHolderHandler.java:57)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:354)
+	at com.velocitypowered.proxy.protocol.netty.MinecraftDecoder.tryDecode(MinecraftDecoder.java:91)
+	at com.velocitypowered.proxy.protocol.netty.MinecraftDecoder.channelRead(MinecraftDecoder.java:60)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:356)
+	at io.netty.handler.timeout.IdleStateHandler.channelRead(IdleStateHandler.java:293)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:354)
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:361)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:325)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:356)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1429)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:918)
+	at io.netty.channel.epoll.AbstractEpollStreamChannel$EpollStreamUnsafe.epollInReady(AbstractEpollStreamChannel.java:804)
+	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.handle(AbstractEpollChannel.java:482)
+	at io.netty.channel.epoll.EpollIoHandler$DefaultEpollIoRegistration.handle(EpollIoHandler.java:317)
+	at io.netty.channel.epoll.EpollIoHandler.processReady(EpollIoHandler.java:515)
+	at io.netty.channel.epoll.EpollIoHandler.run(EpollIoHandler.java:460)
+	at io.netty.channel.SingleThreadIoEventLoop.runIo(SingleThreadIoEventLoop.java:225)
+	at io.netty.channel.SingleThreadIoEventLoop.run(SingleThreadIoEventLoop.java:196)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:1195)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:1474)
+[15:31:36] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] fda_ -> bedwars has disconnected
+[15:31:36] [Netty epoll Worker #2/ERROR] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] fda_ (/187.235.5.189:65347): unable to connect to server bedwars
+java.lang.IllegalStateException: Backend server is online-mode!
+	at com.velocitypowered.proxy.connection.backend.LoginSessionHandler.handle(LoginSessionHandler.java:79)
+	at com.velocitypowered.proxy.protocol.packet.EncryptionRequestPacket.handle(EncryptionRequestPacket.java:100)
+	at com.velocitypowered.proxy.connection.MinecraftConnection.channelRead(MinecraftConnection.java:155)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:356)
+	at com.velocitypowered.proxy.protocol.netty.AutoReadHolderHandler.channelRead(AutoReadHolderHandler.java:57)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:354)
+	at com.velocitypowered.proxy.protocol.netty.MinecraftDecoder.tryDecode(MinecraftDecoder.java:91)
+	at com.velocitypowered.proxy.protocol.netty.MinecraftDecoder.channelRead(MinecraftDecoder.java:60)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:356)
+	at io.netty.handler.timeout.IdleStateHandler.channelRead(IdleStateHandler.java:293)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:354)
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:361)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:325)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:356)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1429)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:918)
+	at io.netty.channel.epoll.AbstractEpollStreamChannel$EpollStreamUnsafe.epollInReady(AbstractEpollStreamChannel.java:804)
+	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.handle(AbstractEpollChannel.java:482)
+	at io.netty.channel.epoll.EpollIoHandler$DefaultEpollIoRegistration.handle(EpollIoHandler.java:317)
+	at io.netty.channel.epoll.EpollIoHandler.processReady(EpollIoHandler.java:515)
+	at io.netty.channel.epoll.EpollIoHandler.run(EpollIoHandler.java:460)
+	at io.netty.channel.SingleThreadIoEventLoop.runIo(SingleThreadIoEventLoop.java:225)
+	at io.netty.channel.SingleThreadIoEventLoop.run(SingleThreadIoEventLoop.java:196)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:1195)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:1474)
+[15:31:41] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] fda_ -> bedwars has connected
+[15:31:41] [Netty epoll Worker #2/ERROR] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] fda_ -> bedwars: exception encountered in com.velocitypowered.proxy.connection.backend.LoginSessionHandler@473b7f04
+java.lang.IllegalStateException: Backend server is online-mode!
+	at com.velocitypowered.proxy.connection.backend.LoginSessionHandler.handle(LoginSessionHandler.java:79)
+	at com.velocitypowered.proxy.protocol.packet.EncryptionRequestPacket.handle(EncryptionRequestPacket.java:100)
+	at com.velocitypowered.proxy.connection.MinecraftConnection.channelRead(MinecraftConnection.java:155)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:356)
+	at com.velocitypowered.proxy.protocol.netty.AutoReadHolderHandler.channelRead(AutoReadHolderHandler.java:57)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:354)
+	at com.velocitypowered.proxy.protocol.netty.MinecraftDecoder.tryDecode(MinecraftDecoder.java:91)
+	at com.velocitypowered.proxy.protocol.netty.MinecraftDecoder.channelRead(MinecraftDecoder.java:60)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:356)
+	at io.netty.handler.timeout.IdleStateHandler.channelRead(IdleStateHandler.java:293)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:354)
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:361)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:325)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:356)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1429)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:918)
+	at io.netty.channel.epoll.AbstractEpollStreamChannel$EpollStreamUnsafe.epollInReady(AbstractEpollStreamChannel.java:804)
+	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.handle(AbstractEpollChannel.java:482)
+	at io.netty.channel.epoll.EpollIoHandler$DefaultEpollIoRegistration.handle(EpollIoHandler.java:317)
+	at io.netty.channel.epoll.EpollIoHandler.processReady(EpollIoHandler.java:515)
+	at io.netty.channel.epoll.EpollIoHandler.run(EpollIoHandler.java:460)
+	at io.netty.channel.SingleThreadIoEventLoop.runIo(SingleThreadIoEventLoop.java:225)
+	at io.netty.channel.SingleThreadIoEventLoop.run(SingleThreadIoEventLoop.java:196)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:1195)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:1474)
+[15:31:41] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] fda_ -> bedwars has disconnected
+[15:31:41] [Netty epoll Worker #2/ERROR] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] fda_ (/187.235.5.189:65347): unable to connect to server bedwars
+java.lang.IllegalStateException: Backend server is online-mode!
+	at com.velocitypowered.proxy.connection.backend.LoginSessionHandler.handle(LoginSessionHandler.java:79)
+	at com.velocitypowered.proxy.protocol.packet.EncryptionRequestPacket.handle(EncryptionRequestPacket.java:100)
+	at com.velocitypowered.proxy.connection.MinecraftConnection.channelRead(MinecraftConnection.java:155)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:356)
+	at com.velocitypowered.proxy.protocol.netty.AutoReadHolderHandler.channelRead(AutoReadHolderHandler.java:57)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:354)
+	at com.velocitypowered.proxy.protocol.netty.MinecraftDecoder.tryDecode(MinecraftDecoder.java:91)
+	at com.velocitypowered.proxy.protocol.netty.MinecraftDecoder.channelRead(MinecraftDecoder.java:60)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:356)
+	at io.netty.handler.timeout.IdleStateHandler.channelRead(IdleStateHandler.java:293)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:354)
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:361)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:325)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:356)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1429)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:918)
+	at io.netty.channel.epoll.AbstractEpollStreamChannel$EpollStreamUnsafe.epollInReady(AbstractEpollStreamChannel.java:804)
+	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.handle(AbstractEpollChannel.java:482)
+	at io.netty.channel.epoll.EpollIoHandler$DefaultEpollIoRegistration.handle(EpollIoHandler.java:317)
+	at io.netty.channel.epoll.EpollIoHandler.processReady(EpollIoHandler.java:515)
+	at io.netty.channel.epoll.EpollIoHandler.run(EpollIoHandler.java:460)
+	at io.netty.channel.SingleThreadIoEventLoop.runIo(SingleThreadIoEventLoop.java:225)
+	at io.netty.channel.SingleThreadIoEventLoop.run(SingleThreadIoEventLoop.java:196)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:1195)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:1474)
+[15:31:55] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] fda_ (/187.235.5.189:65347) has disconnected
+[15:31:55] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] fda_ -> lobby has disconnected
+[15:31:57] [Netty epoll Worker #4/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] fda_ (/187.235.5.189:65357) has connected
+[15:31:57] [Netty epoll Worker #4/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] fda_ -> lobby has connected
+[15:32:02] [Netty epoll Worker #4/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] fda_ -> bedwars has connected
+[15:32:02] [Netty epoll Worker #4/ERROR] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] fda_ -> bedwars: exception encountered in com.velocitypowered.proxy.connection.backend.LoginSessionHandler@781301a8
+java.lang.IllegalStateException: Backend server is online-mode!
+	at com.velocitypowered.proxy.connection.backend.LoginSessionHandler.handle(LoginSessionHandler.java:79)
+	at com.velocitypowered.proxy.protocol.packet.EncryptionRequestPacket.handle(EncryptionRequestPacket.java:100)
+	at com.velocitypowered.proxy.connection.MinecraftConnection.channelRead(MinecraftConnection.java:155)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:356)
+	at com.velocitypowered.proxy.protocol.netty.AutoReadHolderHandler.channelRead(AutoReadHolderHandler.java:57)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:354)
+	at com.velocitypowered.proxy.protocol.netty.MinecraftDecoder.tryDecode(MinecraftDecoder.java:91)
+	at com.velocitypowered.proxy.protocol.netty.MinecraftDecoder.channelRead(MinecraftDecoder.java:60)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:356)
+	at io.netty.handler.timeout.IdleStateHandler.channelRead(IdleStateHandler.java:293)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:354)
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:361)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:325)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:356)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1429)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:918)
+	at io.netty.channel.epoll.AbstractEpollStreamChannel$EpollStreamUnsafe.epollInReady(AbstractEpollStreamChannel.java:804)
+	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.handle(AbstractEpollChannel.java:482)
+	at io.netty.channel.epoll.EpollIoHandler$DefaultEpollIoRegistration.handle(EpollIoHandler.java:317)
+	at io.netty.channel.epoll.EpollIoHandler.processReady(EpollIoHandler.java:515)
+	at io.netty.channel.epoll.EpollIoHandler.run(EpollIoHandler.java:460)
+	at io.netty.channel.SingleThreadIoEventLoop.runIo(SingleThreadIoEventLoop.java:225)
+	at io.netty.channel.SingleThreadIoEventLoop.run(SingleThreadIoEventLoop.java:196)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:1195)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:1474)
+[15:32:02] [Netty epoll Worker #4/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] fda_ -> bedwars has disconnected
+[15:32:02] [Netty epoll Worker #4/ERROR] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] fda_ (/187.235.5.189:65357): unable to connect to server bedwars
+java.lang.IllegalStateException: Backend server is online-mode!
+	at com.velocitypowered.proxy.connection.backend.LoginSessionHandler.handle(LoginSessionHandler.java:79)
+	at com.velocitypowered.proxy.protocol.packet.EncryptionRequestPacket.handle(EncryptionRequestPacket.java:100)
+	at com.velocitypowered.proxy.connection.MinecraftConnection.channelRead(MinecraftConnection.java:155)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:356)
+	at com.velocitypowered.proxy.protocol.netty.AutoReadHolderHandler.channelRead(AutoReadHolderHandler.java:57)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:354)
+	at com.velocitypowered.proxy.protocol.netty.MinecraftDecoder.tryDecode(MinecraftDecoder.java:91)
+	at com.velocitypowered.proxy.protocol.netty.MinecraftDecoder.channelRead(MinecraftDecoder.java:60)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:356)
+	at io.netty.handler.timeout.IdleStateHandler.channelRead(IdleStateHandler.java:293)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:354)
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:361)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:325)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:356)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1429)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:918)
+	at io.netty.channel.epoll.AbstractEpollStreamChannel$EpollStreamUnsafe.epollInReady(AbstractEpollStreamChannel.java:804)
+	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.handle(AbstractEpollChannel.java:482)
+	at io.netty.channel.epoll.EpollIoHandler$DefaultEpollIoRegistration.handle(EpollIoHandler.java:317)
+	at io.netty.channel.epoll.EpollIoHandler.processReady(EpollIoHandler.java:515)
+	at io.netty.channel.epoll.EpollIoHandler.run(EpollIoHandler.java:460)
+	at io.netty.channel.SingleThreadIoEventLoop.runIo(SingleThreadIoEventLoop.java:225)
+	at io.netty.channel.SingleThreadIoEventLoop.run(SingleThreadIoEventLoop.java:196)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:1195)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:1474)
+[15:35:14] [Netty epoll Worker #4/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] fda_ -> bedwars has connected
+[15:35:15] [Netty epoll Worker #4/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] fda_ -> lobby has disconnected
+[15:35:56] [Netty epoll Worker #4/INFO] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] fda_ (/187.235.5.189:65357): kicked from server bedwars: Server closed
+[15:35:56] [Netty epoll Worker #4/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] fda_ -> bedwars has disconnected
+[15:35:56] [Netty epoll Worker #4/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] fda_ -> lobby has connected
+[15:37:22] [Netty epoll Worker #4/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] fda_ -> bedwars has connected
+[15:37:32] [Netty epoll Worker #4/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] fda_ -> lobby has disconnected
+[15:38:17] [Netty epoll Worker #4/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] fda_ (/187.235.5.189:65357) has disconnected
+[15:38:17] [Netty epoll Worker #4/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] fda_ -> bedwars has disconnected
+[15:39:49] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] fda_ (/187.235.5.189:65407) has connected
+[15:39:49] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] fda_ -> lobby has connected
+[15:39:54] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] fda_ -> bedwars has connected
+[15:39:55] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] fda_ -> lobby has disconnected
+[15:42:53] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] fda_ (/187.235.5.189:65407) has disconnected
+[15:42:53] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] fda_ -> bedwars has disconnected

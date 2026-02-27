@@ -278,3 +278,384 @@
 
 [02-27 11:38:52]: [FINE] fda_ logged in 187.235.5.189
 [02-27 11:54:36]: [INFO] AuthMe 5.7.0-SNAPSHOT-b2657 disabled!
+[02-27 12:05:32]: [INFO] SQLite Setup finished
+[02-27 12:05:32]: [INFO] No supported permissions system found! Permissions are disabled!
+[02-27 12:05:32]: [WARN] WARNING! The protectInventory feature requires ProtocolLib! Disabling it...
+[02-27 12:05:33]: [INFO] AuthMe 5.7.0-SNAPSHOT build n.2657 successfully enabled!
+[02-27 12:05:35]: [INFO] Downloading GEO IP database, because the old database is older than 30 days or doesn't exist
+[02-27 12:05:35]: [WARN] No MaxMind credentials found in the configuration file! GeoIp protections will be disabled.
+[02-27 12:05:35]: [INFO] There is no newer GEO IP database uploaded to MaxMind. Using the old one for now.
+[02-27 12:05:35]: [WARN] Could not download GeoLiteAPI database [FileNotFoundException]: plugins/AuthMe/GeoLite2-Country.mmdb (No existe el fichero o el directorio)
+[02-27 12:05:35]: java.io.FileNotFoundException: plugins/AuthMe/GeoLite2-Country.mmdb (No existe el fichero o el directorio)
+	at java.base/java.io.RandomAccessFile.open0(Native Method)
+	at java.base/java.io.RandomAccessFile.open(RandomAccessFile.java:338)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:257)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:211)
+	at com.maxmind.db.BufferHolder.<init>(BufferHolder.java:19)
+	at com.maxmind.db.Reader.<init>(Reader.java:119)
+	at com.maxmind.geoip2.DatabaseReader.<init>(DatabaseReader.java:104)
+	at com.maxmind.geoip2.DatabaseReader$Builder.build(DatabaseReader.java:233)
+	at authme-5.7.0-SNAPSHOT.jar//fr.xephi.authme.service.GeoIpService.startReading(GeoIpService.java:183)
+	at authme-5.7.0-SNAPSHOT.jar//fr.xephi.authme.service.GeoIpService.updateDatabase(GeoIpService.java:150)
+	at org.bukkit.craftbukkit.scheduler.CraftTask.run(CraftTask.java:78)
+	at org.bukkit.craftbukkit.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:57)
+	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)
+	at java.base/java.lang.Thread.run(Thread.java:1474)
+
+[02-27 12:06:04]: [FINE] fda_ logged in 187.235.5.189
+[02-27 12:06:23]: [FINE] fda_ logged in 187.235.5.189
+[02-27 12:07:04]: [FINE] fda_ logged in 187.235.5.189
+[02-27 12:12:50]: [INFO] AuthMe 5.7.0-SNAPSHOT-b2657 disabled!
+[02-27 12:13:28]: [INFO] SQLite Setup finished
+[02-27 12:13:28]: [INFO] No supported permissions system found! Permissions are disabled!
+[02-27 12:13:28]: [WARN] Aborting initialization of AuthMe: [InjectorReflectionException]: Could not invoke method 'reload' for fr.xephi.authme.message.MessagesFileHandler@32109c2f
+[02-27 12:13:28]: ch.jalu.injector.exceptions.InjectorReflectionException: Could not invoke method 'reload' for fr.xephi.authme.message.MessagesFileHandler@32109c2f
+	at ch.jalu.injector.utils.ReflectionUtils.invokeMethod(ReflectionUtils.java:76)
+	at ch.jalu.injector.handlers.postconstruct.PostConstructMethodInvoker.postProcess(PostConstructMethodInvoker.java:27)
+	at ch.jalu.injector.InjectorImpl.runPostConstructHandlers(InjectorImpl.java:271)
+	at ch.jalu.injector.InjectorImpl.resolveContext(InjectorImpl.java:164)
+	at ch.jalu.injector.InjectorImpl.resolveDependencies(InjectorImpl.java:186)
+	at ch.jalu.injector.InjectorImpl.resolveContext(InjectorImpl.java:158)
+	at ch.jalu.injector.InjectorImpl.resolveDependencies(InjectorImpl.java:186)
+	at ch.jalu.injector.InjectorImpl.resolveContext(InjectorImpl.java:158)
+	at ch.jalu.injector.InjectorImpl.resolve(InjectorImpl.java:133)
+	at ch.jalu.injector.InjectorImpl.getSingleton(InjectorImpl.java:72)
+	at authme-5.7.0-SNAPSHOT.jar//fr.xephi.authme.AuthMe.instantiateServices(AuthMe.java:247)
+	at authme-5.7.0-SNAPSHOT.jar//fr.xephi.authme.AuthMe.initialize(AuthMe.java:221)
+	at authme-5.7.0-SNAPSHOT.jar//fr.xephi.authme.AuthMe.onEnable(AuthMe.java:145)
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:279)
+	at io.papermc.paper.plugin.manager.PaperPluginInstanceManager.enablePlugin(PaperPluginInstanceManager.java:207)
+	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.enablePlugin(PaperPluginManagerImpl.java:109)
+	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:520)
+	at org.bukkit.craftbukkit.CraftServer.enablePlugin(CraftServer.java:653)
+	at org.bukkit.craftbukkit.CraftServer.enablePlugins(CraftServer.java:610)
+	at net.minecraft.server.MinecraftServer.initPostWorld(MinecraftServer.java:640)
+	at net.minecraft.server.dedicated.DedicatedServer.initServer(DedicatedServer.java:408)
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1268)
+	at net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:392)
+	at java.base/java.lang.Thread.run(Thread.java:1474)
+Caused by: java.lang.reflect.InvocationTargetException
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:119)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at ch.jalu.injector.utils.ReflectionUtils.invokeMethod(ReflectionUtils.java:73)
+	... 23 more
+Caused by: while parsing a block mapping
+ in 'reader', line 7, column 1:
+    registration:
+    ^
+expected <block end>, but found '<block mapping start>'
+ in 'reader', line 22, column 5:
+        wrong_length: '&c¡Tu contraseña  ... 
+        ^
+
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingKey.produce(ParserImpl.java:654)
+	at org.yaml.snakeyaml.parser.ParserImpl.peekEvent(ParserImpl.java:161)
+	at org.yaml.snakeyaml.comments.CommentEventsCollector$1.peek(CommentEventsCollector.java:57)
+	at org.yaml.snakeyaml.comments.CommentEventsCollector$1.peek(CommentEventsCollector.java:43)
+	at org.yaml.snakeyaml.comments.CommentEventsCollector.collectEvents(CommentEventsCollector.java:136)
+	at org.yaml.snakeyaml.comments.CommentEventsCollector.collectEvents(CommentEventsCollector.java:116)
+	at org.yaml.snakeyaml.composer.Composer.composeScalarNode(Composer.java:241)
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:205)
+	at org.yaml.snakeyaml.composer.Composer.composeValueNode(Composer.java:369)
+	at org.yaml.snakeyaml.composer.Composer.composeMappingChildren(Composer.java:348)
+	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:323)
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:209)
+	at org.yaml.snakeyaml.composer.Composer.getNode(Composer.java:131)
+	at org.yaml.snakeyaml.composer.Composer.getSingleNode(Composer.java:157)
+	at org.yaml.snakeyaml.constructor.BaseConstructor.getSingleData(BaseConstructor.java:178)
+	at org.yaml.snakeyaml.Yaml.loadFromReader(Yaml.java:493)
+	at org.yaml.snakeyaml.Yaml.load(Yaml.java:446)
+	at authme-5.7.0-SNAPSHOT.jar//fr.xephi.authme.message.updater.MessageMigraterPropertyReader.readStreamToMap(MessageMigraterPropertyReader.java:111)
+	at authme-5.7.0-SNAPSHOT.jar//fr.xephi.authme.message.updater.MessageMigraterPropertyReader.loadFromStream(MessageMigraterPropertyReader.java:48)
+	at authme-5.7.0-SNAPSHOT.jar//fr.xephi.authme.message.updater.MessageMigraterPropertyReader.loadFromFile(MessageMigraterPropertyReader.java:41)
+	at authme-5.7.0-SNAPSHOT.jar//fr.xephi.authme.message.updater.MigraterYamlFileResource.createReader(MigraterYamlFileResource.java:23)
+	at authme-5.7.0-SNAPSHOT.jar//fr.xephi.authme.message.updater.MessageUpdater.migrateAndSave(MessageUpdater.java:61)
+	at authme-5.7.0-SNAPSHOT.jar//fr.xephi.authme.message.updater.MessageUpdater.migrateAndSave(MessageUpdater.java:46)
+	at authme-5.7.0-SNAPSHOT.jar//fr.xephi.authme.message.MessagesFileHandler.reloadInternal(MessagesFileHandler.java:33)
+	at authme-5.7.0-SNAPSHOT.jar//fr.xephi.authme.message.MessagesFileHandler.reload(MessagesFileHandler.java:26)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	... 25 more
+
+[02-27 12:13:28]: [INFO] AuthMe 5.7.0-SNAPSHOT-b2657 disabled!
+[02-27 12:15:44]: [INFO] SQLite Setup finished
+[02-27 12:15:44]: [INFO] No supported permissions system found! Permissions are disabled!
+[02-27 12:15:44]: [WARN] Aborting initialization of AuthMe: [InjectorReflectionException]: Could not invoke method 'reload' for fr.xephi.authme.message.MessagesFileHandler@3d3a58bb
+[02-27 12:15:44]: ch.jalu.injector.exceptions.InjectorReflectionException: Could not invoke method 'reload' for fr.xephi.authme.message.MessagesFileHandler@3d3a58bb
+	at ch.jalu.injector.utils.ReflectionUtils.invokeMethod(ReflectionUtils.java:76)
+	at ch.jalu.injector.handlers.postconstruct.PostConstructMethodInvoker.postProcess(PostConstructMethodInvoker.java:27)
+	at ch.jalu.injector.InjectorImpl.runPostConstructHandlers(InjectorImpl.java:271)
+	at ch.jalu.injector.InjectorImpl.resolveContext(InjectorImpl.java:164)
+	at ch.jalu.injector.InjectorImpl.resolveDependencies(InjectorImpl.java:186)
+	at ch.jalu.injector.InjectorImpl.resolveContext(InjectorImpl.java:158)
+	at ch.jalu.injector.InjectorImpl.resolveDependencies(InjectorImpl.java:186)
+	at ch.jalu.injector.InjectorImpl.resolveContext(InjectorImpl.java:158)
+	at ch.jalu.injector.InjectorImpl.resolve(InjectorImpl.java:133)
+	at ch.jalu.injector.InjectorImpl.getSingleton(InjectorImpl.java:72)
+	at authme-5.7.0-SNAPSHOT.jar//fr.xephi.authme.AuthMe.instantiateServices(AuthMe.java:247)
+	at authme-5.7.0-SNAPSHOT.jar//fr.xephi.authme.AuthMe.initialize(AuthMe.java:221)
+	at authme-5.7.0-SNAPSHOT.jar//fr.xephi.authme.AuthMe.onEnable(AuthMe.java:145)
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:279)
+	at io.papermc.paper.plugin.manager.PaperPluginInstanceManager.enablePlugin(PaperPluginInstanceManager.java:207)
+	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.enablePlugin(PaperPluginManagerImpl.java:109)
+	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:520)
+	at org.bukkit.craftbukkit.CraftServer.enablePlugin(CraftServer.java:653)
+	at org.bukkit.craftbukkit.CraftServer.enablePlugins(CraftServer.java:610)
+	at net.minecraft.server.MinecraftServer.initPostWorld(MinecraftServer.java:640)
+	at net.minecraft.server.dedicated.DedicatedServer.initServer(DedicatedServer.java:408)
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1268)
+	at net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:392)
+	at java.base/java.lang.Thread.run(Thread.java:1474)
+Caused by: java.lang.reflect.InvocationTargetException
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:119)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at ch.jalu.injector.utils.ReflectionUtils.invokeMethod(ReflectionUtils.java:73)
+	... 23 more
+Caused by: while parsing a block mapping
+ in 'reader', line 7, column 1:
+    registration:
+    ^
+expected <block end>, but found '<block mapping start>'
+ in 'reader', line 22, column 5:
+        wrong_length: '&c¡Tu contraseña  ... 
+        ^
+
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingKey.produce(ParserImpl.java:654)
+	at org.yaml.snakeyaml.parser.ParserImpl.peekEvent(ParserImpl.java:161)
+	at org.yaml.snakeyaml.comments.CommentEventsCollector$1.peek(CommentEventsCollector.java:57)
+	at org.yaml.snakeyaml.comments.CommentEventsCollector$1.peek(CommentEventsCollector.java:43)
+	at org.yaml.snakeyaml.comments.CommentEventsCollector.collectEvents(CommentEventsCollector.java:136)
+	at org.yaml.snakeyaml.comments.CommentEventsCollector.collectEvents(CommentEventsCollector.java:116)
+	at org.yaml.snakeyaml.composer.Composer.composeScalarNode(Composer.java:241)
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:205)
+	at org.yaml.snakeyaml.composer.Composer.composeValueNode(Composer.java:369)
+	at org.yaml.snakeyaml.composer.Composer.composeMappingChildren(Composer.java:348)
+	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:323)
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:209)
+	at org.yaml.snakeyaml.composer.Composer.getNode(Composer.java:131)
+	at org.yaml.snakeyaml.composer.Composer.getSingleNode(Composer.java:157)
+	at org.yaml.snakeyaml.constructor.BaseConstructor.getSingleData(BaseConstructor.java:178)
+	at org.yaml.snakeyaml.Yaml.loadFromReader(Yaml.java:493)
+	at org.yaml.snakeyaml.Yaml.load(Yaml.java:446)
+	at authme-5.7.0-SNAPSHOT.jar//fr.xephi.authme.message.updater.MessageMigraterPropertyReader.readStreamToMap(MessageMigraterPropertyReader.java:111)
+	at authme-5.7.0-SNAPSHOT.jar//fr.xephi.authme.message.updater.MessageMigraterPropertyReader.loadFromStream(MessageMigraterPropertyReader.java:48)
+	at authme-5.7.0-SNAPSHOT.jar//fr.xephi.authme.message.updater.MessageMigraterPropertyReader.loadFromFile(MessageMigraterPropertyReader.java:41)
+	at authme-5.7.0-SNAPSHOT.jar//fr.xephi.authme.message.updater.MigraterYamlFileResource.createReader(MigraterYamlFileResource.java:23)
+	at authme-5.7.0-SNAPSHOT.jar//fr.xephi.authme.message.updater.MessageUpdater.migrateAndSave(MessageUpdater.java:61)
+	at authme-5.7.0-SNAPSHOT.jar//fr.xephi.authme.message.updater.MessageUpdater.migrateAndSave(MessageUpdater.java:46)
+	at authme-5.7.0-SNAPSHOT.jar//fr.xephi.authme.message.MessagesFileHandler.reloadInternal(MessagesFileHandler.java:33)
+	at authme-5.7.0-SNAPSHOT.jar//fr.xephi.authme.message.MessagesFileHandler.reload(MessagesFileHandler.java:26)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	... 25 more
+
+[02-27 12:15:44]: [INFO] AuthMe 5.7.0-SNAPSHOT-b2657 disabled!
+[02-27 12:16:43]: [INFO] SQLite Setup finished
+[02-27 12:16:43]: [INFO] No supported permissions system found! Permissions are disabled!
+[02-27 12:16:43]: [WARN] WARNING! The protectInventory feature requires ProtocolLib! Disabling it...
+[02-27 12:16:44]: [INFO] AuthMe 5.7.0-SNAPSHOT build n.2657 successfully enabled!
+[02-27 12:16:45]: [INFO] Downloading GEO IP database, because the old database is older than 30 days or doesn't exist
+[02-27 12:16:45]: [WARN] No MaxMind credentials found in the configuration file! GeoIp protections will be disabled.
+[02-27 12:16:45]: [INFO] There is no newer GEO IP database uploaded to MaxMind. Using the old one for now.
+[02-27 12:16:45]: [WARN] Could not download GeoLiteAPI database [FileNotFoundException]: plugins/AuthMe/GeoLite2-Country.mmdb (No existe el fichero o el directorio)
+[02-27 12:16:45]: java.io.FileNotFoundException: plugins/AuthMe/GeoLite2-Country.mmdb (No existe el fichero o el directorio)
+	at java.base/java.io.RandomAccessFile.open0(Native Method)
+	at java.base/java.io.RandomAccessFile.open(RandomAccessFile.java:338)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:257)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:211)
+	at com.maxmind.db.BufferHolder.<init>(BufferHolder.java:19)
+	at com.maxmind.db.Reader.<init>(Reader.java:119)
+	at com.maxmind.geoip2.DatabaseReader.<init>(DatabaseReader.java:104)
+	at com.maxmind.geoip2.DatabaseReader$Builder.build(DatabaseReader.java:233)
+	at authme-5.7.0-SNAPSHOT.jar//fr.xephi.authme.service.GeoIpService.startReading(GeoIpService.java:183)
+	at authme-5.7.0-SNAPSHOT.jar//fr.xephi.authme.service.GeoIpService.updateDatabase(GeoIpService.java:150)
+	at org.bukkit.craftbukkit.scheduler.CraftTask.run(CraftTask.java:78)
+	at org.bukkit.craftbukkit.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:57)
+	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)
+	at java.base/java.lang.Thread.run(Thread.java:1474)
+
+[02-27 12:17:16]: [FINE] fda_ logged in 187.235.5.189
+[02-27 12:17:59]: [INFO] AuthMe 5.7.0-SNAPSHOT-b2657 disabled!
+[02-27 12:29:46]: [INFO] SQLite Setup finished
+[02-27 12:29:47]: [INFO] No supported permissions system found! Permissions are disabled!
+[02-27 12:29:47]: [WARN] WARNING! The protectInventory feature requires ProtocolLib! Disabling it...
+[02-27 12:29:47]: [INFO] AuthMe 5.7.0-SNAPSHOT build n.2657 successfully enabled!
+[02-27 12:29:48]: [INFO] Downloading GEO IP database, because the old database is older than 30 days or doesn't exist
+[02-27 12:29:48]: [WARN] No MaxMind credentials found in the configuration file! GeoIp protections will be disabled.
+[02-27 12:29:48]: [INFO] There is no newer GEO IP database uploaded to MaxMind. Using the old one for now.
+[02-27 12:29:48]: [WARN] Could not download GeoLiteAPI database [FileNotFoundException]: plugins/AuthMe/GeoLite2-Country.mmdb (No existe el fichero o el directorio)
+[02-27 12:29:48]: java.io.FileNotFoundException: plugins/AuthMe/GeoLite2-Country.mmdb (No existe el fichero o el directorio)
+	at java.base/java.io.RandomAccessFile.open0(Native Method)
+	at java.base/java.io.RandomAccessFile.open(RandomAccessFile.java:338)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:257)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:211)
+	at com.maxmind.db.BufferHolder.<init>(BufferHolder.java:19)
+	at com.maxmind.db.Reader.<init>(Reader.java:119)
+	at com.maxmind.geoip2.DatabaseReader.<init>(DatabaseReader.java:104)
+	at com.maxmind.geoip2.DatabaseReader$Builder.build(DatabaseReader.java:233)
+	at authme-5.7.0-SNAPSHOT.jar//fr.xephi.authme.service.GeoIpService.startReading(GeoIpService.java:183)
+	at authme-5.7.0-SNAPSHOT.jar//fr.xephi.authme.service.GeoIpService.updateDatabase(GeoIpService.java:150)
+	at org.bukkit.craftbukkit.scheduler.CraftTask.run(CraftTask.java:78)
+	at org.bukkit.craftbukkit.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:57)
+	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)
+	at java.base/java.lang.Thread.run(Thread.java:1474)
+
+[02-27 12:30:23]: [FINE] fda_ logged in 187.235.5.189
+[02-27 12:33:40]: [INFO] Unhooked from Permissions!
+[02-27 12:33:40]: [INFO] No supported permissions system found! Permissions are disabled!
+[02-27 12:33:40]: [INFO] SQLite Setup finished
+[02-27 12:33:40]: [WARN] WARNING! The protectInventory feature requires ProtocolLib! Disabling it...
+[02-27 12:33:52]: [FINE] fda_ logged in 187.235.5.189
+[02-27 12:34:55]: [INFO] Unhooked from Permissions!
+[02-27 12:34:55]: [INFO] No supported permissions system found! Permissions are disabled!
+[02-27 12:34:55]: [INFO] SQLite Setup finished
+[02-27 12:34:55]: [WARN] WARNING! The protectInventory feature requires ProtocolLib! Disabling it...
+[02-27 12:35:01]: [FINE] fda_ logged in 187.235.5.189
+[02-27 12:35:44]: [INFO] Unhooked from Permissions!
+[02-27 12:35:44]: [INFO] No supported permissions system found! Permissions are disabled!
+[02-27 12:35:44]: [INFO] SQLite Setup finished
+[02-27 12:35:44]: [WARN] WARNING! The protectInventory feature requires ProtocolLib! Disabling it...
+[02-27 12:35:50]: [FINE] fda_ logged in 187.235.5.189
+[02-27 12:36:24]: [INFO] Unhooked from Permissions!
+[02-27 12:36:24]: [INFO] No supported permissions system found! Permissions are disabled!
+[02-27 12:36:24]: [INFO] SQLite Setup finished
+[02-27 12:36:24]: [WARN] WARNING! The protectInventory feature requires ProtocolLib! Disabling it...
+[02-27 12:36:34]: [FINE] fda_ logged in 187.235.5.189
+[02-27 12:36:58]: [INFO] Unhooked from Permissions!
+[02-27 12:36:58]: [INFO] No supported permissions system found! Permissions are disabled!
+[02-27 12:36:58]: [INFO] SQLite Setup finished
+[02-27 12:36:58]: [WARN] WARNING! The protectInventory feature requires ProtocolLib! Disabling it...
+[02-27 12:37:10]: [FINE] fda_ logged in 187.235.5.189
+[02-27 12:37:48]: [INFO] Unhooked from Permissions!
+[02-27 12:37:48]: [INFO] No supported permissions system found! Permissions are disabled!
+[02-27 12:37:48]: [INFO] SQLite Setup finished
+[02-27 12:37:48]: [WARN] WARNING! The protectInventory feature requires ProtocolLib! Disabling it...
+[02-27 12:37:55]: [FINE] fda_ logged in 187.235.5.189
+[02-27 12:38:15]: [INFO] AuthMe 5.7.0-SNAPSHOT-b2657 disabled!
+[02-27 12:39:51]: [INFO] SQLite Setup finished
+[02-27 12:39:51]: [INFO] No supported permissions system found! Permissions are disabled!
+[02-27 12:39:51]: [WARN] WARNING! The protectInventory feature requires ProtocolLib! Disabling it...
+[02-27 12:39:52]: [INFO] AuthMe 5.7.0-SNAPSHOT build n.2657 successfully enabled!
+[02-27 12:39:53]: [INFO] Downloading GEO IP database, because the old database is older than 30 days or doesn't exist
+[02-27 12:39:53]: [WARN] No MaxMind credentials found in the configuration file! GeoIp protections will be disabled.
+[02-27 12:39:53]: [INFO] There is no newer GEO IP database uploaded to MaxMind. Using the old one for now.
+[02-27 12:39:53]: [WARN] Could not download GeoLiteAPI database [FileNotFoundException]: plugins/AuthMe/GeoLite2-Country.mmdb (No existe el fichero o el directorio)
+[02-27 12:39:53]: java.io.FileNotFoundException: plugins/AuthMe/GeoLite2-Country.mmdb (No existe el fichero o el directorio)
+	at java.base/java.io.RandomAccessFile.open0(Native Method)
+	at java.base/java.io.RandomAccessFile.open(RandomAccessFile.java:338)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:257)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:211)
+	at com.maxmind.db.BufferHolder.<init>(BufferHolder.java:19)
+	at com.maxmind.db.Reader.<init>(Reader.java:119)
+	at com.maxmind.geoip2.DatabaseReader.<init>(DatabaseReader.java:104)
+	at com.maxmind.geoip2.DatabaseReader$Builder.build(DatabaseReader.java:233)
+	at authme-5.7.0-SNAPSHOT.jar//fr.xephi.authme.service.GeoIpService.startReading(GeoIpService.java:183)
+	at authme-5.7.0-SNAPSHOT.jar//fr.xephi.authme.service.GeoIpService.updateDatabase(GeoIpService.java:150)
+	at org.bukkit.craftbukkit.scheduler.CraftTask.run(CraftTask.java:78)
+	at org.bukkit.craftbukkit.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:57)
+	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)
+	at java.base/java.lang.Thread.run(Thread.java:1474)
+
+[02-27 12:40:13]: [FINE] fda_ logged in 187.235.5.189
+[02-27 12:41:40]: [INFO] SQLite Setup finished
+[02-27 12:41:40]: [INFO] Unhooked from Permissions!
+[02-27 12:41:40]: [INFO] No supported permissions system found! Permissions are disabled!
+[02-27 12:41:40]: [WARN] WARNING! The protectInventory feature requires ProtocolLib! Disabling it...
+[02-27 12:41:47]: [FINE] fda_ logged in 187.235.5.189
+[02-27 12:53:06]: [FINE] fda_ logged in 187.235.5.189
+[02-27 12:55:02]: [INFO] SQLite Setup finished
+[02-27 12:55:02]: [INFO] Unhooked from Permissions!
+[02-27 12:55:02]: [INFO] No supported permissions system found! Permissions are disabled!
+[02-27 12:55:02]: [WARN] WARNING! The protectInventory feature requires ProtocolLib! Disabling it...
+[02-27 12:55:05]: [INFO] SQLite Setup finished
+[02-27 12:55:05]: [INFO] Unhooked from Permissions!
+[02-27 12:55:05]: [INFO] No supported permissions system found! Permissions are disabled!
+[02-27 12:55:05]: [WARN] WARNING! The protectInventory feature requires ProtocolLib! Disabling it...
+[02-27 12:55:12]: [FINE] fda_ logged in 187.235.5.189
+[02-27 12:55:38]: [INFO] SQLite Setup finished
+[02-27 12:55:38]: [INFO] Unhooked from Permissions!
+[02-27 12:55:38]: [INFO] No supported permissions system found! Permissions are disabled!
+[02-27 12:55:38]: [WARN] WARNING! The protectInventory feature requires ProtocolLib! Disabling it...
+[02-27 12:55:47]: [FINE] fda_ logged in 187.235.5.189
+[02-27 12:56:45]: [INFO] SQLite Setup finished
+[02-27 12:56:45]: [INFO] Unhooked from Permissions!
+[02-27 12:56:45]: [INFO] No supported permissions system found! Permissions are disabled!
+[02-27 12:56:45]: [WARN] WARNING! The protectInventory feature requires ProtocolLib! Disabling it...
+[02-27 12:56:52]: [FINE] fda_ logged in 187.235.5.189
+[02-27 12:57:13]: [INFO] SQLite Setup finished
+[02-27 12:57:13]: [INFO] Unhooked from Permissions!
+[02-27 12:57:13]: [INFO] No supported permissions system found! Permissions are disabled!
+[02-27 12:57:13]: [WARN] WARNING! The protectInventory feature requires ProtocolLib! Disabling it...
+[02-27 12:57:19]: [FINE] fda_ logged in 187.235.5.189
+[02-27 12:58:17]: [FINE] fda_ logged in 187.235.5.189
+[02-27 12:58:32]: [INFO] SQLite Setup finished
+[02-27 12:58:32]: [INFO] Unhooked from Permissions!
+[02-27 12:58:32]: [INFO] No supported permissions system found! Permissions are disabled!
+[02-27 12:58:32]: [WARN] WARNING! The protectInventory feature requires ProtocolLib! Disabling it...
+[02-27 12:58:38]: [FINE] fda_ logged in 187.235.5.189
+[02-27 12:58:58]: [INFO] SQLite Setup finished
+[02-27 12:58:58]: [INFO] Unhooked from Permissions!
+[02-27 12:58:58]: [INFO] No supported permissions system found! Permissions are disabled!
+[02-27 12:58:58]: [WARN] WARNING! The protectInventory feature requires ProtocolLib! Disabling it...
+[02-27 12:59:04]: [FINE] fda_ logged in 187.235.5.189
+[02-27 12:59:33]: [INFO] SQLite Setup finished
+[02-27 12:59:33]: [INFO] Unhooked from Permissions!
+[02-27 12:59:33]: [INFO] No supported permissions system found! Permissions are disabled!
+[02-27 12:59:33]: [WARN] WARNING! The protectInventory feature requires ProtocolLib! Disabling it...
+[02-27 12:59:37]: [FINE] fda_ logged in 187.235.5.189
+[02-27 12:59:50]: [INFO] SQLite Setup finished
+[02-27 12:59:50]: [INFO] Unhooked from Permissions!
+[02-27 12:59:50]: [INFO] No supported permissions system found! Permissions are disabled!
+[02-27 12:59:50]: [WARN] WARNING! The protectInventory feature requires ProtocolLib! Disabling it...
+[02-27 12:59:56]: [FINE] fda_ logged in 187.235.5.189
+[02-27 13:00:28]: [FINE] fda_ logged in 187.235.5.189
+[02-27 13:01:13]: [FINE] fda_ logged in 187.235.5.189
+[02-27 13:05:39]: [FINE] fda_ logged in 187.235.5.189
+[02-27 13:15:15]: [FINE] fda_ used the wrong password
+[02-27 13:15:21]: [FINE] fda_ used the wrong password
+[02-27 13:15:27]: [FINE] fda_ logged in 187.235.5.189
+[02-27 13:16:12]: [FINE] fda_ logged in 187.235.5.189
+[02-27 13:16:24]: [FINE] fda_ logged in 187.235.5.189
+[02-27 13:22:41]: [FINE] fda_ logged in 187.235.5.189
+[02-27 13:24:04]: [FINE] fda_ logged in 187.235.5.189
+[02-27 13:25:28]: [FINE] fda_ logged in 187.235.5.189
+[02-27 13:29:30]: [FINE] fda_ logged in 187.235.5.189
+[02-27 13:33:31]: [FINE] fda_ logged in 187.235.5.189
+[02-27 13:53:33]: [INFO] AuthMe 5.7.0-SNAPSHOT-b2657 disabled!
+[02-27 15:21:36]: [INFO] SQLite Setup finished
+[02-27 15:21:36]: [INFO] No supported permissions system found! Permissions are disabled!
+[02-27 15:21:37]: [WARN] WARNING! The protectInventory feature requires ProtocolLib! Disabling it...
+[02-27 15:21:37]: [INFO] AuthMe 5.7.0-SNAPSHOT build n.2657 successfully enabled!
+[02-27 15:21:38]: [INFO] Downloading GEO IP database, because the old database is older than 30 days or doesn't exist
+[02-27 15:21:38]: [WARN] No MaxMind credentials found in the configuration file! GeoIp protections will be disabled.
+[02-27 15:21:38]: [INFO] There is no newer GEO IP database uploaded to MaxMind. Using the old one for now.
+[02-27 15:21:38]: [WARN] Could not download GeoLiteAPI database [FileNotFoundException]: plugins/AuthMe/GeoLite2-Country.mmdb (No existe el fichero o el directorio)
+[02-27 15:21:38]: java.io.FileNotFoundException: plugins/AuthMe/GeoLite2-Country.mmdb (No existe el fichero o el directorio)
+	at java.base/java.io.RandomAccessFile.open0(Native Method)
+	at java.base/java.io.RandomAccessFile.open(RandomAccessFile.java:338)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:257)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:211)
+	at com.maxmind.db.BufferHolder.<init>(BufferHolder.java:19)
+	at com.maxmind.db.Reader.<init>(Reader.java:119)
+	at com.maxmind.geoip2.DatabaseReader.<init>(DatabaseReader.java:104)
+	at com.maxmind.geoip2.DatabaseReader$Builder.build(DatabaseReader.java:233)
+	at authme-5.7.0-SNAPSHOT.jar//fr.xephi.authme.service.GeoIpService.startReading(GeoIpService.java:183)
+	at authme-5.7.0-SNAPSHOT.jar//fr.xephi.authme.service.GeoIpService.updateDatabase(GeoIpService.java:150)
+	at org.bukkit.craftbukkit.scheduler.CraftTask.run(CraftTask.java:78)
+	at org.bukkit.craftbukkit.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:57)
+	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)
+	at java.base/java.lang.Thread.run(Thread.java:1474)
+
+[02-27 15:26:08]: [FINE] fda_ logged in 187.235.5.189
+[02-27 15:31:30]: [FINE] fda_ logged in 187.235.5.189
+[02-27 15:32:00]: [FINE] fda_ logged in 187.235.5.189
+[02-27 15:35:57]: [FINE] fda_ logged in 187.235.5.189
+[02-27 15:39:52]: [FINE] fda_ logged in 187.235.5.189

@@ -1,29 +1,47 @@
 {
   "stats": {
+    "minecraft:killed": {
+      "minecraft:zombie": 1,
+      "minecraft:chicken": 1,
+      "minecraft:pig": 1
+    },
     "minecraft:custom": {
-      "minecraft:sprint_one_cm": 22215,
-      "minecraft:time_since_rest": 22641,
-      "minecraft:fall_one_cm": 5263,
-      "minecraft:walk_one_cm": 9321,
-      "minecraft:total_world_time": 22641,
+      "minecraft:time_since_rest": 179,
+      "minecraft:walk_one_cm": 9143,
       "minecraft:leave_game": 2,
-      "minecraft:fly_one_cm": 40921,
-      "minecraft:crouch_one_cm": 1558,
-      "minecraft:sneak_time": 447,
-      "minecraft:play_time": 22641,
-      "minecraft:jump": 179,
-      "minecraft:time_since_death": 22641
-    },
-    "minecraft:picked_up": {
-      "minecraft:spruce_stairs": 2
-    },
-    "minecraft:mined": {
-      "minecraft:spruce_stairs": 2
+      "minecraft:mob_kills": 6,
+      "minecraft:damage_taken": 386,
+      "minecraft:damage_dealt": 377,
+      "minecraft:play_time": 3705,
+      "minecraft:jump": 58,
+      "minecraft:time_since_death": 162,
+      "minecraft:sprint_one_cm": 6925,
+      "minecraft:fall_one_cm": 4025,
+      "minecraft:total_world_time": 3705,
+      "minecraft:fly_one_cm": 36693,
+      "minecraft:crouch_one_cm": 24,
+      "minecraft:sneak_time": 28,
+      "minecraft:deaths": 1
     },
     "minecraft:used": {
-      "minecraft:stone_bricks": 8,
-      "minecraft:spruce_stairs": 3,
-      "minecraft:cobblestone": 63
+      "minecraft:zombified_piglin_spawn_egg": 12,
+      "minecraft:wooden_sword": 11,
+      "minecraft:zombie_spawn_egg": 18
+    },
+    "minecraft:killed_by": {
+      "minecraft:zombie": 1
+    },
+    "minecraft:mined": {
+      "minecraft:short_grass": 1,
+      "minecraft:oak_leaves": 5,
+      "minecraft:leaf_litter": 1
+    },
+    "minecraft:picked_up": {
+      "minecraft:porkchop": 1,
+      "minecraft:leaf_litter": 2,
+      "minecraft:feather": 1,
+      "minecraft:chicken": 1,
+      "minecraft:rotten_flesh": 5
     }
   },
   "DataVersion": 4671
