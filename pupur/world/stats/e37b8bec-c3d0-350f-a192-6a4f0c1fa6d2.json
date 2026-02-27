@@ -1,0 +1,26 @@
+{
+  "stats": {
+    "minecraft:mined": {
+      "minecraft:spruce_stairs": 2
+    },
+    "minecraft:used": {
+      "minecraft:spruce_stairs": 2
+    },
+    "minecraft:custom": {
+      "minecraft:sprint_one_cm": 6894,
+      "minecraft:time_since_rest": 4666,
+      "minecraft:fall_one_cm": 4363,
+      "minecraft:walk_one_cm": 3155,
+      "minecraft:total_world_time": 4666,
+      "minecraft:leave_game": 2,
+      "minecraft:fly_one_cm": 15595,
+      "minecraft:play_time": 4666,
+      "minecraft:jump": 68,
+      "minecraft:time_since_death": 4666
+    },
+    "minecraft:picked_up": {
+      "minecraft:spruce_stairs": 2
+    }
+  },
+  "DataVersion": 4671
+}
