@@ -1,0 +1,61 @@
+{
+  "stats": {
+    "minecraft:picked_up": {
+      "minecraft:egg": 1,
+      "minecraft:rose_bush": 7,
+      "minecraft:stick": 2,
+      "minecraft:bamboo": 4,
+      "minecraft:slime_ball": 1,
+      "minecraft:peony": 11,
+      "minecraft:dark_oak_door": 1
+    },
+    "minecraft:dropped": {
+      "minecraft:smooth_stone": 1
+    },
+    "minecraft:custom": {
+      "minecraft:time_since_rest": 97953,
+      "minecraft:walk_one_cm": 42640,
+      "minecraft:leave_game": 6,
+      "minecraft:damage_taken": 480,
+      "minecraft:damage_dealt": 88,
+      "minecraft:play_time": 104456,
+      "minecraft:jump": 360,
+      "minecraft:time_since_death": 97927,
+      "minecraft:drop": 1,
+      "minecraft:sprint_one_cm": 67596,
+      "minecraft:total_world_time": 105018,
+      "minecraft:fly_one_cm": 828802,
+      "minecraft:walk_on_water_one_cm": 13,
+      "minecraft:crouch_one_cm": 5258,
+      "minecraft:sneak_time": 3851,
+      "minecraft:deaths": 2
+    },
+    "minecraft:used": {
+      "minecraft:grass_block": 1,
+      "minecraft:smooth_stone": 1,
+      "minecraft:white_terracotta": 1,
+      "minecraft:spider_spawn_egg": 1,
+      "minecraft:white_concrete": 8,
+      "minecraft:chiseled_quartz_block": 1,
+      "minecraft:andesite": 2,
+      "minecraft:mossy_cobblestone": 1,
+      "minecraft:orange_terracotta": 6,
+      "minecraft:jungle_leaves": 13,
+      "minecraft:iron_bars": 1,
+      "minecraft:black_concrete": 4,
+      "minecraft:spruce_slab": 45,
+      "minecraft:smooth_sandstone": 27,
+      "minecraft:polished_andesite": 4,
+      "minecraft:cyan_stained_glass": 5,
+      "minecraft:tinted_glass": 2,
+      "minecraft:stone_brick_stairs": 58,
+      "minecraft:blue_stained_glass": 6,
+      "minecraft:stone_bricks": 15,
+      "minecraft:lantern": 1,
+      "minecraft:dark_oak_fence": 5,
+      "minecraft:cut_red_sandstone": 4,
+      "minecraft:gold_block": 4
+    }
+  },
+  "DataVersion": 4671
+}
