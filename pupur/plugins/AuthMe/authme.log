@@ -113,3 +113,31 @@
 	at java.base/java.lang.Thread.run(Thread.java:1474)
 
 [02-26 19:53:24]: [INFO] AuthMe 5.7.0-SNAPSHOT-b2657 disabled!
+[02-26 20:01:22]: [INFO] SQLite Setup finished
+[02-26 20:01:23]: [INFO] No supported permissions system found! Permissions are disabled!
+[02-26 20:01:23]: [WARN] WARNING! The protectInventory feature requires ProtocolLib! Disabling it...
+[02-26 20:01:23]: [INFO] AuthMe 5.7.0-SNAPSHOT build n.2657 successfully enabled!
+[02-26 20:01:27]: [INFO] Downloading GEO IP database, because the old database is older than 30 days or doesn't exist
+[02-26 20:01:27]: [WARN] No MaxMind credentials found in the configuration file! GeoIp protections will be disabled.
+[02-26 20:01:27]: [INFO] There is no newer GEO IP database uploaded to MaxMind. Using the old one for now.
+[02-26 20:01:27]: [WARN] Could not download GeoLiteAPI database [FileNotFoundException]: plugins/AuthMe/GeoLite2-Country.mmdb (No existe el fichero o el directorio)
+[02-26 20:01:27]: java.io.FileNotFoundException: plugins/AuthMe/GeoLite2-Country.mmdb (No existe el fichero o el directorio)
+	at java.base/java.io.RandomAccessFile.open0(Native Method)
+	at java.base/java.io.RandomAccessFile.open(RandomAccessFile.java:338)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:257)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:211)
+	at com.maxmind.db.BufferHolder.<init>(BufferHolder.java:19)
+	at com.maxmind.db.Reader.<init>(Reader.java:119)
+	at com.maxmind.geoip2.DatabaseReader.<init>(DatabaseReader.java:104)
+	at com.maxmind.geoip2.DatabaseReader$Builder.build(DatabaseReader.java:233)
+	at authme-5.7.0-SNAPSHOT.jar//fr.xephi.authme.service.GeoIpService.startReading(GeoIpService.java:183)
+	at authme-5.7.0-SNAPSHOT.jar//fr.xephi.authme.service.GeoIpService.updateDatabase(GeoIpService.java:150)
+	at org.bukkit.craftbukkit.scheduler.CraftTask.run(CraftTask.java:78)
+	at org.bukkit.craftbukkit.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:57)
+	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)
+	at java.base/java.lang.Thread.run(Thread.java:1474)
+
+[02-26 20:02:21]: [FINE] fda_ logged in 187.235.5.189
+[02-26 20:06:22]: [INFO] AuthMe 5.7.0-SNAPSHOT-b2657 disabled!
