@@ -1,34 +1,16 @@
-[20:07:37] [main/INFO] [com.velocitypowered.proxy.VelocityServer]: Booting up Velocity 3.5.0-SNAPSHOT (git-c2fd3c07-b576)...
-[20:07:37] [main/INFO] [com.velocitypowered.proxy.network.ConnectionManager]: Connections will use epoll channels, libdeflate (Linux x86_64) compression, OpenSSL 3.x.x (Linux x86_64) ciphers
-[20:07:37] [main/WARN] [com.velocitypowered.proxy.config.VelocityConfiguration]: The proxy is running in offline mode! This is a security risk and you will NOT receive any support!
-[20:07:37] [main/INFO] [com.velocitypowered.proxy.VelocityServer]: Loading localizations...
-[20:07:37] [main/INFO] [com.velocitypowered.proxy.VelocityServer]: Loading plugins...
-[20:07:38] [main/INFO] [com.velocitypowered.proxy.plugin.VelocityPluginManager]: Loaded plugin authmevelocity 4.2.0 by xQuickGlare, 4drian3d
-[20:07:38] [main/INFO] [com.velocitypowered.proxy.VelocityServer]: Loaded 2 plugins
-[20:07:38] [AuthMeVelocity - Task Executor #0/INFO] [authmevelocity]:  --- AuthMeVelocity ---
-[20:07:38] [AuthMeVelocity - Task Executor #0/INFO] [authmevelocity]: AuthServers: [lobby]
-[20:07:38] [Netty epoll Boss #0/INFO] [com.velocitypowered.proxy.network.ConnectionManager]: Listening on /[0:0:0:0:0:0:0:0]:25565
-[20:07:38] [main/INFO] [com.velocitypowered.proxy.Velocity]: Done (1.89s)!
-[20:11:18] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] fda_ (/187.235.5.189:50773) has connected
-[20:11:18] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] fda_ -> lobby has connected
-[20:11:51] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] fda_ (/187.235.5.189:50773): kicked from server lobby: Login timeout exceeded, you have been kicked from the server, please try again!
-[20:11:51] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] fda_ -> lobby has disconnected
-[20:11:51] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] fda_ (/187.235.5.189:50773) has disconnected: You were kicked from lobby: Login timeout exceeded, you have been kicked from the server, please try again!
-[20:11:57] [Netty epoll Worker #4/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] fda_ (/187.235.5.189:50811) has connected
-[20:11:57] [Netty epoll Worker #4/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] fda_ -> lobby has connected
-[20:14:59] [Netty epoll Worker #6/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] juannnnnn (/187.235.5.189:50866) has connected
-[20:14:59] [Netty epoll Worker #6/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] juannnnnn -> lobby has connected
-[20:15:21] [Netty epoll Worker #4/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] fda_ (/187.235.5.189:50811) has disconnected
-[20:15:21] [Netty epoll Worker #4/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] fda_ -> lobby has disconnected
-[20:15:27] [Netty epoll Worker #6/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] juannnnnn (/187.235.5.189:50866) has disconnected
-[20:15:27] [Netty epoll Worker #6/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] juannnnnn -> lobby has disconnected
-[20:15:28] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] juannnnnn (/187.235.5.189:50892) has connected
-[20:15:28] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] juannnnnn -> lobby has connected
-[20:15:42] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] juannnnnn (/187.235.5.189:50892) has disconnected
-[20:15:42] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] juannnnnn -> lobby has disconnected
-[20:16:17] [Netty epoll Worker #5/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] juannnnnn (/187.235.5.189:50927) has connected
-[20:16:17] [Netty epoll Worker #5/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] juannnnnn -> lobby has connected
-[20:16:34] [Netty epoll Worker #5/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] juannnnnn (/187.235.5.189:50927) has disconnected
-[20:16:34] [Netty epoll Worker #5/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] juannnnnn -> lobby has disconnected
-[20:16:58] [Thread-2/INFO] [com.velocitypowered.proxy.VelocityServer]: Shutting down the proxy...
-[20:16:58] [Thread-2/INFO] [com.velocitypowered.proxy.network.ConnectionManager]: Closing endpoint /0.0.0.0:25565
+[11:11:35] [main/INFO] [com.velocitypowered.proxy.VelocityServer]: Booting up Velocity 3.5.0-SNAPSHOT (git-c2fd3c07-b576)...
+[11:11:35] [main/INFO] [com.velocitypowered.proxy.network.ConnectionManager]: Connections will use epoll channels, libdeflate (Linux x86_64) compression, OpenSSL 3.x.x (Linux x86_64) ciphers
+[11:11:35] [main/WARN] [com.velocitypowered.proxy.config.VelocityConfiguration]: The proxy is running in offline mode! This is a security risk and you will NOT receive any support!
+[11:11:36] [main/INFO] [com.velocitypowered.proxy.VelocityServer]: Loading localizations...
+[11:11:36] [main/INFO] [com.velocitypowered.proxy.VelocityServer]: Loading plugins...
+[11:11:36] [main/INFO] [com.velocitypowered.proxy.plugin.VelocityPluginManager]: Loaded plugin authmevelocity 4.2.0 by xQuickGlare, 4drian3d
+[11:11:36] [main/INFO] [com.velocitypowered.proxy.VelocityServer]: Loaded 2 plugins
+[11:11:36] [AuthMeVelocity - Task Executor #0/INFO] [authmevelocity]:  --- AuthMeVelocity ---
+[11:11:36] [AuthMeVelocity - Task Executor #0/INFO] [authmevelocity]: AuthServers: [lobby]
+[11:11:36] [Netty epoll Boss #0/INFO] [com.velocitypowered.proxy.network.ConnectionManager]: Listening on /[0:0:0:0:0:0:0:0]:25565
+[11:11:36] [main/INFO] [com.velocitypowered.proxy.Velocity]: Done (1.97s)!
+[11:38:40] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] fda_ (/187.235.5.189:50798) has connected
+[11:38:40] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] fda_ -> lobby has connected
+[11:54:36] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] fda_ (/187.235.5.189:50798): kicked from server lobby: Server closed
+[11:54:36] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] fda_ -> lobby has disconnected
+[11:54:36] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] fda_ (/187.235.5.189:50798) has disconnected: Has sido echado de lobby: Server closed
