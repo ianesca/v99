@@ -136,3 +136,49 @@
 [15:39:52] [Craft Scheduler Thread - 40 - AuthMe/INFO]: [AuthMe] fda_ logged in 187.235.5.189
 [15:39:55] [Server thread/INFO]: fda_ lost connection: Disconnected
 [15:39:55] [Server thread/INFO]: fda_ left the game
+[17:19:48] [User Authenticator #4/INFO]: UUID of player fda_ is e37b8bec-c3d0-350f-a192-6a4f0c1fa6d2
+[17:19:49] [Server thread/INFO]: fda_ joined the game
+[17:19:49] [Server thread/INFO]: fda_[/187.235.5.189:57346] logged in with entity id 26 at ([world]4.182416344528342, -12.0, 7.817058338516317)
+[17:20:17] [Craft Scheduler Thread - 166 - AuthMe/INFO]: [AuthMe] fda_ logged in 187.235.5.189
+[17:20:28] [Server thread/INFO]: fda_ lost connection: Disconnected
+[17:20:28] [Server thread/INFO]: fda_ left the game
+[17:33:30] [User Authenticator #5/INFO]: UUID of player fda_ is e37b8bec-c3d0-350f-a192-6a4f0c1fa6d2
+[17:33:30] [Server thread/INFO]: fda_ joined the game
+[17:33:30] [Server thread/INFO]: fda_[/187.235.5.189:33730] logged in with entity id 32 at ([world]-2.7828231578062597, -11.0, 18.56304826923007)
+[17:33:30] [Craft Scheduler Thread - 190 - AuthMe/INFO]: [AuthMe] fda_ logged in 187.235.5.189
+[17:33:50] [Server thread/INFO]: fda_ lost connection: Disconnected
+[17:33:50] [Server thread/INFO]: fda_ left the game
+[17:38:14] [User Authenticator #6/INFO]: UUID of player fda_ is e37b8bec-c3d0-350f-a192-6a4f0c1fa6d2
+[17:38:14] [Server thread/INFO]: fda_ joined the game
+[17:38:14] [Server thread/INFO]: fda_[/187.235.5.189:57178] logged in with entity id 38 at ([world]-1.9638573772636667, -11.0, 14.963003345460951)
+[17:38:28] [Craft Scheduler Thread - 200 - AuthMe/INFO]: [AuthMe] fda_ logged in 187.235.5.189
+[17:38:36] [Server thread/INFO]: fda_ lost connection: Disconnected
+[17:38:36] [Server thread/INFO]: fda_ left the game
+[17:42:40] [Server thread/INFO]: Unknown or incomplete command. See below for error
+end<--[HERE]
+[17:42:42] [Server thread/INFO]: Stopping the server
+[17:42:42] [Server thread/INFO]: Stopping server
+[17:42:42] [Server thread/INFO]: [SetSpawn] Disabling SetSpawn v5.5.2
+[17:42:42] [Server thread/INFO]: [SetSpawn] Disabled!
+[17:42:42] [Server thread/INFO]: [AuthMeVelocity] Disabling AuthMeVelocity v4.2.0
+[17:42:42] [Server thread/INFO]: [AuthMeVelocity] AuthMeVelocity disabled
+[17:42:42] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v7.4.0+7381-3decaf0
+[17:42:42] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
+[17:42:42] [Server thread/INFO]: [AuthMe] Disabling AuthMe v5.7.0-SNAPSHOT-b2657
+[17:42:42] [Server thread/INFO]: [AuthMe] Waiting for 0 tasks to finish
+[17:42:42] [Server thread/INFO]: [AuthMe] AuthMe 5.7.0-SNAPSHOT-b2657 disabled!
+[17:42:42] [Server thread/INFO]: Saving players
+[17:42:43] [Server thread/INFO]: Saving worlds
+[17:42:43] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[17:42:43] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
+[17:42:43] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
+[17:42:43] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
+[17:42:43] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'world' in 0.01s
+[17:42:43] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world'
+[17:42:43] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world'
+[17:42:43] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[17:42:43] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[17:42:43] [Server thread/INFO]: Waiting for all RegionFile I/O tasks to complete...
+[17:42:43] [Server thread/INFO]: All RegionFile I/O tasks to complete
+[17:42:43] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of worker pool for up to 60s...
+[17:42:43] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of I/O pool for up to 60s...

@@ -1,0 +1,31 @@
+npcs:
+- location:
+    ==: org.bukkit.Location
+    world: world
+    x: 2.5271524277092516
+    y: 22.0
+    z: 110.73045785557782
+    pitch: -1.4999973
+    yaw: -0.7585449
+  skin: {}
+  mode: solo
+- location:
+    ==: org.bukkit.Location
+    world: world
+    x: 5.542736526633846
+    y: 22.0
+    z: 110.50992632160128
+    pitch: 3.749959
+    yaw: 1.0422363
+  skin: {}
+  mode: double
+- location:
+    ==: org.bukkit.Location
+    world: world
+    x: 8.596805066874278
+    y: 22.0
+    z: 110.68365525086425
+    pitch: 0.59994406
+    yaw: 1.1916504
+  skin: {}
+  mode: triples

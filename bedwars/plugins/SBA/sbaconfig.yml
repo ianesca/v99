@@ -97,10 +97,16 @@ games-inventory:
 show-health-in-tablist: true
 show-health-under-player-name: true
 main-lobby:
-    enabled: false
+    enabled: true
     custom-chat: true
     tablist-modifications: true
     progress-format: §b%progress%§7/§a%total%
+    world: world
+    x: 5.459450371678198
+    y: 20.0
+    z: 126.5096231789891
+    yaw: 179.8408203125
+    pitch: -2.3999571800231934
 spectator:
     adventure-mode: false
     teleporter:
@@ -167,6 +173,7 @@ shop:
         skin:
             value: ewogICJ0aW1lc3RhbXAiIDogMTYyNjA4ODMxNjI3OCwKICAicHJvZmlsZUlkIiA6ICIxYWZhZjc2NWI1ZGY0NjA3YmY3ZjY1ZGYzYWIwODhhOCIsCiAgInByb2ZpbGVOYW1lIiA6ICJMb3lfQmxvb2RBbmdlbCIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS85ZjM0N2NiYjg3ZmVjMDA2MDc3ZDI2MTFjZjk4MTM4NGMwOWNlM2FjNDQ1M2FlY2M4MjMzYWMwODk3YjA3ZDYwIgogICAgfQogIH0KfQ==
             signature: oqCVAspoQ/uCoZX/2XTgoYjAGBVJSXLi+/QPHKPaGqP9zEXHE7k5TH5Z7K7x5D8ECCtZq8jW6GCzIzigvTKp2jRXoEnjnOmzc82P6nSV39NKueB6XVi12fluewaLNlzhJUwn1+7NOYlwKH3qN3/Rd8bE3lNv9bkrWN67zjnYDA7o4vxfkzgV9Hd1CEV9oVRsSne3rm7kYN1iRoMYArL4+EYTYUxd6HMUZ33b5yecQz+UctiGcRUXzPDU/RANxYlBkH6WIe6C8QH84MtjTD20X/2qmlhYeTA98Jf5eiPLfTd+30q603moUEf5VyEuaK3qxMektnaaIO0Wdx7fGYQelbDkejxqL7c//gupksKMqlFqBtLYTRcAXCS5hFbl2tnN80O4Kq0v4E1HOmBZYKZf/yYahNbRZyj0hNaG1dDdM/dqfBmBQWbcSnvb3M9YE9mXAoddryRii6kHVEQWO+C8xHECQK69AN/XhGnr+2X+cDfHHGIrVY10/rVXF2faPTauj/aFOZLp/fhOuLzOSQZYQCIe/jiO5BbEJ6owU5cyL0V/8x4609Pu7REhwiS2wDUrfLl5yyTyw232pVwO545awKV0O0/fnWeeLePuv8qBh/ngNZ52iDeEfpDeBe3DB1FFOSup96/eL/7blzDxKmzIVO29egg8xTVsYwUr23J1y0s=
+    inventory-type: CHEST
 player-statistics:
     xp-to-level-up: 5000
 npc:

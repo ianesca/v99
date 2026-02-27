@@ -1,0 +1,24 @@
+{
+  "stats": {
+    "minecraft:used": {
+      "minecraft:stripped_spruce_log": 6,
+      "minecraft:spruce_fence": 9,
+      "minecraft:iron_trapdoor": 1,
+      "minecraft:spruce_planks": 5
+    },
+    "minecraft:custom": {
+      "minecraft:sprint_one_cm": 6930,
+      "minecraft:time_since_rest": 3282,
+      "minecraft:walk_one_cm": 10235,
+      "minecraft:total_world_time": 3291,
+      "minecraft:leave_game": 1,
+      "minecraft:fly_one_cm": 28594,
+      "minecraft:crouch_one_cm": 137,
+      "minecraft:sneak_time": 103,
+      "minecraft:play_time": 3282,
+      "minecraft:jump": 41,
+      "minecraft:time_since_death": 3282
+    }
+  },
+  "DataVersion": 4671
+}

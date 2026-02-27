@@ -10,18 +10,18 @@
       "minecraft:cobblestone": 64
     },
     "minecraft:custom": {
-      "minecraft:sprint_one_cm": 63145,
-      "minecraft:time_since_rest": 87622,
+      "minecraft:sprint_one_cm": 65220,
+      "minecraft:time_since_rest": 89252,
       "minecraft:fall_one_cm": 5263,
-      "minecraft:walk_one_cm": 18916,
-      "minecraft:total_world_time": 87622,
-      "minecraft:leave_game": 46,
-      "minecraft:fly_one_cm": 151468,
+      "minecraft:walk_one_cm": 19694,
+      "minecraft:total_world_time": 89252,
+      "minecraft:leave_game": 49,
+      "minecraft:fly_one_cm": 154127,
       "minecraft:crouch_one_cm": 2275,
       "minecraft:sneak_time": 706,
-      "minecraft:play_time": 87622,
-      "minecraft:jump": 611,
-      "minecraft:time_since_death": 87622
+      "minecraft:play_time": 89252,
+      "minecraft:jump": 622,
+      "minecraft:time_since_death": 89252
     },
     "minecraft:picked_up": {
       "minecraft:spruce_stairs": 2
