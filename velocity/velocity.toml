@@ -78,7 +78,7 @@ enable-player-address-logging = true
 # Configure your servers here. Each key represents the server's name, and the value
 # represents the IP address of the server to connect to.
 lobby = "127.0.0.1:25566"
-server1 = "127.0.0.1:25567"
+bedwars = "127.0.0.1:25567"
 server2 = "127.0.0.1:25568"
 
 # In what order we should try servers when a player logs in or is kicked from a server.
@@ -89,7 +89,7 @@ try = [
 [forced-hosts]
 # Configure your forced hosts here.
 "lobby.example.com" = [
-    "server1"
+    "bedwars"
 ]
 "factions.example.com" = [
     "server2"
