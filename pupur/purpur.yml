@@ -267,9 +267,9 @@ world-settings:
       furnace:
         use-lava-from-underneath: false
       packed_ice:
-        allow-mob-spawns: true
+        allow-mob-spawns: false
       blue_ice:
-        allow-mob-spawns: true
+        allow-mob-spawns: false
         allow-snow-formation: true
       lava:
         infinite-required-sources: 2
@@ -1827,7 +1827,7 @@ world-settings:
         always-drop-exp: false
         can-pick-up-loot: default
     hunger:
-      starvation-damage: 1.0
+      starvation-damage: false
     settings:
       entity:
         shared-random: true

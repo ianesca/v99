@@ -1,0 +1,81 @@
+##########################################
+# SetSpawn Plugin                        #
+# Author: Manole                         #
+# Version: 5.5.2                         #
+# For more features check out:           #
+# https://spigotmc.org/resources/103629/ #
+##########################################
+
+############################################################################
+# Available placeholders:                                                  #
+# %del% Seconds remaining until you can /spawn again                       #
+# %sendername% Name of sender                                              #
+# %targetname% Name of target                                              #
+############################################################################
+
+# Message shown when a player lacks permission
+No-Permission-Message: '&0[&fSetSpawn&0]&r: &4You are not permitted to do this!'
+
+# Messsage when player teleports to spawn
+Spawn-Message:
+  Enabled: true
+  Message: '&0[&fSetSpawn&0]&r: &2Welcome to the spawn!'
+
+# Message shown when executing /spawn
+Teleport-Message:
+  Enabled: true
+  #The message below will stop showing for people with spawn.bypass permission.
+  Disabled-for-Bypass: true
+  Message: '&0[&fSetSpawn&0]&r: &2Teleporting to the spawn...'
+
+# Cooldown settings for /spawn
+Cooldown-For-Spawn-Cmd:
+  Enabled: true
+  Enabled-Message: true
+  Message: '&0[&fSetSpawn&0]&r: &cWait %del% more seconds before using /spawn again!'
+  Delay: 10
+
+# Cancel teleport on movement
+Cancel-On-Move:
+  Enabled: true
+  Enabled-Message: true
+  Message: '&0[&fSetSpawn&0]&r: &4Teleportation cancelled!'
+
+# Effect on spawn arrival
+Spawn-Effect:
+  Enabled: true
+  Effect-Name: ENDER_SIGNAL
+
+# Sound on spawn arrival
+Spawn-Sound:
+  Enabled: true
+  Sound-Name: ENTITY_ENDER_PEARL_THROW
+
+# Handle void teleport
+Void-To-Spawn:
+  Enabled: true
+  Enabled-Message: true
+  Message: '&0[&fSetSpawn&0]&r: &2Teleported to spawn from void.'
+
+# Force-teleport another player at spawn
+Force-Spawn:
+  Enabled-message-target: true
+  Message-target: '&0[&fSetSpawn&0]&r: &eYou have been teleported to the spawn by &2%sendername%'
+  Enabled-message-sender: true
+  Message-sender: '&0[&fSetSpawn&0]&r: &eYou have teleported &2%targetname% &eto the spawn!'
+  Player-Not-Online-Message: '&0[&fSetSpawn&0]&r: &cThat player is not online!'
+
+# Countdown before actual teleport (in seconds)
+Countdown: 5
+
+# Admin feedback
+Set-Spawn-Message: '&0[&fSetSpawn&0]&r: &eYou have set the spawn!'
+Set-First-Join-Spawn-Message: '&0[&fSetSpawn&0]&r: &eYou have set the first join spawn!'
+No-Spawn-Message: '&0[&fSetSpawn&0]&r: &cThere has no spawn been set yet!'
+Reload-Message: '&0[&fSetSpawn&0]&r: &2Config Reloaded!'
+
+# General spawn settings
+On-Join-Spawn: true
+On-First-Join-Spawn: true
+Respawn-At-Spawn: true
+Override-Bedspawn-On-Respawn: true

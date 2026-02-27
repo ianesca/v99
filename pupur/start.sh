@@ -3,7 +3,7 @@
 # Nombre de tu archivo JAR de Purpur
 JAR_NAME="purpur.jar" 
 
-java -Xms512M -Xmx1G \
+java -Xms1M -Xmx512M \
 -XX:+UseG1GC \
 -XX:+ParallelRefProcEnabled \
 -XX:MaxGCPauseMillis=200 \
