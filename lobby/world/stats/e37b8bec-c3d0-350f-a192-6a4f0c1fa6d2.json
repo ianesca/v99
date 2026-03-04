@@ -1,29 +1,31 @@
 {
   "stats": {
-    "minecraft:mined": {
-      "minecraft:spruce_stairs": 2
-    },
     "minecraft:used": {
-      "minecraft:stone_bricks": 8,
+      "minecraft:stone_bricks": 10,
       "minecraft:spruce_stairs": 3,
+      "minecraft:andesite": 1,
+      "minecraft:written_book": 2,
       "minecraft:oak_log": 32,
-      "minecraft:cobblestone": 64
+      "minecraft:cobblestone": 68
     },
     "minecraft:custom": {
-      "minecraft:sprint_one_cm": 65220,
-      "minecraft:time_since_rest": 89252,
+      "minecraft:sprint_one_cm": 158661,
+      "minecraft:time_since_rest": 248729,
       "minecraft:fall_one_cm": 5263,
-      "minecraft:walk_one_cm": 19694,
-      "minecraft:total_world_time": 89252,
-      "minecraft:leave_game": 49,
-      "minecraft:fly_one_cm": 154127,
+      "minecraft:walk_one_cm": 65091,
+      "minecraft:total_world_time": 248729,
+      "minecraft:leave_game": 102,
+      "minecraft:fly_one_cm": 255071,
       "minecraft:crouch_one_cm": 2275,
-      "minecraft:sneak_time": 706,
-      "minecraft:play_time": 89252,
-      "minecraft:jump": 622,
-      "minecraft:time_since_death": 89252
+      "minecraft:sneak_time": 728,
+      "minecraft:play_time": 248729,
+      "minecraft:jump": 1148,
+      "minecraft:time_since_death": 248729
     },
     "minecraft:picked_up": {
+      "minecraft:spruce_stairs": 2
+    },
+    "minecraft:mined": {
       "minecraft:spruce_stairs": 2
     }
   },

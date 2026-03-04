@@ -1,32 +1,33 @@
 {
   "stats": {
     "minecraft:custom": {
-      "minecraft:time_since_rest": 23744,
-      "minecraft:walk_one_cm": 60809,
-      "minecraft:leave_game": 3,
+      "minecraft:time_since_rest": 32441,
+      "minecraft:walk_one_cm": 71188,
+      "minecraft:leave_game": 9,
       "minecraft:damage_taken": 2400,
-      "minecraft:play_time": 25228,
-      "minecraft:jump": 219,
-      "minecraft:time_since_death": 23718,
-      "minecraft:sprint_one_cm": 36566,
-      "minecraft:total_world_time": 25228,
-      "minecraft:fly_one_cm": 76145,
+      "minecraft:play_time": 33925,
+      "minecraft:jump": 315,
+      "minecraft:time_since_death": 32415,
+      "minecraft:sprint_one_cm": 63399,
+      "minecraft:tune_noteblock": 1,
+      "minecraft:total_world_time": 33925,
+      "minecraft:fly_one_cm": 104232,
       "minecraft:crouch_one_cm": 1421,
       "minecraft:sneak_time": 404,
       "minecraft:deaths": 10
     },
     "minecraft:used": {
-      "minecraft:oak_stairs": 49,
       "minecraft:stripped_spruce_log": 2,
       "minecraft:stone_brick_wall": 6,
-      "minecraft:spruce_fence": 45,
-      "minecraft:polished_andesite": 8,
-      "minecraft:iron_trapdoor": 2,
+      "minecraft:oak_stairs": 49,
+      "minecraft:spruce_fence": 46,
+      "minecraft:polished_andesite": 9,
       "minecraft:note_block": 8,
-      "minecraft:spruce_planks": 19,
+      "minecraft:spruce_planks": 27,
+      "minecraft:iron_trapdoor": 2,
       "minecraft:dark_oak_stairs": 1,
-      "minecraft:black_wool": 1,
-      "minecraft:oak_planks": 1
+      "minecraft:oak_planks": 1,
+      "minecraft:black_wool": 1
     }
   },
   "DataVersion": 4671

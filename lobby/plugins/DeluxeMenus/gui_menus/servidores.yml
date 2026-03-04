@@ -1,0 +1,100 @@
+menu_title: '&8&l✦ &3&lSERVER SELECTOR &8&l✦'
+open_command: servidores
+size: 27
+
+items:
+  # --- MARCO DECORATIVO (Borde Exterior) ---
+  'marco_gris':
+    material: GRAY_STAINED_GLASS_PANE
+    slots: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 17, 18, 19, 20, 21, 23, 24, 25, 26]
+    display_name: ' '
+
+  # --- DECORACIÓN INTERNA (Esquinas) ---
+  'decoracion_azul':
+    material: CYAN_STAINED_GLASS_PANE
+    slots: [10, 16]
+    display_name: '&b&l✦'
+
+  # --- SERVIDOR: BEDWARS ---
+  'bedwars':
+    material: RED_BED
+    slot: 11
+    display_name: '&e&l┃ &6&lBEDWARS &e&l┃'
+    lore:
+      - '&7&m━━━━━━━━━━━━━━━━━━━━━━━━━━━━'
+      - '&f Protege tu cama y elimina a'
+      - '&f tus enemigos en esta batalla.'
+      - ''
+      - ' &8• &fEstado: &a&l¡EN LÍNEA!'
+      - ' &8• &fJugadores: &b%bungee_bedwars%'
+      - ''
+      - '&e&l» &6¡Clic para jugar ahora! &e&l«'
+      - '&7&m━━━━━━━━━━━━━━━━━━━━━━━━━━━━'
+    left_click_commands:
+      - '[connect] bedwars'
+      - '[close]'
+    right_click_commands:
+      - '[connect] bedwars'
+      - '[close]'
+
+  # --- SERVIDOR: LOBBY (Donde estás ahora) ---
+  'lobby_info':
+    material: NETHER_STAR
+    slot: 13
+    display_name: '&b&l┃ &3&lPRINCIPAL &b&l┃'
+    lore:
+      - '&7&m━━━━━━━━━━━━━━━━━━━━━━━━━━━━'
+      - '&f Te encuentras en el lobby.'
+      - '&f ¡Explora el mapa y diviértete!'
+      - ''
+      - ' &8• &fServidor: &bLobby #1'
+      - ' &8• &fPing: &a%player_ping%ms'
+      - ''
+      - '&b&l» &3¡Ya estás aquí! &b&l«'
+      - '&7&m━━━━━━━━━━━━━━━━━━━━━━━━━━━━'
+
+  # --- SERVIDOR: STAFF (Oculto para usuarios) ---
+  'staff_server':
+    material: BARRIER
+    slot: 15
+    priority: 1
+    view_requirement:
+      requirements:
+        staff_check:
+          type: has permission
+          permission: deluxemenus.admin
+    display_name: '&c&l┃ &4&lZONA STAFF &c&l┃'
+    lore:
+      - '&7&m━━━━━━━━━━━━━━━━━━━━━━━━━━━━'
+      - '&c &lADVERTENCIA:'
+      - '&f Acceso exclusivo para miembros'
+      - '&f del equipo administrativo.'
+      - ''
+      - ' &8• &fDestino: &7Servidor de Pruebas'
+      - ''
+      - '&c&l» &4¡Clic para entrar! &c&l«'
+      - '&7&m━━━━━━━━━━━━━━━━━━━━━━━━━━━━'
+    left_click_commands:
+      - '[connect] server2'
+      - '[close]'
+
+  # --- INFORMACIÓN DE LA RED (Abajo al centro) ---
+  'info_red':
+    material: BOOK
+    slot: 22
+    display_name: '&d&l✦ &5&lINFORMACIÓN &d&l✦'
+    lore:
+      - '&7&m━━━━━━━━━━━━━━━━━'
+      - ' &fWeb: &dwww.tuweb.com'
+      - ' &fDiscord: &9discord.gg/link'
+      - ''
+      - ' &fTotal: &e%bungee_total% &fjugadores'
+      - '&7&m━━━━━━━━━━━━━━━━━'
+
+  # --- BOTÓN: CERRAR ---
+  'exit':
+    material: BARRIER
+    slot: 8
+    display_name: '&c&l✘ &fCerrar Menú'
+    left_click_commands:
+      - '[close]'
