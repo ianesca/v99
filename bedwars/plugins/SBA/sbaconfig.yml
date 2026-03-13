@@ -1,6 +1,6 @@
 version: 1.5.18
 locale: en
-prefix: '[SBA]'
+prefix: 'v99'
 editing-hologram-enabled: true
 debug:
     enabled: false
@@ -132,7 +132,7 @@ team-status:
     eliminated: '%color% %team% §c✘ %you%'
 chat-format:
     game-chat:
-        enabled: true
+        enabled: false
         format: §7[%color%%team%§7] %color%%player% §f> %message%
         format-spectator: §7[§fSpectator§7] §f%player% > %message%
         all-chat-prefix: '@a'

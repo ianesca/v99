@@ -1,0 +1,39 @@
+{
+  "minecraft:recipes/decorations/red_banner": {
+    "criteria": {
+      "has_red_wool": "2022-04-07 08:54:29 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/painting": {
+    "criteria": {
+      "has_wool": "2022-04-07 08:54:29 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/red_carpet": {
+    "criteria": {
+      "has_red_wool": "2022-04-07 08:54:29 +0200"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:mountains": "2022-04-07 08:55:22 +0200",
+      "minecraft:birch_forest": "2022-04-07 08:52:21 +0200",
+      "minecraft:dark_forest": "2022-04-07 08:52:14 +0200",
+      "minecraft:river": "2022-04-07 08:52:20 +0200",
+      "minecraft:birch_forest_hills": "2022-04-07 08:57:52 +0200",
+      "minecraft:wooded_mountains": "2022-04-07 08:56:01 +0200",
+      "minecraft:plains": "2022-04-07 08:55:29 +0200"
+    },
+    "done": false
+  },
+  "minecraft:recipes/decorations/red_bed": {
+    "criteria": {
+      "has_red_wool": "2022-04-07 08:54:29 +0200"
+    },
+    "done": true
+  },
+  "DataVersion": 2586
+}

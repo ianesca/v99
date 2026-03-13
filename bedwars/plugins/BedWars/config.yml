@@ -57,11 +57,11 @@ bungee:
     preselect-games: false
   motd:
     enabled: false
-    waiting: '%name%: Waiting for players [%current%/%max%]'
-    waiting_full: '%name%: Game is full [%current%/%max%]'
-    running: '%name%: Game is running [%current%/%max%]'
-    rebuilding: '%name%: Rebuilding...'
-    disabled: '%name%: Game is disabled'
+    waiting: '%name%: Esperando jugadores [%current%/%max%]'
+    waiting_full: '%name%: Partida llena [%current%/%max%]'
+    running: '%name%: En juego [%current%/%max%]'
+    rebuilding: '%name%: Reiniciando mapa...'
+    disabled: '%name%: Partida desactivada'
 farmBlocks:
   enable: false
   blocks: []
@@ -143,7 +143,7 @@ specials:
     speed: 0.25
     follow-range: 10
     health: 20
-    name-format: '%teamcolor%%team% Golem'
+    name-format: '%teamcolor%%team% Gólem'
     show-name: true
     delay: 0
     collidable: false
@@ -228,10 +228,10 @@ lobby-scoreboard:
   title: '&eBEDWARS'
   content:
   - ' '
-  - '&fMap: &2%arena%'
-  - '&fPlayers: &2%players%&f/&2%maxplayers%'
+  - '&fMapa: &2%arena%'
+  - '&fJugadores: &2%players%&f/&2%maxplayers%'
   - ' '
-  - '&fWaiting ...'
+  - '&fEsperando...'
   - ' '
   enabled: false
 statistics:
@@ -275,9 +275,9 @@ bossbar:
     style: SEGMENTED_20
 holograms:
   enabled: true
-  headline: Your &eBEDWARS&f stats
+  headline: Tus estadísticas de &eBEDWARS
   leaderboard:
-    headline: '&6Bedwars Leaderboard'
+    headline: '&6Top Global Bedwars'
     format: '&l%order%. &7%name% - &a%score%'
     size: 10
 chat:
@@ -290,9 +290,9 @@ chat:
   default-team-chat-while-running: true
   all-chat-prefix: '@a'
   team-chat-prefix: '@t'
-  all-chat: '[ALL] '
-  team-chat: '[TEAM] '
-  death-chat: '[DEATH] '
+  all-chat: '[GLOBAL] '
+  team-chat: '[EQUIPO] '
+  death-chat: '[MUERTE] '
   disable-all-chat-for-spectators: false
   override: false
 rewards:
@@ -318,13 +318,13 @@ rewards:
   player-team-win:
   - /example {team} {death} 10
   game-start:
-  - /example Hello World!
+  - /example ¡Hola Mundo!
 lore:
   generate-automatically: true
   text:
-  - '&7Price:'
+  - '&7Precio:'
   - '&7%price% %resource%'
-  - '&7Amount:'
+  - '&7Cantidad:'
   - '&7%amount%'
 sign:
   lines:
@@ -355,9 +355,9 @@ leaveshortcuts:
   list:
   - leave
 mainlobby:
-  enabled: false
-  location: ''
-  world: ''
+  enabled: true
+  location: 5.5300787363084725;20.0;126.49408645924579;-179.09998;88.64999
+  world: world
 turnOnExperimentalGroovyShop: false
 preventSpectatorFlyingAway: false
 removePurchaseMessages: false
@@ -393,15 +393,15 @@ tab:
   header:
     enabled: true
     contents:
-    - '&aMy awesome BedWars server'
-    - '&bMap: %map%'
-    - '&cPlayers: %respawnable%/%max%'
+    - '&aMi increíble servidor BedWars'
+    - '&bMapa: %map%'
+    - '&cJugadores: %respawnable%/%max%'
   footer:
     enabled: true
     contents:
     - '&eexample.com'
-    - '&fWow!!'
-    - '&a%spectators% are watching this match'
+    - '&f¡Vaya!'
+    - '&aHay %spectators% espectadores viendo esta partida'
   hide-spectators: true
   hide-foreign-players: false
 default-permissions:
@@ -428,7 +428,8 @@ gived-game-start-items:
 - LEATHER_CHESTPLATE
 - LEATHER_LEGGINGS
 - LEATHER_BOOTS
-destroy-placed-blocks-by-explosion-except: GLASS
+destroy-placed-blocks-by-explosion-except:
+- GLASS
 allowed-commands:
 - /shout
 - /party
@@ -438,28 +439,28 @@ add-wool-to-inventory-on-join: false
 disable-hunger: true
 resources:
   emerald:
-    name: Emerald
+    name: Esmeralda
     interval: 60
     translate: resource_emerald
     material: EMERALD
     spread: 0.1
     color: GREEN
   diamond:
-    name: Diamond
+    name: Diamante
     interval: 30
     translate: resource_diamond
     material: DIAMOND
     spread: 0.1
     color: BLUE
   iron:
-    name: Iron
+    name: Hierro
     interval: 2.5
     translate: resource_iron
     material: IRON_INGOT
     spread: 0.1
     color: WHITE
   gold:
-    name: Gold
+    name: Oro
     interval: 8
     translate: resource_gold
     material: GOLD_INGOT

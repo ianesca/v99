@@ -1,13 +1,17 @@
 data:
-- {column: '3', properties: randomly_join, row: '1', stack: 'RED_BED;1;§aBed Wars
-        §7(Solo);§7Play Bed Wars {§7Solo}; ;§eClick to play!'}
-- {column: '4', properties: exit, row: '3', stack: BARRIER;1;§cExit}
-- {column: '8', properties: rejoin, row: '3', stack: ENDER_PEARL;1;§cClick here to
-        rejoin!;§7Click here to rejoin the lastly joined game.}
--   column: '5'
-    items:
-    - {column: 4, locate: main, row: 4, stack: ARROW;1;§cGo Back}
-    options: {render_actual_rows: '6', rows: '6'}
+- {column: '3', stack: 'RED_BED;1;§aBedWars §7(Solo);§7JugarBed Wars {§7Solo}; ;§e¡Haz clic
+        para jugar!', row: '1', properties: randomly_join}
+- {column: '4', stack: BARRIER;1;§cSalir, row: '3', properties: exit}
+- {column: '8', stack: ENDER_PEARL;1;§c¡Haz clic para volver!;§7Haz clic aquí para volver
+        a entrar a la última partida., row: '3', properties: rejoin}
+-   items:
+    -   column: '2'
+        stack: PAPER;1;§aSpeedway;§7Solo; ;§aHaz clic para jugar
+        row: '1'
+        properties: {name: join, gameName: Speedway}
+    - {column: 4, stack: ARROW;1;§cVolver, row: 4, locate: main}
+    column: '5'
+    stack: OAK_SIGN;1;§aSelector de Mapas §7(Solo);§7Elige el mapa que quieras jugar;§7de
+        la lista de servidores disponibles.; ;§e¡Haz clic para ver!
     row: '1'
-    stack: OAK_SIGN;1;§aMap Selector §7(Solo);§7Pick which map you want to play;§7from
-        a list of available servers.; ;§eClick to browse!
+    options: {rows: '6', render_actual_rows: '6'}

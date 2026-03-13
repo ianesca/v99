@@ -1,15 +1,15 @@
 data:
-  - stack: "IRON_CHESTPLATE;1;Protection;Click here to get more resistance to damage!"
+  - stack: "IRON_CHESTPLATE;1;Protección;¡Haz clic aquí para obtener más resistencia al daño!"
     column: 2
     price: 4 of diamond
     properties: protection
 
-  - stack: "IRON_SWORD;1;Sharpness;Kill players quicker!."
+  - stack: "IRON_SWORD;1;Filo;¡Elimina a los jugadores más rápido!."
     column: 1
     price: 4 of diamond
     properties: sharpness
 
-  - stack: "GOLDEN_PICKAXE;1;Efficiency;Break Blocks quicker!."
+  - stack: "GOLDEN_PICKAXE;1;Eficiencia;¡Rompe bloques más rápido!."
     price: 4 of diamond
     column: 3
     properties: efficiency
@@ -25,15 +25,15 @@ data:
     stack:
       type: FURNACE
       amount: 1
-      display-name: "Forge Upgrade"
+      display-name: "Mejora de Forja"
 
-  - stack: "BEACON;1;§bHeal Pool;§7Triggers a pool around the base that heals you!"
+  - stack: "BEACON;1;§bPozo de Curación;§7Activa un pozo alrededor de la base que te cura!"
     column: 5
     row: 1
     properties: healpool
     price: 8 of diamond
 
-  - stack: "LEATHER;1;Traps;Trap your enemy"
+  - stack: "LEATHER;1;Trampas;Atrapa a tu enemigo"
     column: 7
     items:
       - price: 2 of diamond
@@ -41,20 +41,20 @@ data:
         properties: blindtrap
         stack:
           type: STRING
-          display-name: "§bBlindess trap"
+          display-name: "§bTrampa de Ceguera"
           lore:
-            - "§7Get informed when an enemy enters a 7 block radius of your base"
-            - "§7Blind the foe and gain an upper advantage!"
+            - "§7Recibe un aviso cuando un enemigo entre en un radio de 7 bloques de tu base"
+            - "§7¡Ciega al oponente y obtén la ventaja!"
 
       - price: 2 of diamond
         skip: 1
         properties: minertrap
         stack:
           type: STRING
-          display-name: "§bMining Fatigue trap"
+          display-name: "§bTrampa de Fatiga Minera"
           lore:
-            - "§7Get informed when an enemy enters a 7 block radius of your base"
-            - "§7Slow Down their mining and gain an advantage!"
+            - "§7Recibe un aviso cuando un enemigo entre en un radio de 7 bloques de tu base"
+            - "§7¡Ralentiza su velocidad de minado y obtén ventaja!"
 
       - price: 2 of diamond
         skip: 1
@@ -71,9 +71,9 @@ data:
               level: 2
         stack:
           type: STRING
-          display-name: "§bCustom trap"
+          display-name: "§bTrampa Personalizada"
           lore:
-            - "§7Add jump and speed to your team when an enemy enters a 7 block radius of your base"
+            - "§7Añade salto y velocidad a tu equipo cuando un enemigo entre en un radio de 7 bloques"
 
   - stack: "GRAY_STAINED_GLASS_PANE;1;*****"
     row: 2

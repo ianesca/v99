@@ -1,322 +1,202 @@
-[18:44:10] [ServerMain/INFO]: [bootstrap] Running Java 25 (OpenJDK 64-Bit Server VM 25.0.2+10-Debian-1deb13u2; Debian null) on Linux 6.17.13+2-amd64 (amd64)
-[18:44:10] [ServerMain/INFO]: [bootstrap] Loading Purpur 1.21.11-2562-HEAD@a917106 (2026-02-18T04:02:52Z) for Minecraft 1.21.11
-[18:44:11] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
-[18:44:12] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Remapping plugin 'plugins/ConditionalEvents-4.75.1.jar'...
-[18:44:13] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Done remapping plugin 'plugins/ConditionalEvents-4.75.1.jar' in 1177ms.
-[18:44:14] [ServerMain/INFO]: [PluginInitializerManager] Initialized 8 plugins
-[18:44:14] [ServerMain/INFO]: [PluginInitializerManager] Paper plugins (1):
+[16:52:10] [ServerMain/INFO]: [bootstrap] Running Java 25 (OpenJDK 64-Bit Server VM 25.0.2+10-Debian-1deb13u2; Debian null) on Linux 6.17.13+2-amd64 (amd64)
+[16:52:10] [ServerMain/INFO]: [bootstrap] Loading Purpur 1.21.11-2562-HEAD@a917106 (2026-02-18T04:02:52Z) for Minecraft 1.21.11
+[16:52:11] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
+[16:52:13] [ServerMain/INFO]: [PluginInitializerManager] Initialized 13 plugins
+[16:52:13] [ServerMain/INFO]: [PluginInitializerManager] Paper plugins (1):
  - AuthMeVelocity (4.2.0)
-[18:44:14] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (7):
- - AuthMe (5.7.0-SNAPSHOT-b2657), ConditionalEvents (4.75.1), DeluxeMenus (1.14.1-Release), PlaceholderAPI (2.12.2), SetSpawn (5.5.2), TAB (5.5.0), WorldEdit (7.4.0+7381-3decaf0)
-[18:44:24] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, profilesHost=https://api.mojang.com, name=PROD]
-[18:44:24] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Initialising converters for DataConverter...
-[18:44:25] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Finished initialising converters for DataConverter in 1,022.2ms
-[18:44:29] [ServerMain/INFO]: Loaded 1470 recipes
-[18:44:29] [ServerMain/INFO]: Loaded 1584 advancements
-[18:44:29] [Server thread/INFO]: Starting minecraft server version 1.21.11
-[18:44:29] [Server thread/INFO]: Loading properties
-[18:44:29] [Server thread/INFO]: This server is running Purpur version 1.21.11-2562-HEAD@a917106 (2026-02-18T04:02:52Z) (Implementing API version 1.21.11-R0.1-SNAPSHOT)
-[18:44:29] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
-[18:44:29] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[18:44:29] [Server thread/INFO]: Using 4 threads for Netty based IO
-[18:44:31] [Server thread/INFO]: [MoonriseCommon] Paper is using 1 worker threads, 1 I/O threads
-[18:44:31] [Server thread/INFO]: Default game type: SURVIVAL
-[18:44:31] [Server thread/INFO]: Generating keypair
-[18:44:31] [Server thread/INFO]: Starting Minecraft server on 0.0.0.0:25566
-[18:44:31] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
-[18:44:31] [Server thread/INFO]: Paper: Using OpenSSL 3.x.x (Linux x86_64) cipher from Velocity.
-[18:44:32] [Server thread/INFO]: [SpigotLibraryLoader] [AuthMe] Loading 17 libraries... please wait
-[18:44:32] [Server thread/INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /home/barney/Desktop/v99/v99 - Network/lobby/libraries/ch/jalu/injector/1.0/injector-1.0.jar
-[18:44:32] [Server thread/INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /home/barney/Desktop/v99/v99 - Network/lobby/libraries/javax/inject/javax.inject/1/javax.inject-1.jar
-[18:44:32] [Server thread/INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /home/barney/Desktop/v99/v99 - Network/lobby/libraries/javax/annotation/javax.annotation-api/1.3.1/javax.annotation-api-1.3.1.jar
-[18:44:32] [Server thread/INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /home/barney/Desktop/v99/v99 - Network/lobby/libraries/net/ricecode/string-similarity/1.0.0/string-similarity-1.0.0.jar
-[18:44:32] [Server thread/INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /home/barney/Desktop/v99/v99 - Network/lobby/libraries/com/maxmind/geoip2/geoip2/4.2.0/geoip2-4.2.0.jar
-[18:44:32] [Server thread/INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /home/barney/Desktop/v99/v99 - Network/lobby/libraries/com/maxmind/db/maxmind-db/3.1.0/maxmind-db-3.1.0.jar
-[18:44:32] [Server thread/INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /home/barney/Desktop/v99/v99 - Network/lobby/libraries/com/fasterxml/jackson/core/jackson-databind/2.16.0/jackson-databind-2.16.0.jar
-[18:44:32] [Server thread/INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /home/barney/Desktop/v99/v99 - Network/lobby/libraries/com/fasterxml/jackson/core/jackson-core/2.16.0/jackson-core-2.16.0.jar
-[18:44:32] [Server thread/INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /home/barney/Desktop/v99/v99 - Network/lobby/libraries/com/fasterxml/jackson/core/jackson-annotations/2.16.0/jackson-annotations-2.16.0.jar
-[18:44:32] [Server thread/INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /home/barney/Desktop/v99/v99 - Network/lobby/libraries/javatar/javatar/2.5/javatar-2.5.jar
-[18:44:32] [Server thread/INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /home/barney/Desktop/v99/v99 - Network/lobby/libraries/org/apache/commons/commons-email/1.6.0/commons-email-1.6.0.jar
-[18:44:32] [Server thread/INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /home/barney/Desktop/v99/v99 - Network/lobby/libraries/com/sun/mail/jakarta.mail/1.6.7/jakarta.mail-1.6.7.jar
-[18:44:32] [Server thread/INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /home/barney/Desktop/v99/v99 - Network/lobby/libraries/com/sun/activation/jakarta.activation/1.2.1/jakarta.activation-1.2.1.jar
-[18:44:32] [Server thread/INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /home/barney/Desktop/v99/v99 - Network/lobby/libraries/com/zaxxer/HikariCP/5.1.0/HikariCP-5.1.0.jar
-[18:44:32] [Server thread/INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /home/barney/Desktop/v99/v99 - Network/lobby/libraries/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar
-[18:44:32] [Server thread/INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /home/barney/Desktop/v99/v99 - Network/lobby/libraries/org/slf4j/slf4j-simple/2.0.13/slf4j-simple-2.0.13.jar
-[18:44:32] [Server thread/INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /home/barney/Desktop/v99/v99 - Network/lobby/libraries/ch/jalu/datasourcecolumns/0.1.2/datasourcecolumns-0.1.2.jar
-[18:44:32] [Server thread/INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /home/barney/Desktop/v99/v99 - Network/lobby/libraries/com/mysql/mysql-connector-j/8.4.0/mysql-connector-j-8.4.0.jar
-[18:44:32] [Server thread/INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /home/barney/Desktop/v99/v99 - Network/lobby/libraries/com/google/protobuf/protobuf-java/3.25.1/protobuf-java-3.25.1.jar
-[18:44:32] [Server thread/INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /home/barney/Desktop/v99/v99 - Network/lobby/libraries/org/mariadb/jdbc/mariadb-java-client/3.4.0/mariadb-java-client-3.4.0.jar
-[18:44:32] [Server thread/INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /home/barney/Desktop/v99/v99 - Network/lobby/libraries/com/github/waffle/waffle-jna/3.3.0/waffle-jna-3.3.0.jar
-[18:44:32] [Server thread/INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /home/barney/Desktop/v99/v99 - Network/lobby/libraries/net/java/dev/jna/jna-platform/5.13.0/jna-platform-5.13.0.jar
-[18:44:32] [Server thread/INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /home/barney/Desktop/v99/v99 - Network/lobby/libraries/org/slf4j/jcl-over-slf4j/2.0.7/jcl-over-slf4j-2.0.7.jar
-[18:44:32] [Server thread/INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /home/barney/Desktop/v99/v99 - Network/lobby/libraries/com/github/ben-manes/caffeine/caffeine/2.9.3/caffeine-2.9.3.jar
-[18:44:32] [Server thread/INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /home/barney/Desktop/v99/v99 - Network/lobby/libraries/com/google/errorprone/error_prone_annotations/2.10.0/error_prone_annotations-2.10.0.jar
-[18:44:32] [Server thread/INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /home/barney/Desktop/v99/v99 - Network/lobby/libraries/org/postgresql/postgresql/42.7.3/postgresql-42.7.3.jar
-[18:44:32] [Server thread/INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /home/barney/Desktop/v99/v99 - Network/lobby/libraries/org/checkerframework/checker-qual/3.42.0/checker-qual-3.42.0.jar
-[18:44:32] [Server thread/INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /home/barney/Desktop/v99/v99 - Network/lobby/libraries/de/rtner/PBKDF2/1.1.4/PBKDF2-1.1.4.jar
-[18:44:32] [Server thread/INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /home/barney/Desktop/v99/v99 - Network/lobby/libraries/org/picketbox/picketbox/4.0.21.Final/picketbox-4.0.21.Final.jar
-[18:44:32] [Server thread/INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /home/barney/Desktop/v99/v99 - Network/lobby/libraries/de/mkammerer/argon2-jvm-nolibs/2.11/argon2-jvm-nolibs-2.11.jar
-[18:44:32] [Server thread/INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /home/barney/Desktop/v99/v99 - Network/lobby/libraries/net/java/dev/jna/jna/5.8.0/jna-5.8.0.jar
-[18:44:32] [Server thread/INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /home/barney/Desktop/v99/v99 - Network/lobby/libraries/at/favre/lib/bcrypt/0.10.2/bcrypt-0.10.2.jar
-[18:44:32] [Server thread/INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /home/barney/Desktop/v99/v99 - Network/lobby/libraries/at/favre/lib/bytes/1.5.0/bytes-1.5.0.jar
-[18:44:32] [Server thread/INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /home/barney/Desktop/v99/v99 - Network/lobby/libraries/com/warrenstrange/googleauth/1.5.0/googleauth-1.5.0.jar
-[18:44:32] [Server thread/INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /home/barney/Desktop/v99/v99 - Network/lobby/libraries/commons-codec/commons-codec/1.14/commons-codec-1.14.jar
-[18:44:32] [Server thread/INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /home/barney/Desktop/v99/v99 - Network/lobby/libraries/org/apache/httpcomponents/httpclient/4.5.12/httpclient-4.5.12.jar
-[18:44:32] [Server thread/INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /home/barney/Desktop/v99/v99 - Network/lobby/libraries/org/apache/httpcomponents/httpcore/4.4.13/httpcore-4.4.13.jar
-[18:44:32] [Server thread/INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /home/barney/Desktop/v99/v99 - Network/lobby/libraries/commons-logging/commons-logging/1.2/commons-logging-1.2.jar
-[18:44:32] [Server thread/INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /home/barney/Desktop/v99/v99 - Network/lobby/libraries/ch/jalu/configme/1.3.1/configme-1.3.1.jar
-[18:44:32] [Server thread/INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /home/barney/Desktop/v99/v99 - Network/lobby/libraries/org/yaml/snakeyaml/2.0/snakeyaml-2.0.jar
-[18:44:32] [Server thread/INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /home/barney/Desktop/v99/v99 - Network/lobby/libraries/org/bstats/bstats-bukkit/3.0.2/bstats-bukkit-3.0.2.jar
-[18:44:32] [Server thread/INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /home/barney/Desktop/v99/v99 - Network/lobby/libraries/org/bstats/bstats-base/3.0.2/bstats-base-3.0.2.jar
-[18:44:33] [Server thread/INFO]: [PlaceholderAPI] Loading server plugin PlaceholderAPI v2.12.2
-[18:44:33] [Server thread/INFO]: [AuthMe] Loading server plugin AuthMe v5.7.0-SNAPSHOT-b2657
-[18:44:33] [Server thread/INFO]: [ConditionalEvents] Loading server plugin ConditionalEvents v4.75.1
-[18:44:33] [Server thread/INFO]: [DeluxeMenus] Loading server plugin DeluxeMenus v1.14.1-Release
-[18:44:33] [Server thread/WARN]: [DeluxeMenus] Could not setup a NMS hook for your server version! The following Item options will not work: nbt_int, nbt_ints, nbt_string and nbt_strings.
-[18:44:33] [Server thread/INFO]: [TAB] Loading server plugin TAB v5.5.0
-[18:44:33] [Server thread/INFO]: [WorldEdit] Loading server plugin WorldEdit v7.4.0+7381-3decaf0
-[18:44:35] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@58e76d12]
-[18:44:35] [Server thread/INFO]: [AuthMeVelocity] Loading server plugin AuthMeVelocity v4.2.0
-[18:44:35] [Server thread/INFO]: [SetSpawn] Loading server plugin SetSpawn v5.5.2
-[18:44:35] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[18:44:35] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.4.0+7381-3decaf0
-[18:44:35] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
-[18:44:35] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
-[18:44:36] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.v1_21_11.PaperweightAdapter as the Bukkit adapter
-[18:44:36] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[18:44:36] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[18:44:36] [Server thread/WARN]: Whilst this makes it possible to use Velocity, unless access to your server is properly restricted, it also opens up the ability for hackers to connect with any username they choose.
-[18:44:36] [Server thread/WARN]: Please see https://docs.papermc.io/velocity/security for further information.
-[18:44:36] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[18:44:36] [Server thread/INFO]: Preparing level "world"
-[18:44:37] [Server thread/INFO]: [ca.spottedleaf.moonrise.common.util.MoonriseConstants] NUMA enable flag is not set; however there is NUMA interaction support for this OS.
-[18:44:37] [Server thread/INFO]: [ca.spottedleaf.moonrise.common.util.MoonriseConstants] Detected 1 NUMA nodes.
-[18:44:38] [Server thread/INFO]: Loading 0 persistent chunks for world 'minecraft:overworld'...
-[18:44:38] [Server thread/INFO]: Preparing spawn area: 100%
-[18:44:38] [Server thread/INFO]: Prepared spawn area in 5 ms
-[18:44:38] [Server thread/INFO]: Done preparing level "world" (1.303s)
-[18:44:38] [Server thread/INFO]: [PlaceholderAPI] Enabling PlaceholderAPI v2.12.2
-[18:44:38] [Server thread/INFO]: [PlaceholderAPI] Fetching available expansion information...
-[18:44:38] [Server thread/INFO]: [AuthMe] Enabling AuthMe v5.7.0-SNAPSHOT-b2657
-[18:44:39] [Server thread/INFO]: [AuthMe] SQLite Setup finished
-[18:44:39] [Server thread/INFO]: [AuthMe] No supported permissions system found! Permissions are disabled!
-[18:44:39] [Server thread/WARN]: [AuthMe] WARNING! The protectInventory feature requires ProtocolLib! Disabling it...
-[18:44:40] [Server thread/WARN]: [AuthMe] "AuthMe v5.7.0-SNAPSHOT-b2657" has registered a listener for org.spigotmc.event.player.PlayerSpawnLocationEvent on method "public void fr.xephi.authme.listener.PlayerListener19Spigot.onPlayerSpawn(org.spigotmc.event.player.PlayerSpawnLocationEvent)", but the event is Deprecated. "Listening to this event causes the player to be created early. Using the player from this event will result in undefined behavior. Prefer AsyncPlayerSpawnLocationEvent."; please notify the authors [sgdc3, games647, Hex3l, krusic22].
-[18:44:40] [Server thread/INFO]: [AuthMe] AuthMe 5.7.0-SNAPSHOT build n.2657 successfully enabled!
-[18:44:40] [Server thread/INFO]: [ConditionalEvents] Enabling ConditionalEvents v4.75.1
-[18:44:40] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: conditionalevents [4.75.1]
-[18:44:40] [Server thread/INFO]: [ConditionalEvents] Has been enabled! Version: 4.75.1
-[18:44:40] [Server thread/INFO]: [ConditionalEvents] Thanks for using my plugin!   ~Ajneb97
-[18:44:40] [Server thread/INFO]: [DeluxeMenus] Enabling DeluxeMenus v1.14.1-Release
-[18:44:40] [Server thread/INFO]: [DeluxeMenus] Successfully hooked into PlaceholderAPI!
-[18:44:41] [Server thread/INFO]: [DeluxeMenus] 1 GUI menus loaded!
-[18:44:41] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: deluxemenus [1.14.1-Release]
-[18:44:41] [Server thread/INFO]: [DeluxeMenus] You are running the latest version of DeluxeMenus!
-[18:44:41] [Server thread/INFO]: [TAB] Enabling TAB v5.5.0
-[18:44:42] [Server thread/INFO]: [TAB] Enabled in 787ms
-[18:44:42] [Server thread/INFO]: [AuthMeVelocity] Enabling AuthMeVelocity v4.2.0
-[18:44:43] [Server thread/INFO]: [AuthMeVelocity] AuthMeVelocity enabled
-[18:44:43] [Server thread/INFO]: [SetSpawn] Enabling SetSpawn v5.5.2
-[18:44:43] [Server thread/INFO]: [SetSpawn] Enabled!
-[18:44:43] [Server thread/INFO]: [spark] Starting background profiler...
-[18:44:44] [Server thread/INFO]: [PlaceholderAPI] Placeholder expansion registration initializing...
-[18:44:44] [Server thread/INFO]: Running delayed init tasks
-[18:44:44] [Server thread/INFO]: Done (34.755s)! For help, type "help"
-[18:44:44] [Craft Scheduler Thread - 2 - AuthMe/INFO]: [AuthMe] Downloading GEO IP database, because the old database is older than 30 days or doesn't exist
-[18:44:44] [Craft Scheduler Thread - 2 - AuthMe/WARN]: [AuthMe] No MaxMind credentials found in the configuration file! GeoIp protections will be disabled.
-[18:44:44] [Craft Scheduler Thread - 2 - AuthMe/INFO]: [AuthMe] There is no newer GEO IP database uploaded to MaxMind. Using the old one for now.
-[18:44:44] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: bungee [2.3]
-[18:44:44] [Server thread/INFO]: 1 placeholder hook(s) registered!
-[18:44:44] [Craft Scheduler Thread - 2 - AuthMe/WARN]: [AuthMe] Could not download GeoLiteAPI database [FileNotFoundException]: plugins/AuthMe/GeoLite2-Country.mmdb (No existe el fichero o el directorio)
-[18:48:32] [User Authenticator #0/INFO]: UUID of player fda_ is e37b8bec-c3d0-350f-a192-6a4f0c1fa6d2
-[18:48:32] [Server thread/INFO]: [HorriblePlayerLoginEventHack] You have plugins listening to the PlayerLoginEvent, this will cause re-configuration APIs to be unavailable: [AuthMe, DeluxeMenus]
-[18:48:34] [Server thread/INFO]: fda_ joined the game
-[18:48:34] [TAB Processing Thread/INFO]: [TAB] [WARN] Player fda_'s group (none) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.
-[18:48:34] [Server thread/INFO]: fda_[/187.235.42.128:60220] logged in with entity id 1 at ([world]-2.88128549041797, -11.0, 15.641265057436895)
-[18:48:43] [Craft Scheduler Thread - 8 - AuthMe/INFO]: [AuthMe] fda_ logged in 187.235.42.128
-[18:48:52] [Server thread/INFO]: fda_ issued server command: /ce reload
-[18:48:54] [Server thread/INFO]: fda_ lost connection: Disconnected
-[18:48:54] [Server thread/INFO]: fda_ left the game
-[18:48:55] [User Authenticator #0/INFO]: UUID of player fda_ is e37b8bec-c3d0-350f-a192-6a4f0c1fa6d2
-[18:48:55] [TAB Processing Thread/INFO]: [TAB] [WARN] Player fda_'s group (none) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.
-[18:48:55] [Server thread/INFO]: fda_ joined the game
-[18:48:55] [Server thread/INFO]: fda_[/187.235.42.128:56540] logged in with entity id 3 at ([world]-1.7827722019074492, -10.657134309844643, 20.882463345082552)
-[18:49:00] [Craft Scheduler Thread - 2 - AuthMe/INFO]: [AuthMe] fda_ logged in 187.235.42.128
-[18:49:13] [Server thread/INFO]: fda_ issued server command: /ce reload
-[18:49:14] [Server thread/INFO]: fda_ issued server command: /ce reload
-[18:49:15] [Server thread/WARN]: [ConditionalEvents] Task #28 for ConditionalEvents v4.75.1 generated an exception
-org.bukkit.command.CommandException: Unhandled exception executing 'minecraft:give fda_ compass{display:{Name:"{\"text\":\"&b&lSelector de Servidores\",\"italic\":false}"}} 1' in org.bukkit.craftbukkit.command.VanillaCommandWrapper(minecraft:give)
-	at org.bukkit.craftbukkit.CraftServer.dispatchCommand(CraftServer.java:966) ~[purpur-1.21.11.jar:1.21.11-2562-a917106]
-	at org.bukkit.Bukkit.dispatchCommand(Bukkit.java:1103) ~[purpur-api-1.21.11-R0.1-SNAPSHOT.jar:?]
-	at ConditionalEvents-4.75.1.jar//ce.ajneb97.utils.ActionUtils.consoleCommand(ActionUtils.java:85) ~[?:?]
-	at ConditionalEvents-4.75.1.jar//ce.ajneb97.model.internal.ExecutedEvent.executeAction(ExecutedEvent.java:263) ~[?:?]
-	at ConditionalEvents-4.75.1.jar//ce.ajneb97.model.internal.ExecutedEvent.executeActionsFinal(ExecutedEvent.java:232) ~[?:?]
-	at ConditionalEvents-4.75.1.jar//ce.ajneb97.model.internal.ExecutedEvent.continueWithActions(ExecutedEvent.java:136) ~[?:?]
-	at ConditionalEvents-4.75.1.jar//ce.ajneb97.utils.ActionUtils$1.run(ActionUtils.java:922) ~[?:?]
-	at org.bukkit.craftbukkit.scheduler.CraftTask.run(CraftTask.java:78) ~[purpur-1.21.11.jar:1.21.11-2562-a917106]
-	at org.bukkit.craftbukkit.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:474) ~[purpur-1.21.11.jar:1.21.11-2562-a917106]
-	at net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1792) ~[purpur-1.21.11.jar:1.21.11-2562-a917106]
-	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1647) ~[purpur-1.21.11.jar:1.21.11-2562-a917106]
-	at net.minecraft.server.dedicated.DedicatedServer.tickServer(DedicatedServer.java:473) ~[purpur-1.21.11.jar:1.21.11-2562-a917106]
-	at net.minecraft.server.MinecraftServer.processPacketsAndTick(MinecraftServer.java:1703) ~[purpur-1.21.11.jar:1.21.11-2562-a917106]
-	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1371) ~[purpur-1.21.11.jar:1.21.11-2562-a917106]
-	at net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:392) ~[purpur-1.21.11.jar:1.21.11-2562-a917106]
-	at java.base/java.lang.Thread.run(Thread.java:1474) ~[?:?]
-Caused by: com.mojang.brigadier.exceptions.CommandSyntaxException: Expected whitespace to end one argument, but found trailing data at position 27: ...a_ compass<--[HERE]
-[18:49:20] [Server thread/INFO]: fda_ issued server command: /ce reload
-[18:49:24] [Server thread/INFO]: fda_ issued server command: /ce reload
-[18:52:24] [Server thread/INFO]: fda_ issued server command: /ce reload
-[18:52:27] [Server thread/INFO]: fda_ lost connection: Disconnected
-[18:52:27] [Server thread/INFO]: fda_ left the game
-[18:52:29] [User Authenticator #1/INFO]: UUID of player fda_ is e37b8bec-c3d0-350f-a192-6a4f0c1fa6d2
-[18:52:29] [Server thread/INFO]: fda_ joined the game
-[18:52:29] [Server thread/INFO]: fda_[/187.235.42.128:53894] logged in with entity id 4 at ([world]-3.304405372538245, -12.0, 9.831713611808466)
-[18:52:29] [TAB Processing Thread/INFO]: [TAB] [WARN] Player fda_'s group (none) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.
-[18:52:33] [Craft Scheduler Thread - 11 - AuthMe/INFO]: [AuthMe] fda_ logged in 187.235.42.128
-[18:52:49] [Server thread/INFO]: Gave 1 [{"text":"&b&lSelector de Servidores","italic":false}] to fda_
-[18:53:16] [Server thread/INFO]: fda_ issued server command: /ce reload
-[18:53:28] [Server thread/INFO]: fda_ issued server command: /ce call
-[18:55:47] [Server thread/INFO]: fda_ issued server command: /ce reload
-[18:55:49] [Server thread/INFO]: fda_ lost connection: Disconnected
-[18:55:49] [Server thread/INFO]: fda_ left the game
-[18:55:50] [User Authenticator #2/INFO]: UUID of player fda_ is e37b8bec-c3d0-350f-a192-6a4f0c1fa6d2
-[18:55:50] [TAB Processing Thread/INFO]: [TAB] [WARN] Player fda_'s group (none) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.
-[18:55:50] [Server thread/INFO]: fda_ joined the game
-[18:55:50] [Server thread/INFO]: fda_[/187.235.42.128:32916] logged in with entity id 6 at ([world]-4.388416893300623, -11.0, 16.630002507639343)
-[18:55:56] [Craft Scheduler Thread - 14 - AuthMe/INFO]: [AuthMe] fda_ logged in 187.235.42.128
-[18:56:05] [Server thread/INFO]: fda_ issued server command: /tick 100
-[18:56:09] [Server thread/INFO]: fda_ issued server command: /ticks 1
-[18:56:10] [Server thread/INFO]: Gave 1 [{"text":"&b&lSelector de Servidores"}] to fda_
-[18:57:04] [Server thread/INFO]: fda_ issued server command: /servidores
-[18:57:09] [Server thread/INFO]: fda_ issued server command: /servidores
-[18:57:11] [Server thread/INFO]: fda_ lost connection: Disconnected
-[18:57:11] [Server thread/INFO]: fda_ left the game
-[18:57:39] [User Authenticator #3/INFO]: UUID of player fda_ is e37b8bec-c3d0-350f-a192-6a4f0c1fa6d2
-[18:57:39] [Server thread/INFO]: fda_ joined the game
-[18:57:39] [Server thread/INFO]: fda_[/187.235.42.128:48734] logged in with entity id 8 at ([world]-8.398227291521353, -12.0, 15.877049570129937)
-[18:57:39] [TAB Processing Thread/INFO]: [TAB] [WARN] Player fda_'s group (none) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.
-[18:57:44] [Craft Scheduler Thread - 19 - AuthMe/INFO]: [AuthMe] fda_ logged in 187.235.42.128
-[18:57:59] [Server thread/INFO]: Gave 1 [{"text":"&b&lSelector de Servidores"}] to fda_
-[18:58:37] [Server thread/INFO]: fda_ issued server command: /servidores
-[18:58:49] [Server thread/INFO]: fda_ issued server command: /ce reload
-[18:58:50] [Server thread/INFO]: fda_ lost connection: Disconnected
-[18:58:50] [Server thread/INFO]: fda_ left the game
-[18:58:51] [User Authenticator #4/INFO]: UUID of player fda_ is e37b8bec-c3d0-350f-a192-6a4f0c1fa6d2
-[18:58:51] [TAB Processing Thread/INFO]: [TAB] [WARN] Player fda_'s group (none) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.
-[18:58:51] [Server thread/INFO]: fda_ joined the game
-[18:58:51] [Server thread/INFO]: fda_[/187.235.42.128:60828] logged in with entity id 11 at ([world]-9.227251050227494, -11.430952886876295, 19.775367240067904)
-[18:58:56] [Craft Scheduler Thread - 19 - AuthMe/INFO]: [AuthMe] fda_ logged in 187.235.42.128
-[18:59:11] [Server thread/INFO]: Gave 1 [{"text":"&b&lSelector","italic":false}] to fda_
-[19:00:41] [Server thread/ERROR]: Command exception: /ce reload
-org.bukkit.command.CommandException: Unhandled exception executing command 'ce' in plugin ConditionalEvents v4.75.1
-	at org.bukkit.command.PluginCommand.execute(PluginCommand.java:47) ~[purpur-api-1.21.11-R0.1-SNAPSHOT.jar:?]
-	at io.papermc.paper.command.brigadier.bukkit.BukkitCommandNode$BukkitBrigCommand.run(BukkitCommandNode.java:83) ~[purpur-1.21.11.jar:1.21.11-2562-a917106]
-	at com.mojang.brigadier.context.ContextChain.runExecutable(ContextChain.java:73) ~[brigadier-1.3.10.jar:?]
-	at net.minecraft.commands.execution.tasks.ExecuteCommand.execute(ExecuteCommand.java:30) ~[purpur-1.21.11.jar:1.21.11-2562-a917106]
-	at net.minecraft.commands.execution.tasks.ExecuteCommand.execute(ExecuteCommand.java:13) ~[purpur-1.21.11.jar:1.21.11-2562-a917106]
-	at net.minecraft.commands.execution.UnboundEntryAction.lambda$bind$0(UnboundEntryAction.java:8) ~[purpur-1.21.11.jar:1.21.11-2562-a917106]
-	at net.minecraft.commands.execution.CommandQueueEntry.execute(CommandQueueEntry.java:5) ~[purpur-1.21.11.jar:1.21.11-2562-a917106]
-	at net.minecraft.commands.execution.ExecutionContext.runCommandQueue(ExecutionContext.java:104) ~[purpur-1.21.11.jar:1.21.11-2562-a917106]
-	at net.minecraft.commands.Commands.executeCommandInContext(Commands.java:477) ~[purpur-1.21.11.jar:1.21.11-2562-a917106]
-	at net.minecraft.commands.Commands.performCommand(Commands.java:382) ~[purpur-1.21.11.jar:1.21.11-2562-a917106]
-	at net.minecraft.commands.Commands.performCommand(Commands.java:370) ~[purpur-1.21.11.jar:1.21.11-2562-a917106]
-	at net.minecraft.commands.Commands.performPrefixedCommand(Commands.java:361) ~[purpur-1.21.11.jar:1.21.11-2562-a917106]
-	at net.minecraft.server.dedicated.DedicatedServer.handleConsoleInputs(DedicatedServer.java:640) ~[purpur-1.21.11.jar:1.21.11-2562-a917106]
-	at net.minecraft.server.dedicated.DedicatedServer.tickConnection(DedicatedServer.java:596) ~[purpur-1.21.11.jar:1.21.11-2562-a917106]
-	at net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1870) ~[purpur-1.21.11.jar:1.21.11-2562-a917106]
-	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1647) ~[purpur-1.21.11.jar:1.21.11-2562-a917106]
-	at net.minecraft.server.dedicated.DedicatedServer.tickServer(DedicatedServer.java:473) ~[purpur-1.21.11.jar:1.21.11-2562-a917106]
-	at net.minecraft.server.MinecraftServer.processPacketsAndTick(MinecraftServer.java:1703) ~[purpur-1.21.11.jar:1.21.11-2562-a917106]
-	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1371) ~[purpur-1.21.11.jar:1.21.11-2562-a917106]
-	at net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:392) ~[purpur-1.21.11.jar:1.21.11-2562-a917106]
-	at java.base/java.lang.Thread.run(Thread.java:1474) ~[?:?]
-Caused by: java.lang.NullPointerException: Cannot invoke "String.isEmpty()" because "message" is null
-	at ConditionalEvents-4.75.1.jar//ce.ajneb97.managers.MessagesManager.sendMessage(MessagesManager.java:81) ~[?:?]
-	at ConditionalEvents-4.75.1.jar//ce.ajneb97.MainCommand.onCommand(MainCommand.java:51) ~[?:?]
-	at org.bukkit.command.PluginCommand.execute(PluginCommand.java:45) ~[purpur-api-1.21.11-R0.1-SNAPSHOT.jar:?]
-	... 20 more
-[19:00:41] [Server thread/INFO]: An unexpected error occurred trying to execute that command
-[19:01:26] [Server thread/ERROR]: Command exception: /ce reload
-org.bukkit.command.CommandException: Unhandled exception executing command 'ce' in plugin ConditionalEvents v4.75.1
-	at org.bukkit.command.PluginCommand.execute(PluginCommand.java:47) ~[purpur-api-1.21.11-R0.1-SNAPSHOT.jar:?]
-	at io.papermc.paper.command.brigadier.bukkit.BukkitCommandNode$BukkitBrigCommand.run(BukkitCommandNode.java:83) ~[purpur-1.21.11.jar:1.21.11-2562-a917106]
-	at com.mojang.brigadier.context.ContextChain.runExecutable(ContextChain.java:73) ~[brigadier-1.3.10.jar:?]
-	at net.minecraft.commands.execution.tasks.ExecuteCommand.execute(ExecuteCommand.java:30) ~[purpur-1.21.11.jar:1.21.11-2562-a917106]
-	at net.minecraft.commands.execution.tasks.ExecuteCommand.execute(ExecuteCommand.java:13) ~[purpur-1.21.11.jar:1.21.11-2562-a917106]
-	at net.minecraft.commands.execution.UnboundEntryAction.lambda$bind$0(UnboundEntryAction.java:8) ~[purpur-1.21.11.jar:1.21.11-2562-a917106]
-	at net.minecraft.commands.execution.CommandQueueEntry.execute(CommandQueueEntry.java:5) ~[purpur-1.21.11.jar:1.21.11-2562-a917106]
-	at net.minecraft.commands.execution.ExecutionContext.runCommandQueue(ExecutionContext.java:104) ~[purpur-1.21.11.jar:1.21.11-2562-a917106]
-	at net.minecraft.commands.Commands.executeCommandInContext(Commands.java:477) ~[purpur-1.21.11.jar:1.21.11-2562-a917106]
-	at net.minecraft.commands.Commands.performCommand(Commands.java:382) ~[purpur-1.21.11.jar:1.21.11-2562-a917106]
-	at net.minecraft.commands.Commands.performCommand(Commands.java:370) ~[purpur-1.21.11.jar:1.21.11-2562-a917106]
-	at net.minecraft.commands.Commands.performPrefixedCommand(Commands.java:361) ~[purpur-1.21.11.jar:1.21.11-2562-a917106]
-	at net.minecraft.server.dedicated.DedicatedServer.handleConsoleInputs(DedicatedServer.java:640) ~[purpur-1.21.11.jar:1.21.11-2562-a917106]
-	at net.minecraft.server.dedicated.DedicatedServer.tickConnection(DedicatedServer.java:596) ~[purpur-1.21.11.jar:1.21.11-2562-a917106]
-	at net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1870) ~[purpur-1.21.11.jar:1.21.11-2562-a917106]
-	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1647) ~[purpur-1.21.11.jar:1.21.11-2562-a917106]
-	at net.minecraft.server.dedicated.DedicatedServer.tickServer(DedicatedServer.java:473) ~[purpur-1.21.11.jar:1.21.11-2562-a917106]
-	at net.minecraft.server.MinecraftServer.processPacketsAndTick(MinecraftServer.java:1703) ~[purpur-1.21.11.jar:1.21.11-2562-a917106]
-	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1371) ~[purpur-1.21.11.jar:1.21.11-2562-a917106]
-	at net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:392) ~[purpur-1.21.11.jar:1.21.11-2562-a917106]
-	at java.base/java.lang.Thread.run(Thread.java:1474) ~[?:?]
-Caused by: java.lang.NullPointerException: Cannot invoke "String.isEmpty()" because "message" is null
-	at ConditionalEvents-4.75.1.jar//ce.ajneb97.managers.MessagesManager.sendMessage(MessagesManager.java:81) ~[?:?]
-	at ConditionalEvents-4.75.1.jar//ce.ajneb97.MainCommand.onCommand(MainCommand.java:51) ~[?:?]
-	at org.bukkit.command.PluginCommand.execute(PluginCommand.java:45) ~[purpur-api-1.21.11-R0.1-SNAPSHOT.jar:?]
-	... 20 more
-[19:01:26] [Server thread/INFO]: An unexpected error occurred trying to execute that command
-[19:01:27] [Server thread/INFO]: [ConditionalEvents] Config Reloaded.
-[19:01:30] [Server thread/INFO]: [ConditionalEvents] Config Reloaded.
-[19:01:30] [Server thread/INFO]: [ConditionalEvents] Config Reloaded.
-[19:01:36] [Server thread/INFO]: fda_ lost connection: Disconnected
-[19:01:37] [Server thread/INFO]: fda_ left the game
-[19:01:38] [User Authenticator #5/INFO]: UUID of player fda_ is e37b8bec-c3d0-350f-a192-6a4f0c1fa6d2
-[19:01:38] [Server thread/INFO]: fda_ joined the game
-[19:01:38] [TAB Processing Thread/INFO]: [TAB] [WARN] Player fda_'s group (none) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.
-[19:01:38] [Server thread/INFO]: fda_[/187.235.42.128:49288] logged in with entity id 13 at ([world]-17.5, -12.0, 28.5)
-[19:01:43] [Craft Scheduler Thread - 21 - AuthMe/INFO]: [AuthMe] fda_ logged in 187.235.42.128
-[19:01:44] [Server thread/INFO]: fda_ issued server command: /ce reload
-[19:01:58] [Server thread/INFO]: Gave 1 [{"text":"Selector de Servidores","italic":false}] to fda_
-[19:03:52] [Server thread/INFO]: [ConditionalEvents] Config Reloaded.
-[19:03:59] [Server thread/INFO]: fda_ lost connection: Disconnected
-[19:03:59] [Server thread/INFO]: fda_ left the game
-[19:04:00] [User Authenticator #6/INFO]: UUID of player fda_ is e37b8bec-c3d0-350f-a192-6a4f0c1fa6d2
-[19:04:00] [Server thread/INFO]: fda_ joined the game
-[19:04:00] [Server thread/INFO]: fda_[/187.235.42.128:56682] logged in with entity id 15 at ([world]-7.743049310941265, -10.820224463426719, 7.850361679886782)
-[19:04:00] [TAB Processing Thread/INFO]: [TAB] [WARN] Player fda_'s group (none) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.
-[19:04:04] [Craft Scheduler Thread - 25 - AuthMe/INFO]: [AuthMe] fda_ logged in 187.235.42.128
-[19:04:20] [Server thread/INFO]: Gave 1 [Compass] to fda_
-[19:06:20] [Server thread/INFO]: fda_ lost connection: Disconnected
-[19:06:20] [Server thread/INFO]: fda_ left the game
-[19:07:21] [Server thread/INFO]: Stopping the server
-[19:07:21] [Server thread/INFO]: Stopping server
-[19:07:21] [Server thread/INFO]: [SetSpawn] Disabling SetSpawn v5.5.2
-[19:07:21] [Server thread/INFO]: [SetSpawn] Disabled!
-[19:07:21] [Server thread/INFO]: [AuthMeVelocity] Disabling AuthMeVelocity v4.2.0
-[19:07:21] [Server thread/INFO]: [AuthMeVelocity] AuthMeVelocity disabled
-[19:07:21] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v7.4.0+7381-3decaf0
-[19:07:21] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
-[19:07:21] [Server thread/INFO]: [TAB] Disabling TAB v5.5.0
-[19:07:21] [Server thread/INFO]: [TAB] Disabled in 0ms
-[19:07:21] [Server thread/INFO]: [DeluxeMenus] Disabling DeluxeMenus v1.14.1-Release
-[19:07:21] [Server thread/INFO]: [ConditionalEvents] Disabling ConditionalEvents v4.75.1
-[19:07:21] [Server thread/INFO]: [ConditionalEvents] Has been disabled! Version: 4.75.1
-[19:07:21] [Server thread/INFO]: [AuthMe] Disabling AuthMe v5.7.0-SNAPSHOT-b2657
-[19:07:21] [Server thread/INFO]: [AuthMe] Waiting for 0 tasks to finish
-[19:07:21] [Server thread/INFO]: [AuthMe] AuthMe 5.7.0-SNAPSHOT-b2657 disabled!
-[19:07:21] [Server thread/INFO]: [PlaceholderAPI] Disabling PlaceholderAPI v2.12.2
-[19:07:21] [Server thread/INFO]: Saving players
-[19:07:21] [Server thread/INFO]: Saving worlds
-[19:07:21] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[19:07:21] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
-[19:07:21] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
-[19:07:21] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
-[19:07:21] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'world' in 0.07s
-[19:07:21] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world'
-[19:07:21] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world'
-[19:07:21] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[19:07:21] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
-[19:07:21] [Server thread/INFO]: Waiting for all RegionFile I/O tasks to complete...
-[19:07:21] [Server thread/INFO]: All RegionFile I/O tasks to complete
-[19:07:21] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of worker pool for up to 60s...
-[19:07:21] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of I/O pool for up to 60s...
+[16:52:13] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (12):
+ - AuthMe (5.7.0-SNAPSHOT-b2657), DeluxeMenus (1.14.1-Release), Essentials (2.22.0-dev+68-5abe8b6), EssentialsChat (2.22.0-dev+68-5abe8b6), EssentialsSpawn (2.22.0-dev+68-5abe8b6), Multiverse-Core (5.5.2), PlaceholderAPI (2.12.2), ProtocolLib (5.4.0), SetSpawn (5.5.2), SkinsRestorer (15.10.2), TAB (5.5.0), WorldEdit (7.4.0+7381-3decaf0)
+[16:52:23] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, profilesHost=https://api.mojang.com, name=PROD]
+[16:52:23] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Initialising converters for DataConverter...
+[16:52:24] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Finished initialising converters for DataConverter in 620.6ms
+[16:52:27] [ServerMain/INFO]: Loaded 1470 recipes
+[16:52:27] [ServerMain/INFO]: Loaded 1584 advancements
+[16:52:27] [Server thread/INFO]: Starting minecraft server version 1.21.11
+[16:52:27] [Server thread/INFO]: Loading properties
+[16:52:27] [Server thread/INFO]: This server is running Purpur version 1.21.11-2562-HEAD@a917106 (2026-02-18T04:02:52Z) (Implementing API version 1.21.11-R0.1-SNAPSHOT)
+[16:52:27] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+[16:52:28] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[16:52:28] [Server thread/INFO]: Using 4 threads for Netty based IO
+[16:52:29] [Server thread/INFO]: [MoonriseCommon] Paper is using 1 worker threads, 1 I/O threads
+[16:52:29] [Server thread/INFO]: Default game type: SURVIVAL
+[16:52:29] [Server thread/INFO]: Generating keypair
+[16:52:29] [Server thread/INFO]: Starting Minecraft server on 0.0.0.0:25566
+[16:52:29] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[16:52:29] [Server thread/INFO]: Paper: Using OpenSSL 3.x.x (Linux x86_64) cipher from Velocity.
+[16:52:30] [Server thread/INFO]: [SpigotLibraryLoader] [AuthMe] Loading 17 libraries... please wait
+[16:52:31] [Server thread/INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /home/barney/Desktop/v99/v99 - Network/lobby/libraries/ch/jalu/injector/1.0/injector-1.0.jar
+[16:52:31] [Server thread/INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /home/barney/Desktop/v99/v99 - Network/lobby/libraries/javax/inject/javax.inject/1/javax.inject-1.jar
+[16:52:31] [Server thread/INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /home/barney/Desktop/v99/v99 - Network/lobby/libraries/javax/annotation/javax.annotation-api/1.3.1/javax.annotation-api-1.3.1.jar
+[16:52:31] [Server thread/INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /home/barney/Desktop/v99/v99 - Network/lobby/libraries/net/ricecode/string-similarity/1.0.0/string-similarity-1.0.0.jar
+[16:52:31] [Server thread/INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /home/barney/Desktop/v99/v99 - Network/lobby/libraries/com/maxmind/geoip2/geoip2/4.2.0/geoip2-4.2.0.jar
+[16:52:31] [Server thread/INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /home/barney/Desktop/v99/v99 - Network/lobby/libraries/com/maxmind/db/maxmind-db/3.1.0/maxmind-db-3.1.0.jar
+[16:52:31] [Server thread/INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /home/barney/Desktop/v99/v99 - Network/lobby/libraries/com/fasterxml/jackson/core/jackson-databind/2.16.0/jackson-databind-2.16.0.jar
+[16:52:31] [Server thread/INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /home/barney/Desktop/v99/v99 - Network/lobby/libraries/com/fasterxml/jackson/core/jackson-core/2.16.0/jackson-core-2.16.0.jar
+[16:52:31] [Server thread/INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /home/barney/Desktop/v99/v99 - Network/lobby/libraries/com/fasterxml/jackson/core/jackson-annotations/2.16.0/jackson-annotations-2.16.0.jar
+[16:52:31] [Server thread/INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /home/barney/Desktop/v99/v99 - Network/lobby/libraries/javatar/javatar/2.5/javatar-2.5.jar
+[16:52:31] [Server thread/INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /home/barney/Desktop/v99/v99 - Network/lobby/libraries/org/apache/commons/commons-email/1.6.0/commons-email-1.6.0.jar
+[16:52:31] [Server thread/INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /home/barney/Desktop/v99/v99 - Network/lobby/libraries/com/sun/mail/jakarta.mail/1.6.7/jakarta.mail-1.6.7.jar
+[16:52:31] [Server thread/INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /home/barney/Desktop/v99/v99 - Network/lobby/libraries/com/sun/activation/jakarta.activation/1.2.1/jakarta.activation-1.2.1.jar
+[16:52:31] [Server thread/INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /home/barney/Desktop/v99/v99 - Network/lobby/libraries/com/zaxxer/HikariCP/5.1.0/HikariCP-5.1.0.jar
+[16:52:31] [Server thread/INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /home/barney/Desktop/v99/v99 - Network/lobby/libraries/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar
+[16:52:31] [Server thread/INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /home/barney/Desktop/v99/v99 - Network/lobby/libraries/org/slf4j/slf4j-simple/2.0.13/slf4j-simple-2.0.13.jar
+[16:52:31] [Server thread/INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /home/barney/Desktop/v99/v99 - Network/lobby/libraries/ch/jalu/datasourcecolumns/0.1.2/datasourcecolumns-0.1.2.jar
+[16:52:31] [Server thread/INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /home/barney/Desktop/v99/v99 - Network/lobby/libraries/com/mysql/mysql-connector-j/8.4.0/mysql-connector-j-8.4.0.jar
+[16:52:31] [Server thread/INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /home/barney/Desktop/v99/v99 - Network/lobby/libraries/com/google/protobuf/protobuf-java/3.25.1/protobuf-java-3.25.1.jar
+[16:52:31] [Server thread/INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /home/barney/Desktop/v99/v99 - Network/lobby/libraries/org/mariadb/jdbc/mariadb-java-client/3.4.0/mariadb-java-client-3.4.0.jar
+[16:52:31] [Server thread/INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /home/barney/Desktop/v99/v99 - Network/lobby/libraries/com/github/waffle/waffle-jna/3.3.0/waffle-jna-3.3.0.jar
+[16:52:31] [Server thread/INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /home/barney/Desktop/v99/v99 - Network/lobby/libraries/net/java/dev/jna/jna-platform/5.13.0/jna-platform-5.13.0.jar
+[16:52:31] [Server thread/INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /home/barney/Desktop/v99/v99 - Network/lobby/libraries/org/slf4j/jcl-over-slf4j/2.0.7/jcl-over-slf4j-2.0.7.jar
+[16:52:31] [Server thread/INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /home/barney/Desktop/v99/v99 - Network/lobby/libraries/com/github/ben-manes/caffeine/caffeine/2.9.3/caffeine-2.9.3.jar
+[16:52:31] [Server thread/INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /home/barney/Desktop/v99/v99 - Network/lobby/libraries/com/google/errorprone/error_prone_annotations/2.10.0/error_prone_annotations-2.10.0.jar
+[16:52:31] [Server thread/INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /home/barney/Desktop/v99/v99 - Network/lobby/libraries/org/postgresql/postgresql/42.7.3/postgresql-42.7.3.jar
+[16:52:31] [Server thread/INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /home/barney/Desktop/v99/v99 - Network/lobby/libraries/org/checkerframework/checker-qual/3.42.0/checker-qual-3.42.0.jar
+[16:52:31] [Server thread/INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /home/barney/Desktop/v99/v99 - Network/lobby/libraries/de/rtner/PBKDF2/1.1.4/PBKDF2-1.1.4.jar
+[16:52:31] [Server thread/INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /home/barney/Desktop/v99/v99 - Network/lobby/libraries/org/picketbox/picketbox/4.0.21.Final/picketbox-4.0.21.Final.jar
+[16:52:31] [Server thread/INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /home/barney/Desktop/v99/v99 - Network/lobby/libraries/de/mkammerer/argon2-jvm-nolibs/2.11/argon2-jvm-nolibs-2.11.jar
+[16:52:31] [Server thread/INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /home/barney/Desktop/v99/v99 - Network/lobby/libraries/net/java/dev/jna/jna/5.8.0/jna-5.8.0.jar
+[16:52:31] [Server thread/INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /home/barney/Desktop/v99/v99 - Network/lobby/libraries/at/favre/lib/bcrypt/0.10.2/bcrypt-0.10.2.jar
+[16:52:31] [Server thread/INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /home/barney/Desktop/v99/v99 - Network/lobby/libraries/at/favre/lib/bytes/1.5.0/bytes-1.5.0.jar
+[16:52:31] [Server thread/INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /home/barney/Desktop/v99/v99 - Network/lobby/libraries/com/warrenstrange/googleauth/1.5.0/googleauth-1.5.0.jar
+[16:52:31] [Server thread/INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /home/barney/Desktop/v99/v99 - Network/lobby/libraries/commons-codec/commons-codec/1.14/commons-codec-1.14.jar
+[16:52:31] [Server thread/INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /home/barney/Desktop/v99/v99 - Network/lobby/libraries/org/apache/httpcomponents/httpclient/4.5.12/httpclient-4.5.12.jar
+[16:52:31] [Server thread/INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /home/barney/Desktop/v99/v99 - Network/lobby/libraries/org/apache/httpcomponents/httpcore/4.4.13/httpcore-4.4.13.jar
+[16:52:31] [Server thread/INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /home/barney/Desktop/v99/v99 - Network/lobby/libraries/commons-logging/commons-logging/1.2/commons-logging-1.2.jar
+[16:52:31] [Server thread/INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /home/barney/Desktop/v99/v99 - Network/lobby/libraries/ch/jalu/configme/1.3.1/configme-1.3.1.jar
+[16:52:31] [Server thread/INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /home/barney/Desktop/v99/v99 - Network/lobby/libraries/org/yaml/snakeyaml/2.0/snakeyaml-2.0.jar
+[16:52:31] [Server thread/INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /home/barney/Desktop/v99/v99 - Network/lobby/libraries/org/bstats/bstats-bukkit/3.0.2/bstats-bukkit-3.0.2.jar
+[16:52:31] [Server thread/INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /home/barney/Desktop/v99/v99 - Network/lobby/libraries/org/bstats/bstats-base/3.0.2/bstats-base-3.0.2.jar
+[16:52:31] [Server thread/INFO]: [PlaceholderAPI] Loading server plugin PlaceholderAPI v2.12.2
+[16:52:35] [Server thread/INFO]: [Essentials] Loading server plugin Essentials v2.22.0-dev+68-5abe8b6
+[16:52:35] [Server thread/INFO]: [ProtocolLib] Loading server plugin ProtocolLib v5.4.0
+[16:52:36] [Server thread/WARN]: [ProtocolLib] Version (MC: 1.21.11) has not yet been tested! Proceed with caution.
+[16:52:36] [Server thread/INFO]: [CoreLogging] Loading server plugin Multiverse-Core v5.5.2
+[16:52:36] [Server thread/INFO]: [EssentialsSpawn] Loading server plugin EssentialsSpawn v2.22.0-dev+68-5abe8b6
+[16:52:36] [Server thread/INFO]: [AuthMe] Loading server plugin AuthMe v5.7.0-SNAPSHOT-b2657
+[16:52:36] [Server thread/INFO]: [SkinsRestorer] Loading server plugin SkinsRestorer v15.10.2
+[16:52:36] [Server thread/INFO]: [EssentialsChat] Loading server plugin EssentialsChat v2.22.0-dev+68-5abe8b6
+[16:52:36] [Server thread/INFO]: [DeluxeMenus] Loading server plugin DeluxeMenus v1.14.1-Release
+[16:52:36] [Server thread/WARN]: [DeluxeMenus] Could not setup a NMS hook for your server version! The following Item options will not work: nbt_int, nbt_ints, nbt_string and nbt_strings.
+[16:52:36] [Server thread/INFO]: [TAB] Loading server plugin TAB v5.5.0
+[16:52:36] [Server thread/INFO]: [WorldEdit] Loading server plugin WorldEdit v7.4.0+7381-3decaf0
+[16:52:37] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@7e60055e]
+[16:52:37] [Server thread/INFO]: [AuthMeVelocity] Loading server plugin AuthMeVelocity v4.2.0
+[16:52:37] [Server thread/INFO]: [SetSpawn] Loading server plugin SetSpawn v5.5.2
+[16:52:37] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[16:52:37] [Server thread/INFO]: [ProtocolLib] Enabling ProtocolLib v5.4.0
+[16:52:37] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v15.10.2
+[16:52:39] [Server thread/INFO]: [SkinsRestorer] -------------------------/Warning\-------------------------
+[16:52:39] [Server thread/INFO]: [SkinsRestorer] This plugin is running in PROXY mode!
+[16:52:39] [Server thread/INFO]: [SkinsRestorer] You have to put the same config.yml on all servers and on the proxy.
+[16:52:39] [Server thread/INFO]: [SkinsRestorer] (<proxy>/plugins/SkinsRestorer/)
+[16:52:39] [Server thread/INFO]: [SkinsRestorer] -------------------------\Warning/-------------------------
+[16:52:40] [Server thread/INFO]: [SkinsRestorer] Running on Minecraft 1.21.11.
+[16:52:40] [Server thread/WARN]: [SkinsRestorer] Proxy mode API is enabled (server.proxyMode.api), but database storage is not set up. Configure MySQL or PostgreSQL on all servers and on the proxy and use the same settings.
+[16:52:40] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: skinsrestorer [15.10.2]
+[16:52:40] [Server thread/INFO]: [SkinsRestorer] PlaceholderAPI expansion registered!
+[16:52:40] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.4.0+7381-3decaf0
+[16:52:41] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[16:52:41] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
+[16:52:42] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.v1_21_11.PaperweightAdapter as the Bukkit adapter
+[16:52:42] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[16:52:42] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[16:52:42] [Server thread/WARN]: Whilst this makes it possible to use Velocity, unless access to your server is properly restricted, it also opens up the ability for hackers to connect with any username they choose.
+[16:52:42] [Server thread/WARN]: Please see https://docs.papermc.io/velocity/security for further information.
+[16:52:42] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[16:52:42] [Server thread/INFO]: Preparing level "world"
+[16:52:42] [Server thread/INFO]: [ca.spottedleaf.moonrise.common.util.MoonriseConstants] NUMA enable flag is not set; however there is NUMA interaction support for this OS.
+[16:52:42] [Server thread/INFO]: [ca.spottedleaf.moonrise.common.util.MoonriseConstants] Detected 1 NUMA nodes.
+[16:52:43] [Server thread/INFO]: Loading 0 persistent chunks for world 'minecraft:overworld'...
+[16:52:43] [Server thread/INFO]: Preparing spawn area: 100%
+[16:52:43] [Server thread/INFO]: Prepared spawn area in 2 ms
+[16:52:43] [Server thread/INFO]: Done preparing level "world" (1.205s)
+[16:52:43] [Server thread/INFO]: [PlaceholderAPI] Enabling PlaceholderAPI v2.12.2
+[16:52:43] [Folia Async Scheduler Thread #0/INFO]: [SkinsRestorer] ----------------------------------------------
+[16:52:43] [Folia Async Scheduler Thread #0/INFO]: [SkinsRestorer]     +==================+
+[16:52:43] [Folia Async Scheduler Thread #0/INFO]: [SkinsRestorer]     |   SkinsRestorer  |
+[16:52:43] [Folia Async Scheduler Thread #0/INFO]: [SkinsRestorer]     |------------------|
+[16:52:43] [Folia Async Scheduler Thread #0/INFO]: [SkinsRestorer]     |    Proxy Mode    |
+[16:52:43] [Folia Async Scheduler Thread #0/INFO]: [SkinsRestorer]     +==================+
+[16:52:43] [Folia Async Scheduler Thread #0/INFO]: [SkinsRestorer] ----------------------------------------------
+[16:52:43] [Folia Async Scheduler Thread #0/INFO]: [SkinsRestorer]     Version: 15.10.2
+[16:52:43] [Folia Async Scheduler Thread #0/INFO]: [SkinsRestorer]     Commit: 5fb8cc7
+[16:52:43] [Folia Async Scheduler Thread #0/INFO]: [SkinsRestorer]     A new version (15.11.0) is available! Downloading update...
+[16:52:43] [Folia Async Scheduler Thread #0/INFO]: [SkinsRestorer] ----------------------------------------------
+[16:52:43] [Folia Async Scheduler Thread #0/INFO]: [SkinsRestorer] Do you have issues? Read our troubleshooting guide: https://skinsrestorer.net/docs/troubleshooting
+[16:52:43] [Folia Async Scheduler Thread #0/INFO]: [SkinsRestorer] Want to support SkinsRestorer? Consider donating: https://skinsrestorer.net/donate
+[16:52:43] [Folia Async Scheduler Thread #0/INFO]: [SkinsRestorer] [GitHubUpdate] Downloading update...
+[16:52:43] [Server thread/INFO]: [PlaceholderAPI] Fetching available expansion information...
+[16:52:43] [Server thread/INFO]: [Essentials] Enabling Essentials v2.22.0-dev+68-5abe8b6
+[16:52:44] [Server thread/INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
+[16:52:44] [Server thread/INFO]: [Essentials] No kits found to migrate.
+[16:52:44] [Server thread/INFO]: [Essentials] Selected 1.8.3+ Spawner Item Provider as the provider for SpawnerItemProvider
+[16:52:44] [Server thread/INFO]: [Essentials] Selected 1.11+ Item Unbreakable Provider as the provider for ItemUnbreakableProvider
+[16:52:44] [Server thread/INFO]: [Essentials] Selected 1.13+ Spawn Egg Provider as the provider for SpawnEggProvider
+[16:52:44] [Server thread/INFO]: [Essentials] Selected Legacy Biome Name Provider as the provider for BiomeNameProvider
+[16:52:44] [Server thread/INFO]: [Essentials] Selected 1.20.4+ Damage Event Provider as the provider for DamageEventProvider
+[16:52:44] [Server thread/INFO]: [Essentials] Selected Paper Biome Key Provider as the provider for BiomeKeyProvider
+[16:52:44] [Server thread/INFO]: [Essentials] Selected 1.21+ InventoryView Interface ABI Provider as the provider for InventoryViewProvider
+[16:52:44] [Server thread/INFO]: [Essentials] Selected Paper Known Commands Provider as the provider for KnownCommandsProvider
+[16:52:44] [Server thread/INFO]: [Essentials] Selected 1.12+ Spawner Block Provider as the provider for SpawnerBlockProvider
+[16:52:44] [Server thread/INFO]: [Essentials] Selected 1.12.2+ Player Locale Provider as the provider for PlayerLocaleProvider
+[16:52:44] [Server thread/INFO]: [Essentials] Selected 1.20.5+ Banner Data Provider as the provider for BannerDataProvider
+[16:52:44] [Server thread/INFO]: [Essentials] Selected Paper Server State Provider as the provider for ServerStateProvider
+[16:52:44] [Server thread/INFO]: [Essentials] Selected 1.14+ Sign Data Provider as the provider for SignDataProvider
+[16:52:44] [Server thread/INFO]: [Essentials] Selected Reflection Online Mode Provider as the provider for OnlineModeProvider
+[16:52:44] [Server thread/INFO]: [Essentials] Selected Paper Material Tag Provider as the provider for MaterialTagProvider
+[16:52:44] [Server thread/INFO]: [Essentials] Selected 1.14.4+ Persistent Data Container Provider as the provider for PersistentDataProvider
+[16:52:44] [Server thread/INFO]: [Essentials] Selected 1.20.6+ Potion Meta Provider as the provider for PotionMetaProvider
+[16:52:44] [Server thread/INFO]: [Essentials] Selected 1.17.1+ World Info Provider as the provider for WorldInfoProvider
+[16:52:44] [Server thread/INFO]: [Essentials] Selected Reflection Formatted Command Alias Provider as the provider for FormattedCommandAliasProvider
+[16:52:44] [Server thread/INFO]: [Essentials] Selected Paper Container Provider as the provider for ContainerProvider
+[16:52:44] [Server thread/INFO]: [Essentials] Selected Paper 1.13+ Tile Entity Provider as the provider for TileEntityProvider
+[16:52:44] [Server thread/INFO]: [Essentials] Selected Paper Tick Count Provider as the provider for TickCountProvider
+[16:52:44] [Server thread/INFO]: [Essentials] Selected 1.21.4+ Sync Commands Provider as the provider for SyncCommandsProvider
+[16:52:44] [Server thread/INFO]: [Essentials] Selected Paper Serialization Provider as the provider for SerializationProvider
+[16:52:45] [Server thread/INFO]: [Essentials] Loaded 46309 items from items.json.
+[16:52:45] [Server thread/INFO]: [Essentials] Using locale es_MX
+[16:52:45] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
+[16:52:45] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
+[16:52:45] [Server thread/INFO]: [Essentials] Using superperms-based permissions.
+[16:52:45] [Server thread/INFO]: [Multiverse-Core] Enabling Multiverse-Core v5.5.2
+[16:52:47] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: multiverse-core [5.5.2]
+[16:52:47] [Server thread/INFO]: [Multiverse-Core] API service loaded!
+[16:52:47] [Server thread/INFO]: [Multiverse-Core] Version 5.5.2 (API v5.5) Enabled - By dumptruckman, Rigby, fernferret, lithium3141, main--, benwoo1110 and Zax71
+[16:52:47] [Server thread/INFO]: [Multiverse-Core] Loving Multiverse-Core? Please consider supporting the project with a small donation: https://github.com/sponsors/Multiverse
+[16:52:47] [Server thread/INFO]: [EssentialsSpawn] Enabling EssentialsSpawn v2.22.0-dev+68-5abe8b6
+[16:52:47] [Server thread/INFO]: [EssentialsSpawn] Starting Metrics. Opt-out using the global bStats config.
+[16:52:47] [Server thread/INFO]: [AuthMe] Enabling AuthMe v5.7.0-SNAPSHOT-b2657
+[16:52:48] [Server thread/INFO]: [AuthMe] SQLite Setup finished
+[16:52:48] [Server thread/INFO]: [AuthMe] No supported permissions system found! Permissions are disabled!
+[16:52:48] [Server thread/INFO]: [AuthMe] Hooked successfully into Essentials
+[16:52:48] [Server thread/WARN]: [AuthMe] "AuthMe v5.7.0-SNAPSHOT-b2657" has registered a listener for org.spigotmc.event.player.PlayerSpawnLocationEvent on method "public void fr.xephi.authme.listener.PlayerListener19Spigot.onPlayerSpawn(org.spigotmc.event.player.PlayerSpawnLocationEvent)", but the event is Deprecated. "Listening to this event causes the player to be created early. Using the player from this event will result in undefined behavior. Prefer AsyncPlayerSpawnLocationEvent."; please notify the authors [sgdc3, games647, Hex3l, krusic22].
+[16:52:48] [Server thread/INFO]: [AuthMe] AuthMe 5.7.0-SNAPSHOT build n.2657 successfully enabled!
+[16:52:48] [Server thread/INFO]: [EssentialsChat] Enabling EssentialsChat v2.22.0-dev+68-5abe8b6
+[16:52:48] [Server thread/INFO]: [EssentialsChat] Starting Metrics. Opt-out using the global bStats config.
+[16:52:48] [Server thread/INFO]: [DeluxeMenus] Enabling DeluxeMenus v1.14.1-Release
+[16:52:48] [Server thread/INFO]: [DeluxeMenus] Successfully hooked into PlaceholderAPI!
+[16:52:49] [Server thread/INFO]: [DeluxeMenus] 1 GUI menus loaded!
+[16:52:49] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: deluxemenus [1.14.1-Release]
+[16:52:49] [Server thread/INFO]: [DeluxeMenus] You are running the latest version of DeluxeMenus!
+[16:52:49] [Server thread/INFO]: [TAB] Enabling TAB v5.5.0
+[16:52:49] [Server thread/INFO]: [TAB] Enabled in 549ms
+[16:52:49] [Server thread/INFO]: [AuthMeVelocity] Enabling AuthMeVelocity v4.2.0
+[16:52:50] [Server thread/INFO]: [AuthMeVelocity] AuthMeVelocity enabled
+[16:52:50] [Server thread/INFO]: [SetSpawn] Enabling SetSpawn v5.5.2
+[16:52:50] [Server thread/INFO]: [SetSpawn] Enabled!
+[16:52:51] [Server thread/INFO]: [spark] Starting background profiler...
+[16:52:51] [Server thread/INFO]: [PlaceholderAPI] Placeholder expansion registration initializing...
+[16:52:51] [Server thread/INFO]: Running delayed init tasks
+[16:52:51] [Craft Scheduler Thread - 3 - Essentials/INFO]: [Essentials] Obteniendo información de versión...
+[16:52:51] [Craft Scheduler Thread - 1 - AuthMe/INFO]: [AuthMe] Downloading GEO IP database, because the old database is older than 30 days or doesn't exist
+[16:52:51] [Craft Scheduler Thread - 1 - AuthMe/WARN]: [AuthMe] No MaxMind credentials found in the configuration file! GeoIp protections will be disabled.
+[16:52:51] [Craft Scheduler Thread - 1 - AuthMe/INFO]: [AuthMe] There is no newer GEO IP database uploaded to MaxMind. Using the old one for now.
+[16:52:51] [Craft Scheduler Thread - 1 - AuthMe/WARN]: [AuthMe] Could not download GeoLiteAPI database [FileNotFoundException]: plugins/AuthMe/GeoLite2-Country.mmdb (No existe el fichero o el directorio)
+[16:52:51] [Server thread/INFO]: Done (43.414s)! For help, type "help"
+[16:52:51] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: bungee [2.3]
+[16:52:51] [Server thread/INFO]: 1 placeholder hook(s) registered!
+[16:52:52] [Craft Scheduler Thread - 3 - Essentials/WARN]: [Essentials] ¡Estás a 4 compilación(es) de desactualización de EssentialsX!
+[16:52:52] [Craft Scheduler Thread - 3 - Essentials/WARN]: [Essentials] Descárgala aquí: https://essentialsx.net/downloads.html
+[16:54:31] [Folia Async Scheduler Thread #0/INFO]: [SkinsRestorer] [GitHubUpdate] Downloaded update in 108140ms
+[16:54:31] [Folia Async Scheduler Thread #0/INFO]: [SkinsRestorer] [GitHubUpdate] Update saved as SkinsRestorer.jar
+[16:54:31] [Folia Async Scheduler Thread #0/INFO]: [SkinsRestorer] [GitHubUpdate] The update will be loaded on the next server restart

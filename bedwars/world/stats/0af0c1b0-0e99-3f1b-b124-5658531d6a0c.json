@@ -1,0 +1,46 @@
+{
+  "stats": {
+    "minecraft:picked_up": {
+      "minecraft:smooth_stone_slab": 1,
+      "minecraft:gold_ingot": 167,
+      "minecraft:diamond": 14,
+      "minecraft:emerald": 2,
+      "minecraft:cyan_wool": 5,
+      "minecraft:iron_ingot": 725
+    },
+    "minecraft:custom": {
+      "minecraft:time_since_rest": 11838,
+      "minecraft:walk_one_cm": 69047,
+      "minecraft:leave_game": 27,
+      "minecraft:damage_taken": 1778,
+      "minecraft:damage_dealt": 1369,
+      "minecraft:play_time": 288679,
+      "minecraft:jump": 754,
+      "minecraft:time_since_death": 11837,
+      "minecraft:sprint_one_cm": 161381,
+      "minecraft:fall_one_cm": 8444,
+      "minecraft:total_world_time": 288679,
+      "minecraft:fly_one_cm": 351166,
+      "minecraft:crouch_one_cm": 6446,
+      "minecraft:sneak_time": 2036,
+      "minecraft:climb_one_cm": 936,
+      "minecraft:deaths": 13,
+      "minecraft:player_kills": 5
+    },
+    "minecraft:mined": {
+      "minecraft:cyan_wool": 5
+    },
+    "minecraft:killed_by": {
+      "minecraft:player": 4
+    },
+    "minecraft:used": {
+      "minecraft:cyan_wool": 19,
+      "minecraft:smooth_stone": 1,
+      "minecraft:wooden_sword": 40,
+      "minecraft:iron_block": 1,
+      "minecraft:smooth_stone_slab": 8,
+      "minecraft:white_wool": 71
+    }
+  },
+  "DataVersion": 4671
+}

@@ -1,5 +1,24 @@
 {
   "stats": {
+    "minecraft:picked_up": {
+      "minecraft:rose_bush": 7,
+      "minecraft:peony": 6
+    },
+    "minecraft:custom": {
+      "minecraft:time_since_rest": 81259,
+      "minecraft:walk_one_cm": 27023,
+      "minecraft:leave_game": 19,
+      "minecraft:play_time": 81259,
+      "minecraft:damage_dealt": 148,
+      "minecraft:jump": 417,
+      "minecraft:time_since_death": 81259,
+      "minecraft:sprint_one_cm": 67899,
+      "minecraft:total_world_time": 375106,
+      "minecraft:fly_one_cm": 192742,
+      "minecraft:walk_on_water_one_cm": 49,
+      "minecraft:crouch_one_cm": 1848,
+      "minecraft:sneak_time": 1136
+    },
     "minecraft:used": {
       "minecraft:brick_stairs": 5,
       "minecraft:stone_brick_stairs": 25,
@@ -9,25 +28,6 @@
       "minecraft:dark_oak_fence": 40,
       "minecraft:orange_terracotta": 3,
       "minecraft:terracotta": 7
-    },
-    "minecraft:custom": {
-      "minecraft:time_since_rest": 80757,
-      "minecraft:walk_one_cm": 26907,
-      "minecraft:leave_game": 17,
-      "minecraft:play_time": 80757,
-      "minecraft:damage_dealt": 148,
-      "minecraft:jump": 414,
-      "minecraft:time_since_death": 80757,
-      "minecraft:sprint_one_cm": 66115,
-      "minecraft:total_world_time": 374604,
-      "minecraft:fly_one_cm": 190323,
-      "minecraft:walk_on_water_one_cm": 49,
-      "minecraft:crouch_one_cm": 1848,
-      "minecraft:sneak_time": 1136
-    },
-    "minecraft:picked_up": {
-      "minecraft:rose_bush": 7,
-      "minecraft:peony": 6
     }
   },
   "DataVersion": 4671

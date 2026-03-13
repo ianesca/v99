@@ -930,3 +930,492 @@ expected <block end>, but found '<block mapping start>'
 [03-03 19:01:43]: [FINE] fda_ logged in 187.235.42.128
 [03-03 19:04:04]: [FINE] fda_ logged in 187.235.42.128
 [03-03 19:07:21]: [INFO] AuthMe 5.7.0-SNAPSHOT-b2657 disabled!
+[03-04 10:27:49]: [INFO] SQLite Setup finished
+[03-04 10:27:50]: [INFO] No supported permissions system found! Permissions are disabled!
+[03-04 10:27:53]: [WARN] WARNING! The protectInventory feature requires ProtocolLib! Disabling it...
+[03-04 10:27:54]: [INFO] AuthMe 5.7.0-SNAPSHOT build n.2657 successfully enabled!
+[03-04 10:28:05]: [INFO] Downloading GEO IP database, because the old database is older than 30 days or doesn't exist
+[03-04 10:28:05]: [WARN] No MaxMind credentials found in the configuration file! GeoIp protections will be disabled.
+[03-04 10:28:05]: [INFO] There is no newer GEO IP database uploaded to MaxMind. Using the old one for now.
+[03-04 10:28:05]: [WARN] Could not download GeoLiteAPI database [FileNotFoundException]: plugins/AuthMe/GeoLite2-Country.mmdb (No existe el fichero o el directorio)
+[03-04 10:28:05]: java.io.FileNotFoundException: plugins/AuthMe/GeoLite2-Country.mmdb (No existe el fichero o el directorio)
+	at java.base/java.io.RandomAccessFile.open0(Native Method)
+	at java.base/java.io.RandomAccessFile.open(RandomAccessFile.java:338)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:257)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:211)
+	at com.maxmind.db.BufferHolder.<init>(BufferHolder.java:19)
+	at com.maxmind.db.Reader.<init>(Reader.java:119)
+	at com.maxmind.geoip2.DatabaseReader.<init>(DatabaseReader.java:104)
+	at com.maxmind.geoip2.DatabaseReader$Builder.build(DatabaseReader.java:233)
+	at authme-5.7.0-SNAPSHOT.jar//fr.xephi.authme.service.GeoIpService.startReading(GeoIpService.java:183)
+	at authme-5.7.0-SNAPSHOT.jar//fr.xephi.authme.service.GeoIpService.updateDatabase(GeoIpService.java:150)
+	at org.bukkit.craftbukkit.scheduler.CraftTask.run(CraftTask.java:78)
+	at org.bukkit.craftbukkit.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:57)
+	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)
+	at java.base/java.lang.Thread.run(Thread.java:1474)
+
+[03-04 10:32:59]: [FINE] fda_ logged in 187.235.42.128
+[03-04 10:39:28]: [FINE] fda_ logged in 187.235.42.128
+[03-04 11:08:51]: [FINE] fda_ logged in 187.235.42.128
+[03-04 11:25:25]: [FINE] fda_ logged in 187.235.42.128
+[03-04 11:39:11]: [INFO] AuthMe 5.7.0-SNAPSHOT-b2657 disabled!
+[03-04 11:39:46]: [INFO] SQLite Setup finished
+[03-04 11:39:46]: [INFO] No supported permissions system found! Permissions are disabled!
+[03-04 11:39:46]: [WARN] WARNING! The protectInventory feature requires ProtocolLib! Disabling it...
+[03-04 11:39:47]: [INFO] AuthMe 5.7.0-SNAPSHOT build n.2657 successfully enabled!
+[03-04 11:39:49]: [INFO] Downloading GEO IP database, because the old database is older than 30 days or doesn't exist
+[03-04 11:39:49]: [WARN] No MaxMind credentials found in the configuration file! GeoIp protections will be disabled.
+[03-04 11:39:49]: [INFO] There is no newer GEO IP database uploaded to MaxMind. Using the old one for now.
+[03-04 11:39:49]: [WARN] Could not download GeoLiteAPI database [FileNotFoundException]: plugins/AuthMe/GeoLite2-Country.mmdb (No existe el fichero o el directorio)
+[03-04 11:39:49]: java.io.FileNotFoundException: plugins/AuthMe/GeoLite2-Country.mmdb (No existe el fichero o el directorio)
+	at java.base/java.io.RandomAccessFile.open0(Native Method)
+	at java.base/java.io.RandomAccessFile.open(RandomAccessFile.java:338)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:257)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:211)
+	at com.maxmind.db.BufferHolder.<init>(BufferHolder.java:19)
+	at com.maxmind.db.Reader.<init>(Reader.java:119)
+	at com.maxmind.geoip2.DatabaseReader.<init>(DatabaseReader.java:104)
+	at com.maxmind.geoip2.DatabaseReader$Builder.build(DatabaseReader.java:233)
+	at authme-5.7.0-SNAPSHOT.jar//fr.xephi.authme.service.GeoIpService.startReading(GeoIpService.java:183)
+	at authme-5.7.0-SNAPSHOT.jar//fr.xephi.authme.service.GeoIpService.updateDatabase(GeoIpService.java:150)
+	at org.bukkit.craftbukkit.scheduler.CraftTask.run(CraftTask.java:78)
+	at org.bukkit.craftbukkit.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:57)
+	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)
+	at java.base/java.lang.Thread.run(Thread.java:1474)
+
+[03-04 11:40:05]: [FINE] juannnnnn registered 187.235.42.128
+[03-04 11:40:05]: [FINE] The user juannnnnn has 2 accounts:
+[03-04 11:40:05]: [FINE] §7fda_, §ajuannnnnn§7.
+[03-04 11:40:05]: [FINE] juannnnnn logged in 187.235.42.128
+[03-04 12:01:01]: [FINE] The user fda_ has 2 accounts:
+[03-04 12:01:01]: [FINE] §7§afda_§7, juannnnnn.
+[03-04 12:01:01]: [FINE] fda_ logged in 187.235.42.128
+[03-05 15:14:21]: [INFO] SQLite Setup finished
+[03-05 15:14:21]: [INFO] No supported permissions system found! Permissions are disabled!
+[03-05 15:14:22]: [WARN] WARNING! The protectInventory feature requires ProtocolLib! Disabling it...
+[03-05 15:14:22]: [INFO] AuthMe 5.7.0-SNAPSHOT build n.2657 successfully enabled!
+[03-05 15:14:26]: [INFO] Downloading GEO IP database, because the old database is older than 30 days or doesn't exist
+[03-05 15:14:26]: [WARN] No MaxMind credentials found in the configuration file! GeoIp protections will be disabled.
+[03-05 15:14:26]: [INFO] There is no newer GEO IP database uploaded to MaxMind. Using the old one for now.
+[03-05 15:14:26]: [WARN] Could not download GeoLiteAPI database [FileNotFoundException]: plugins/AuthMe/GeoLite2-Country.mmdb (No existe el fichero o el directorio)
+[03-05 15:14:26]: java.io.FileNotFoundException: plugins/AuthMe/GeoLite2-Country.mmdb (No existe el fichero o el directorio)
+	at java.base/java.io.RandomAccessFile.open0(Native Method)
+	at java.base/java.io.RandomAccessFile.open(RandomAccessFile.java:338)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:257)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:211)
+	at com.maxmind.db.BufferHolder.<init>(BufferHolder.java:19)
+	at com.maxmind.db.Reader.<init>(Reader.java:119)
+	at com.maxmind.geoip2.DatabaseReader.<init>(DatabaseReader.java:104)
+	at com.maxmind.geoip2.DatabaseReader$Builder.build(DatabaseReader.java:233)
+	at authme-5.7.0-SNAPSHOT.jar//fr.xephi.authme.service.GeoIpService.startReading(GeoIpService.java:183)
+	at authme-5.7.0-SNAPSHOT.jar//fr.xephi.authme.service.GeoIpService.updateDatabase(GeoIpService.java:150)
+	at org.bukkit.craftbukkit.scheduler.CraftTask.run(CraftTask.java:78)
+	at org.bukkit.craftbukkit.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:57)
+	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)
+	at java.base/java.lang.Thread.run(Thread.java:1474)
+
+[03-05 15:16:47]: [INFO] AuthMe 5.7.0-SNAPSHOT-b2657 disabled!
+[03-05 15:17:47]: [INFO] SQLite Setup finished
+[03-05 15:17:48]: [INFO] No supported permissions system found! Permissions are disabled!
+[03-05 15:17:48]: [WARN] WARNING! The protectInventory feature requires ProtocolLib! Disabling it...
+[03-05 15:17:49]: [INFO] AuthMe 5.7.0-SNAPSHOT build n.2657 successfully enabled!
+[03-05 15:17:55]: [INFO] Downloading GEO IP database, because the old database is older than 30 days or doesn't exist
+[03-05 15:17:55]: [WARN] No MaxMind credentials found in the configuration file! GeoIp protections will be disabled.
+[03-05 15:17:55]: [INFO] There is no newer GEO IP database uploaded to MaxMind. Using the old one for now.
+[03-05 15:17:55]: [WARN] Could not download GeoLiteAPI database [FileNotFoundException]: plugins/AuthMe/GeoLite2-Country.mmdb (No existe el fichero o el directorio)
+[03-05 15:17:55]: java.io.FileNotFoundException: plugins/AuthMe/GeoLite2-Country.mmdb (No existe el fichero o el directorio)
+	at java.base/java.io.RandomAccessFile.open0(Native Method)
+	at java.base/java.io.RandomAccessFile.open(RandomAccessFile.java:338)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:257)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:211)
+	at com.maxmind.db.BufferHolder.<init>(BufferHolder.java:19)
+	at com.maxmind.db.Reader.<init>(Reader.java:119)
+	at com.maxmind.geoip2.DatabaseReader.<init>(DatabaseReader.java:104)
+	at com.maxmind.geoip2.DatabaseReader$Builder.build(DatabaseReader.java:233)
+	at authme-5.7.0-SNAPSHOT.jar//fr.xephi.authme.service.GeoIpService.startReading(GeoIpService.java:183)
+	at authme-5.7.0-SNAPSHOT.jar//fr.xephi.authme.service.GeoIpService.updateDatabase(GeoIpService.java:150)
+	at org.bukkit.craftbukkit.scheduler.CraftTask.run(CraftTask.java:78)
+	at org.bukkit.craftbukkit.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:57)
+	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)
+	at java.base/java.lang.Thread.run(Thread.java:1474)
+
+[03-05 15:26:32]: [FINE] The user juannnnnn has 2 accounts:
+[03-05 15:26:32]: [FINE] §7§afda_§7, §ajuannnnnn§7.
+[03-05 15:26:32]: [FINE] juannnnnn logged in 187.235.42.128
+[03-05 15:26:36]: [FINE] The user fda_ has 2 accounts:
+[03-05 15:26:36]: [FINE] §7§afda_§7, §ajuannnnnn§7.
+[03-05 15:26:36]: [FINE] fda_ logged in 187.235.42.128
+[03-05 15:32:27]: [FINE] The user fda_ has 2 accounts:
+[03-05 15:32:27]: [FINE] §7§afda_§7, §ajuannnnnn§7.
+[03-05 15:32:27]: [FINE] fda_ logged in 187.235.42.128
+[03-05 15:32:27]: [FINE] The user juannnnnn has 2 accounts:
+[03-05 15:32:27]: [FINE] §7§afda_§7, §ajuannnnnn§7.
+[03-05 15:32:27]: [FINE] juannnnnn logged in 187.235.42.128
+[03-05 15:41:05]: [FINE] The user fda_ has 2 accounts:
+[03-05 15:41:05]: [FINE] §7§afda_§7, §ajuannnnnn§7.
+[03-05 15:41:05]: [FINE] fda_ logged in 187.235.42.128
+[03-05 16:00:44]: [FINE] The user fda_ has 2 accounts:
+[03-05 16:00:44]: [FINE] §7§afda_§7, §ajuannnnnn§7.
+[03-05 16:00:44]: [FINE] fda_ logged in 187.235.42.128
+[03-05 16:00:44]: [FINE] The user juannnnnn has 2 accounts:
+[03-05 16:00:44]: [FINE] §7§afda_§7, §ajuannnnnn§7.
+[03-05 16:00:44]: [FINE] juannnnnn logged in 187.235.42.128
+[03-05 16:28:14]: [FINE] fda_ logged in 192.168.137.1
+[03-05 19:05:58]: [FINE] juannnnnn logged in 187.235.42.128
+[03-05 19:18:56]: [FINE] juannnnnn logged in 187.235.42.128
+[03-05 19:25:58]: [FINE] juannnnnn logged in 187.235.42.128
+[03-05 19:25:59]: [FINE] fda_ logged in 192.168.137.1
+[03-05 19:32:31]: [FINE] juannnnnn logged in 187.235.42.128
+[03-05 19:34:15]: [FINE] The user fda_ has 2 accounts:
+[03-05 19:34:15]: [FINE] §7§afda_§7, juannnnnn.
+[03-05 19:34:15]: [FINE] fda_ logged in 187.235.42.128
+[03-05 20:07:09]: [FINE] juannnnnn used the wrong password
+[03-05 20:07:18]: [FINE] The user juannnnnn has 2 accounts:
+[03-05 20:07:18]: [FINE] §7fda_, §ajuannnnnn§7.
+[03-05 20:07:18]: [FINE] juannnnnn logged in 187.235.42.128
+[03-05 20:15:39]: [INFO] AuthMe 5.7.0-SNAPSHOT-b2657 disabled!
+[03-06 03:59:51]: [INFO] SQLite Setup finished
+[03-06 03:59:51]: [INFO] No supported permissions system found! Permissions are disabled!
+[03-06 03:59:52]: [WARN] WARNING! The protectInventory feature requires ProtocolLib! Disabling it...
+[03-06 03:59:52]: [INFO] AuthMe 5.7.0-SNAPSHOT build n.2657 successfully enabled!
+[03-06 03:59:58]: [INFO] Downloading GEO IP database, because the old database is older than 30 days or doesn't exist
+[03-06 03:59:58]: [WARN] No MaxMind credentials found in the configuration file! GeoIp protections will be disabled.
+[03-06 03:59:58]: [INFO] There is no newer GEO IP database uploaded to MaxMind. Using the old one for now.
+[03-06 03:59:58]: [WARN] Could not download GeoLiteAPI database [FileNotFoundException]: plugins/AuthMe/GeoLite2-Country.mmdb (No existe el fichero o el directorio)
+[03-06 03:59:58]: java.io.FileNotFoundException: plugins/AuthMe/GeoLite2-Country.mmdb (No existe el fichero o el directorio)
+	at java.base/java.io.RandomAccessFile.open0(Native Method)
+	at java.base/java.io.RandomAccessFile.open(RandomAccessFile.java:338)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:257)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:211)
+	at com.maxmind.db.BufferHolder.<init>(BufferHolder.java:19)
+	at com.maxmind.db.Reader.<init>(Reader.java:119)
+	at com.maxmind.geoip2.DatabaseReader.<init>(DatabaseReader.java:104)
+	at com.maxmind.geoip2.DatabaseReader$Builder.build(DatabaseReader.java:233)
+	at authme-5.7.0-SNAPSHOT.jar//fr.xephi.authme.service.GeoIpService.startReading(GeoIpService.java:183)
+	at authme-5.7.0-SNAPSHOT.jar//fr.xephi.authme.service.GeoIpService.updateDatabase(GeoIpService.java:150)
+	at org.bukkit.craftbukkit.scheduler.CraftTask.run(CraftTask.java:78)
+	at org.bukkit.craftbukkit.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:57)
+	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)
+	at java.base/java.lang.Thread.run(Thread.java:1474)
+
+[03-06 04:04:03]: [FINE] The user fda_ has 2 accounts:
+[03-06 04:04:03]: [FINE] §7§afda_§7, juannnnnn.
+[03-06 04:04:03]: [FINE] fda_ logged in 187.235.42.128
+[03-06 04:05:58]: [FINE] juannnnnn logged in 192.168.137.1
+[03-06 04:32:25]: [FINE] juannnnnn logged in 192.168.137.1
+[03-06 04:32:26]: [FINE] fda_ logged in 187.235.42.128
+[03-06 05:03:33]: [FINE] juannnnnn logged in 192.168.137.1
+[03-06 05:03:33]: [FINE] fda_ logged in 187.235.42.128
+[03-06 05:13:16]: [FINE] juannnnnn logged in 192.168.137.1
+[03-06 05:13:17]: [FINE] fda_ logged in 187.235.42.128
+[03-06 05:22:15]: [FINE] juannnnnn logged in 192.168.137.1
+[03-06 05:32:12]: [FINE] The user juannnnnn has 2 accounts:
+[03-06 05:32:12]: [FINE] §7fda_, §ajuannnnnn§7.
+[03-06 05:32:12]: [FINE] juannnnnn logged in 187.235.42.128
+[03-06 05:33:18]: [FINE] The user juannnnnn has 2 accounts:
+[03-06 05:33:18]: [FINE] §7fda_, §ajuannnnnn§7.
+[03-06 05:33:18]: [FINE] juannnnnn logged in 187.235.42.128
+[03-06 05:33:27]: [INFO] AuthMe 5.7.0-SNAPSHOT-b2657 disabled!
+[03-06 05:35:20]: [INFO] SQLite Setup finished
+[03-06 05:35:20]: [INFO] No supported permissions system found! Permissions are disabled!
+[03-06 05:35:21]: [WARN] WARNING! The protectInventory feature requires ProtocolLib! Disabling it...
+[03-06 05:35:21]: [INFO] AuthMe 5.7.0-SNAPSHOT build n.2657 successfully enabled!
+[03-06 05:35:24]: [INFO] Downloading GEO IP database, because the old database is older than 30 days or doesn't exist
+[03-06 05:35:24]: [WARN] No MaxMind credentials found in the configuration file! GeoIp protections will be disabled.
+[03-06 05:35:24]: [INFO] There is no newer GEO IP database uploaded to MaxMind. Using the old one for now.
+[03-06 05:35:24]: [WARN] Could not download GeoLiteAPI database [FileNotFoundException]: plugins/AuthMe/GeoLite2-Country.mmdb (No existe el fichero o el directorio)
+[03-06 05:35:24]: java.io.FileNotFoundException: plugins/AuthMe/GeoLite2-Country.mmdb (No existe el fichero o el directorio)
+	at java.base/java.io.RandomAccessFile.open0(Native Method)
+	at java.base/java.io.RandomAccessFile.open(RandomAccessFile.java:338)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:257)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:211)
+	at com.maxmind.db.BufferHolder.<init>(BufferHolder.java:19)
+	at com.maxmind.db.Reader.<init>(Reader.java:119)
+	at com.maxmind.geoip2.DatabaseReader.<init>(DatabaseReader.java:104)
+	at com.maxmind.geoip2.DatabaseReader$Builder.build(DatabaseReader.java:233)
+	at authme-5.7.0-SNAPSHOT.jar//fr.xephi.authme.service.GeoIpService.startReading(GeoIpService.java:183)
+	at authme-5.7.0-SNAPSHOT.jar//fr.xephi.authme.service.GeoIpService.updateDatabase(GeoIpService.java:150)
+	at org.bukkit.craftbukkit.scheduler.CraftTask.run(CraftTask.java:78)
+	at org.bukkit.craftbukkit.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:57)
+	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)
+	at java.base/java.lang.Thread.run(Thread.java:1474)
+
+[03-06 05:36:06]: [INFO] AuthMe 5.7.0-SNAPSHOT-b2657 disabled!
+[03-06 05:37:51]: [INFO] SQLite Setup finished
+[03-06 05:37:51]: [INFO] No supported permissions system found! Permissions are disabled!
+[03-06 05:37:52]: [WARN] WARNING! The protectInventory feature requires ProtocolLib! Disabling it...
+[03-06 05:37:52]: [INFO] AuthMe 5.7.0-SNAPSHOT build n.2657 successfully enabled!
+[03-06 05:37:55]: [INFO] Downloading GEO IP database, because the old database is older than 30 days or doesn't exist
+[03-06 05:37:55]: [WARN] No MaxMind credentials found in the configuration file! GeoIp protections will be disabled.
+[03-06 05:37:55]: [INFO] There is no newer GEO IP database uploaded to MaxMind. Using the old one for now.
+[03-06 05:37:55]: [WARN] Could not download GeoLiteAPI database [FileNotFoundException]: plugins/AuthMe/GeoLite2-Country.mmdb (No existe el fichero o el directorio)
+[03-06 05:37:55]: java.io.FileNotFoundException: plugins/AuthMe/GeoLite2-Country.mmdb (No existe el fichero o el directorio)
+	at java.base/java.io.RandomAccessFile.open0(Native Method)
+	at java.base/java.io.RandomAccessFile.open(RandomAccessFile.java:338)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:257)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:211)
+	at com.maxmind.db.BufferHolder.<init>(BufferHolder.java:19)
+	at com.maxmind.db.Reader.<init>(Reader.java:119)
+	at com.maxmind.geoip2.DatabaseReader.<init>(DatabaseReader.java:104)
+	at com.maxmind.geoip2.DatabaseReader$Builder.build(DatabaseReader.java:233)
+	at authme-5.7.0-SNAPSHOT.jar//fr.xephi.authme.service.GeoIpService.startReading(GeoIpService.java:183)
+	at authme-5.7.0-SNAPSHOT.jar//fr.xephi.authme.service.GeoIpService.updateDatabase(GeoIpService.java:150)
+	at org.bukkit.craftbukkit.scheduler.CraftTask.run(CraftTask.java:78)
+	at org.bukkit.craftbukkit.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:57)
+	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)
+	at java.base/java.lang.Thread.run(Thread.java:1474)
+
+[03-06 05:38:59]: [FINE] fda_ logged in 192.168.137.1
+[03-06 05:39:38]: [INFO] AuthMe 5.7.0-SNAPSHOT-b2657 disabled!
+[03-06 05:45:36]: [INFO] SQLite Setup finished
+[03-06 05:45:36]: [INFO] No supported permissions system found! Permissions are disabled!
+[03-06 05:45:37]: [WARN] WARNING! The protectInventory feature requires ProtocolLib! Disabling it...
+[03-06 05:45:37]: [INFO] AuthMe 5.7.0-SNAPSHOT build n.2657 successfully enabled!
+[03-06 05:45:40]: [INFO] Downloading GEO IP database, because the old database is older than 30 days or doesn't exist
+[03-06 05:45:40]: [WARN] No MaxMind credentials found in the configuration file! GeoIp protections will be disabled.
+[03-06 05:45:40]: [INFO] There is no newer GEO IP database uploaded to MaxMind. Using the old one for now.
+[03-06 05:45:40]: [WARN] Could not download GeoLiteAPI database [FileNotFoundException]: plugins/AuthMe/GeoLite2-Country.mmdb (No existe el fichero o el directorio)
+[03-06 05:45:40]: java.io.FileNotFoundException: plugins/AuthMe/GeoLite2-Country.mmdb (No existe el fichero o el directorio)
+	at java.base/java.io.RandomAccessFile.open0(Native Method)
+	at java.base/java.io.RandomAccessFile.open(RandomAccessFile.java:338)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:257)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:211)
+	at com.maxmind.db.BufferHolder.<init>(BufferHolder.java:19)
+	at com.maxmind.db.Reader.<init>(Reader.java:119)
+	at com.maxmind.geoip2.DatabaseReader.<init>(DatabaseReader.java:104)
+	at com.maxmind.geoip2.DatabaseReader$Builder.build(DatabaseReader.java:233)
+	at authme-5.7.0-SNAPSHOT.jar//fr.xephi.authme.service.GeoIpService.startReading(GeoIpService.java:183)
+	at authme-5.7.0-SNAPSHOT.jar//fr.xephi.authme.service.GeoIpService.updateDatabase(GeoIpService.java:150)
+	at org.bukkit.craftbukkit.scheduler.CraftTask.run(CraftTask.java:78)
+	at org.bukkit.craftbukkit.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:57)
+	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)
+	at java.base/java.lang.Thread.run(Thread.java:1474)
+
+[03-06 05:46:16]: [FINE] The user juannnnnn has 2 accounts:
+[03-06 05:46:16]: [FINE] §7§afda_§7, §ajuannnnnn§7.
+[03-06 05:46:16]: [FINE] juannnnnn logged in 192.168.137.1
+[03-06 05:46:22]: [FINE] The user fda_ has 2 accounts:
+[03-06 05:46:22]: [FINE] §7§afda_§7, §ajuannnnnn§7.
+[03-06 05:46:22]: [FINE] fda_ logged in 192.168.137.1
+[03-06 05:48:37]: [INFO] AuthMe 5.7.0-SNAPSHOT-b2657 disabled!
+[03-06 05:50:28]: [INFO] SQLite Setup finished
+[03-06 05:50:28]: [INFO] No supported permissions system found! Permissions are disabled!
+[03-06 05:50:29]: [WARN] WARNING! The protectInventory feature requires ProtocolLib! Disabling it...
+[03-06 05:50:29]: [INFO] AuthMe 5.7.0-SNAPSHOT build n.2657 successfully enabled!
+[03-06 05:50:32]: [INFO] Downloading GEO IP database, because the old database is older than 30 days or doesn't exist
+[03-06 05:50:32]: [WARN] No MaxMind credentials found in the configuration file! GeoIp protections will be disabled.
+[03-06 05:50:32]: [INFO] There is no newer GEO IP database uploaded to MaxMind. Using the old one for now.
+[03-06 05:50:32]: [WARN] Could not download GeoLiteAPI database [FileNotFoundException]: plugins/AuthMe/GeoLite2-Country.mmdb (No existe el fichero o el directorio)
+[03-06 05:50:32]: java.io.FileNotFoundException: plugins/AuthMe/GeoLite2-Country.mmdb (No existe el fichero o el directorio)
+	at java.base/java.io.RandomAccessFile.open0(Native Method)
+	at java.base/java.io.RandomAccessFile.open(RandomAccessFile.java:338)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:257)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:211)
+	at com.maxmind.db.BufferHolder.<init>(BufferHolder.java:19)
+	at com.maxmind.db.Reader.<init>(Reader.java:119)
+	at com.maxmind.geoip2.DatabaseReader.<init>(DatabaseReader.java:104)
+	at com.maxmind.geoip2.DatabaseReader$Builder.build(DatabaseReader.java:233)
+	at authme-5.7.0-SNAPSHOT.jar//fr.xephi.authme.service.GeoIpService.startReading(GeoIpService.java:183)
+	at authme-5.7.0-SNAPSHOT.jar//fr.xephi.authme.service.GeoIpService.updateDatabase(GeoIpService.java:150)
+	at org.bukkit.craftbukkit.scheduler.CraftTask.run(CraftTask.java:78)
+	at org.bukkit.craftbukkit.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:57)
+	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)
+	at java.base/java.lang.Thread.run(Thread.java:1474)
+
+[03-06 05:50:49]: [FINE] The user fda_ has 2 accounts:
+[03-06 05:50:49]: [FINE] §7§afda_§7, §ajuannnnnn§7.
+[03-06 05:50:49]: [FINE] fda_ logged in 192.168.137.1
+[03-06 05:51:06]: [FINE] The user juannnnnn has 2 accounts:
+[03-06 05:51:06]: [FINE] §7§afda_§7, §ajuannnnnn§7.
+[03-06 05:51:06]: [FINE] juannnnnn logged in 192.168.137.1
+[03-06 05:55:46]: [INFO] AuthMe 5.7.0-SNAPSHOT-b2657 disabled!
+[03-06 05:57:05]: [INFO] SQLite Setup finished
+[03-06 05:57:05]: [INFO] No supported permissions system found! Permissions are disabled!
+[03-06 05:57:05]: [INFO] Hooked successfully into Essentials
+[03-06 05:57:05]: [INFO] Essentials spawn file not found: '/home/barney/Desktop/v99/v99 - Network/lobby/plugins/Essentials/spawn.yml'
+[03-06 05:57:06]: [INFO] AuthMe 5.7.0-SNAPSHOT build n.2657 successfully enabled!
+[03-06 05:57:11]: [INFO] Downloading GEO IP database, because the old database is older than 30 days or doesn't exist
+[03-06 05:57:11]: [WARN] No MaxMind credentials found in the configuration file! GeoIp protections will be disabled.
+[03-06 05:57:11]: [INFO] There is no newer GEO IP database uploaded to MaxMind. Using the old one for now.
+[03-06 05:57:11]: [WARN] Could not download GeoLiteAPI database [FileNotFoundException]: plugins/AuthMe/GeoLite2-Country.mmdb (No existe el fichero o el directorio)
+[03-06 05:57:11]: java.io.FileNotFoundException: plugins/AuthMe/GeoLite2-Country.mmdb (No existe el fichero o el directorio)
+	at java.base/java.io.RandomAccessFile.open0(Native Method)
+	at java.base/java.io.RandomAccessFile.open(RandomAccessFile.java:338)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:257)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:211)
+	at com.maxmind.db.BufferHolder.<init>(BufferHolder.java:19)
+	at com.maxmind.db.Reader.<init>(Reader.java:119)
+	at com.maxmind.geoip2.DatabaseReader.<init>(DatabaseReader.java:104)
+	at com.maxmind.geoip2.DatabaseReader$Builder.build(DatabaseReader.java:233)
+	at authme-5.7.0-SNAPSHOT.jar//fr.xephi.authme.service.GeoIpService.startReading(GeoIpService.java:183)
+	at authme-5.7.0-SNAPSHOT.jar//fr.xephi.authme.service.GeoIpService.updateDatabase(GeoIpService.java:150)
+	at org.bukkit.craftbukkit.scheduler.CraftTask.run(CraftTask.java:78)
+	at org.bukkit.craftbukkit.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:57)
+	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)
+	at java.base/java.lang.Thread.run(Thread.java:1474)
+
+[03-06 05:57:52]: [FINE] The user fda_ has 2 accounts:
+[03-06 05:57:52]: [FINE] §7§afda_§7, juannnnnn.
+[03-06 05:57:52]: [FINE] fda_ logged in 192.168.137.1
+[03-06 05:58:10]: [FINE] juannnnnn logged in 187.235.42.128
+[03-06 05:59:12]: [FINE] fda_ logged in 192.168.137.1
+[03-06 06:01:53]: [FINE] The user fda_ has 2 accounts:
+[03-06 06:01:53]: [FINE] §7§afda_§7, §ajuannnnnn§7.
+[03-06 06:01:53]: [FINE] fda_ logged in 187.235.42.128
+[03-06 06:17:28]: [FINE] The user juannnnnn has 2 accounts:
+[03-06 06:17:28]: [FINE] §7fda_, §ajuannnnnn§7.
+[03-06 06:17:28]: [FINE] juannnnnn logged in 187.235.42.128
+[03-06 06:19:33]: [FINE] The user juannnnnn has 2 accounts:
+[03-06 06:19:33]: [FINE] §7§afda_§7, §ajuannnnnn§7.
+[03-06 06:19:33]: [FINE] juannnnnn logged in 187.235.42.128
+[03-06 06:19:33]: [FINE] The user fda_ has 2 accounts:
+[03-06 06:19:33]: [FINE] §7§afda_§7, §ajuannnnnn§7.
+[03-06 06:19:33]: [FINE] fda_ logged in 187.235.42.128
+[03-06 06:26:01]: [FINE] fda_ logged in 192.168.137.1
+[03-06 06:46:25]: [FINE] The user juannnnnn has 2 accounts:
+[03-06 06:46:25]: [FINE] §7fda_, §ajuannnnnn§7.
+[03-06 06:46:25]: [FINE] juannnnnn logged in 192.168.137.1
+[03-06 07:01:33]: [FINE] The user fda_ has 2 accounts:
+[03-06 07:01:33]: [FINE] §7§afda_§7, juannnnnn.
+[03-06 07:01:33]: [FINE] fda_ logged in 192.168.137.1
+[03-06 07:02:44]: [FINE] The user juannnnnn has 2 accounts:
+[03-06 07:02:44]: [FINE] §7fda_, §ajuannnnnn§7.
+[03-06 07:02:44]: [FINE] juannnnnn logged in 192.168.137.1
+[03-06 07:13:07]: [FINE] The user juannnnnn has 2 accounts:
+[03-06 07:13:07]: [FINE] §7§afda_§7, §ajuannnnnn§7.
+[03-06 07:13:07]: [03-06 07:13:07][FINE] The user fda_ has 2 accounts:: 
+[FINE] juannnnnn logged in 192.168.137.1[03-06 07:13:07]: [FINE] §7§afda_§7, §ajuannnnnn§7.
+
+[03-06 07:13:07]: [FINE] fda_ logged in 192.168.137.1
+[03-06 07:40:30]: [FINE] The user juannnnnn has 2 accounts:
+[03-06 07:40:30]: [FINE] §7§afda_§7, §ajuannnnnn§7.
+[03-06 07:40:30]: [FINE] juannnnnn logged in 192.168.137.1
+[03-06 07:40:31]: [FINE] The user fda_ has 2 accounts:
+[03-06 07:40:31]: [FINE] §7§afda_§7, §ajuannnnnn§7.
+[03-06 07:40:31]: [FINE] fda_ logged in 192.168.137.1
+[03-06 07:48:25]: [FINE] The user fda_ has 2 accounts:
+[03-06 07:48:25]: [FINE] §7§afda_§7, juannnnnn.
+[03-06 07:48:25]: [FINE] fda_ logged in 192.168.137.1
+[03-06 07:51:48]: [FINE] The user juannnnnn has 2 accounts:
+[03-06 07:51:48]: [FINE] §7fda_, §ajuannnnnn§7.
+[03-06 07:51:48]: [FINE] juannnnnn logged in 192.168.137.1
+[03-06 07:57:57]: [FINE] The user juannnnnn has 2 accounts:
+[03-06 07:57:57]: [FINE] §7fda_, §ajuannnnnn§7.
+[03-06 07:57:57]: [FINE] juannnnnn logged in 192.168.137.1
+[03-06 08:08:46]: [FINE] The user fda_ has 2 accounts:
+[03-06 08:08:46]: [FINE] §7§afda_§7, §ajuannnnnn§7.
+[03-06 08:08:46]: [FINE] fda_ logged in 192.168.137.1
+[03-06 08:08:46]: [FINE] The user juannnnnn has 2 accounts:
+[03-06 08:08:46]: [FINE] §7§afda_§7, §ajuannnnnn§7.
+[03-06 08:08:46]: [FINE] juannnnnn logged in 192.168.137.1
+[03-06 08:13:24]: [FINE] The user fda_ has 2 accounts:
+[03-06 08:13:24]: [FINE] §7§afda_§7, juannnnnn.
+[03-06 08:13:24]: [FINE] fda_ logged in 192.168.137.1
+[03-06 08:13:28]: [FINE] The user juannnnnn has 2 accounts:
+[03-06 08:13:28]: [FINE] §7§afda_§7, §ajuannnnnn§7.
+[03-06 08:13:28]: [FINE] juannnnnn logged in 192.168.137.1
+[03-06 08:15:35]: [FINE] The user fda_ has 2 accounts:
+[03-06 08:15:35]: [FINE] §7§afda_§7, juannnnnn.
+[03-06 08:15:35]: [FINE] fda_ logged in 192.168.137.1
+[03-06 08:15:36]: [FINE] The user juannnnnn has 2 accounts:
+[03-06 08:15:36]: [FINE] §7§afda_§7, §ajuannnnnn§7.
+[03-06 08:15:36]: [FINE] juannnnnn logged in 192.168.137.1
+[03-06 08:18:05]: [FINE] The user juannnnnn has 2 accounts:
+[03-06 08:18:05]: [FINE] §7§afda_§7, §ajuannnnnn§7.
+[03-06 08:18:05]: [FINE] juannnnnn logged in 192.168.137.1
+[03-06 08:18:05]: [FINE] The user fda_ has 2 accounts:
+[03-06 08:18:05]: [FINE] §7§afda_§7, §ajuannnnnn§7.
+[03-06 08:18:05]: [FINE] fda_ logged in 192.168.137.1
+[03-06 08:29:03]: [FINE] The user fda_ has 2 accounts:
+[03-06 08:29:03]: [FINE] §7§afda_§7, juannnnnn.
+[03-06 08:29:03]: [FINE] fda_ logged in 192.168.137.1
+[03-06 08:29:18]: [FINE] The user juannnnnn has 2 accounts:
+[03-06 08:29:18]: [FINE] §7§afda_§7, §ajuannnnnn§7.
+[03-06 08:29:18]: [FINE] juannnnnn logged in 192.168.137.1
+[03-06 08:31:58]: [INFO] AuthMe 5.7.0-SNAPSHOT-b2657 disabled!
+[03-06 08:32:48]: [INFO] SQLite Setup finished
+[03-06 08:33:37]: [INFO] SQLite Setup finished
+[03-06 08:33:37]: [INFO] No supported permissions system found! Permissions are disabled!
+[03-06 08:33:38]: [INFO] Hooked successfully into Essentials
+[03-06 08:33:38]: [INFO] AuthMe 5.7.0-SNAPSHOT build n.2657 successfully enabled!
+[03-06 08:33:42]: [INFO] Downloading GEO IP database, because the old database is older than 30 days or doesn't exist
+[03-06 08:33:42]: [WARN] No MaxMind credentials found in the configuration file! GeoIp protections will be disabled.
+[03-06 08:33:42]: [INFO] There is no newer GEO IP database uploaded to MaxMind. Using the old one for now.
+[03-06 08:33:42]: [WARN] Could not download GeoLiteAPI database [FileNotFoundException]: plugins/AuthMe/GeoLite2-Country.mmdb (No existe el fichero o el directorio)
+[03-06 08:33:42]: java.io.FileNotFoundException: plugins/AuthMe/GeoLite2-Country.mmdb (No existe el fichero o el directorio)
+	at java.base/java.io.RandomAccessFile.open0(Native Method)
+	at java.base/java.io.RandomAccessFile.open(RandomAccessFile.java:338)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:257)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:211)
+	at com.maxmind.db.BufferHolder.<init>(BufferHolder.java:19)
+	at com.maxmind.db.Reader.<init>(Reader.java:119)
+	at com.maxmind.geoip2.DatabaseReader.<init>(DatabaseReader.java:104)
+	at com.maxmind.geoip2.DatabaseReader$Builder.build(DatabaseReader.java:233)
+	at authme-5.7.0-SNAPSHOT.jar//fr.xephi.authme.service.GeoIpService.startReading(GeoIpService.java:183)
+	at authme-5.7.0-SNAPSHOT.jar//fr.xephi.authme.service.GeoIpService.updateDatabase(GeoIpService.java:150)
+	at org.bukkit.craftbukkit.scheduler.CraftTask.run(CraftTask.java:78)
+	at org.bukkit.craftbukkit.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:57)
+	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)
+	at java.base/java.lang.Thread.run(Thread.java:1474)
+
+[03-06 08:33:57]: [FINE] The user juannnnnn has 2 accounts:
+[03-06 08:33:57]: [FINE] §7§afda_§7, §ajuannnnnn§7.
+[03-06 08:33:57]: [FINE] juannnnnn logged in 192.168.137.1
+[03-06 08:34:04]: [FINE] The user fda_ has 2 accounts:
+[03-06 08:34:04]: [FINE] §7§afda_§7, §ajuannnnnn§7.
+[03-06 08:34:04]: [FINE] fda_ logged in 192.168.137.1
+[03-07 09:42:29]: [FINE] The user fda_ has 2 accounts:
+[03-07 09:42:29]: [FINE] §7§afda_§7, juannnnnn.
+[03-07 09:42:29]: [FINE] fda_ logged in 192.168.137.1
+[03-07 09:42:57]: [FINE] The user juannnnnn has 2 accounts:
+[03-07 09:42:57]: [FINE] §7fda_, §ajuannnnnn§7.
+[03-07 09:42:57]: [FINE] juannnnnn logged in 192.168.137.1
+[03-07 09:44:20]: [INFO] AuthMe 5.7.0-SNAPSHOT-b2657 disabled!
+[03-13 16:52:48]: [INFO] SQLite Setup finished
+[03-13 16:52:48]: [INFO] No supported permissions system found! Permissions are disabled!
+[03-13 16:52:48]: [INFO] Hooked successfully into Essentials
+[03-13 16:52:48]: [INFO] AuthMe 5.7.0-SNAPSHOT build n.2657 successfully enabled!
+[03-13 16:52:51]: [INFO] Downloading GEO IP database, because the old database is older than 30 days or doesn't exist
+[03-13 16:52:51]: [WARN] No MaxMind credentials found in the configuration file! GeoIp protections will be disabled.
+[03-13 16:52:51]: [INFO] There is no newer GEO IP database uploaded to MaxMind. Using the old one for now.
+[03-13 16:52:51]: [WARN] Could not download GeoLiteAPI database [FileNotFoundException]: plugins/AuthMe/GeoLite2-Country.mmdb (No existe el fichero o el directorio)
+[03-13 16:52:51]: java.io.FileNotFoundException: plugins/AuthMe/GeoLite2-Country.mmdb (No existe el fichero o el directorio)
+	at java.base/java.io.RandomAccessFile.open0(Native Method)
+	at java.base/java.io.RandomAccessFile.open(RandomAccessFile.java:338)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:257)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:211)
+	at com.maxmind.db.BufferHolder.<init>(BufferHolder.java:19)
+	at com.maxmind.db.Reader.<init>(Reader.java:119)
+	at com.maxmind.geoip2.DatabaseReader.<init>(DatabaseReader.java:104)
+	at com.maxmind.geoip2.DatabaseReader$Builder.build(DatabaseReader.java:233)
+	at authme-5.7.0-SNAPSHOT.jar//fr.xephi.authme.service.GeoIpService.startReading(GeoIpService.java:183)
+	at authme-5.7.0-SNAPSHOT.jar//fr.xephi.authme.service.GeoIpService.updateDatabase(GeoIpService.java:150)
+	at org.bukkit.craftbukkit.scheduler.CraftTask.run(CraftTask.java:78)
+	at org.bukkit.craftbukkit.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:57)
+	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)
+	at java.base/java.lang.Thread.run(Thread.java:1474)
+

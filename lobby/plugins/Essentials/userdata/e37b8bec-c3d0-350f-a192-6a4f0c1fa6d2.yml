@@ -1,0 +1,30 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 192.168.137.1
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1772898162912
+  login: 1772898139976
+money: '0'
+last-account-name: fda_
+logoutlocation:
+  world: 488aaf14-5ccd-47b3-8c95-230bafc8ccf3
+  world-name: world
+  x: -8.310592067666867
+  y: -12.0
+  z: 17.588084924807603
+  yaw: 13.0595703125
+  pitch: -10.949686050415039
