@@ -1,62 +1,27 @@
-[16:51:48] [main/INFO] [com.velocitypowered.proxy.VelocityServer]: Booting up Velocity 3.5.0-SNAPSHOT (git-c2fd3c07-b576)...
-[16:51:48] [main/INFO] [com.velocitypowered.proxy.network.ConnectionManager]: Connections will use epoll channels, libdeflate (Linux x86_64) compression, OpenSSL 3.x.x (Linux x86_64) ciphers
-[16:51:49] [main/WARN] [com.velocitypowered.proxy.config.VelocityConfiguration]: The proxy is running in offline mode! This is a security risk and you will NOT receive any support!
-[16:51:49] [main/INFO] [com.velocitypowered.proxy.VelocityServer]: Loading localizations...
-[16:51:49] [main/INFO] [com.velocitypowered.proxy.VelocityServer]: Loading plugins...
-[16:51:50] [main/INFO] [com.velocitypowered.proxy.plugin.VelocityPluginManager]: Loaded plugin authmevelocity 4.2.0 by xQuickGlare, 4drian3d
-[16:51:50] [main/INFO] [com.velocitypowered.proxy.plugin.VelocityPluginManager]: Loaded plugin skinsrestorer 15.10.2 by knat, AlexProgrammerDE, Blackfire62, McLive
-[16:51:50] [main/INFO] [com.velocitypowered.proxy.VelocityServer]: Loaded 3 plugins
-[16:51:50] [AuthMeVelocity - Task Executor #0/INFO] [authmevelocity]:  --- AuthMeVelocity ---
-[16:51:50] [AuthMeVelocity - Task Executor #0/INFO] [authmevelocity]: AuthServers: [lobby]
-[16:51:51] [Netty epoll Boss #0/INFO] [com.velocitypowered.proxy.network.ConnectionManager]: Listening on /[0:0:0:0:0:0:0:0]:25565
-[16:51:51] [main/INFO] [com.velocitypowered.proxy.Velocity]: Done (4.48s)!
-[16:51:56] [SkinsRestorer - Task Executor #0/INFO] [skinsrestorer]: ----------------------------------------------
-[16:51:56] [SkinsRestorer - Task Executor #0/INFO] [skinsrestorer]:     +==================+
-[16:51:56] [SkinsRestorer - Task Executor #0/INFO] [skinsrestorer]:     |   SkinsRestorer  |
-[16:51:56] [SkinsRestorer - Task Executor #0/INFO] [skinsrestorer]:     |------------------|
-[16:51:56] [SkinsRestorer - Task Executor #0/INFO] [skinsrestorer]:     +==================+
-[16:51:56] [SkinsRestorer - Task Executor #0/INFO] [skinsrestorer]: ----------------------------------------------
-[16:51:56] [SkinsRestorer - Task Executor #0/INFO] [skinsrestorer]:     Version: 15.10.2
-[16:51:56] [SkinsRestorer - Task Executor #0/INFO] [skinsrestorer]:     Commit: 5fb8cc7
-[16:51:56] [SkinsRestorer - Task Executor #0/INFO] [skinsrestorer]:     A new version (15.11.0) is available!
-[16:51:56] [SkinsRestorer - Task Executor #0/INFO] [skinsrestorer]:     https://modrinth.com/plugin/skinsrestorer/version/15.11.0
-[16:51:56] [SkinsRestorer - Task Executor #0/INFO] [skinsrestorer]: ----------------------------------------------
-[16:51:56] [SkinsRestorer - Task Executor #0/INFO] [skinsrestorer]: Do you have issues? Read our troubleshooting guide: https://skinsrestorer.net/docs/troubleshooting
-[16:51:56] [SkinsRestorer - Task Executor #0/INFO] [skinsrestorer]: Want to support SkinsRestorer? Consider donating: https://skinsrestorer.net/donate
-[17:00:45] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] fda_ (/192.168.137.1:49551) has connected
-[17:00:45] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] fda_ -> lobby has connected
-[17:01:22] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] fda_ (/192.168.137.1:49551): kicked from server lobby: ¡Tiempo de espera agotado! Has sido expulsado del servidor, ¡inténtalo de nuevo!
-[17:01:22] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] fda_ -> lobby has disconnected
-[17:01:22] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] fda_ (/192.168.137.1:49551) has disconnected: Has sido echado de lobby: ¡Tiempo de espera agotado! Has sido expulsado del servidor, ¡inténtalo de nuevo!
-[17:01:28] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] fda_ (/192.168.137.1:49554) has connected
-[17:01:28] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] fda_ -> lobby has connected
-[17:06:22] [Netty epoll Worker #3/ERROR] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] fda_ (/192.168.137.1:49554): unable to connect to server bedwars
-io.netty.channel.AbstractChannel$AnnotatedConnectException: finishConnect(..) failed with error(-111): Conexión rehusada: /0.0.0.0:25567
-Caused by: java.net.ConnectException: finishConnect(..) failed with error(-111): Conexión rehusada
-	at io.netty.channel.unix.Errors.newConnectException0(Errors.java:166)
-	at io.netty.channel.unix.Errors.handleConnectErrno(Errors.java:131)
-	at io.netty.channel.unix.Socket.finishConnect(Socket.java:361)
-	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.doFinishConnect(AbstractEpollChannel.java:764)
-	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.finishConnect(AbstractEpollChannel.java:741)
-	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.epollOutReady(AbstractEpollChannel.java:611)
-	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.handle(AbstractEpollChannel.java:472)
-	at io.netty.channel.epoll.EpollIoHandler$DefaultEpollIoRegistration.handle(EpollIoHandler.java:317)
-	at io.netty.channel.epoll.EpollIoHandler.processReady(EpollIoHandler.java:515)
-	at io.netty.channel.epoll.EpollIoHandler.run(EpollIoHandler.java:460)
-	at io.netty.channel.SingleThreadIoEventLoop.runIo(SingleThreadIoEventLoop.java:225)
-	at io.netty.channel.SingleThreadIoEventLoop.run(SingleThreadIoEventLoop.java:196)
-	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:1195)
-	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
-	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
-	at java.base/java.lang.Thread.run(Thread.java:1474)
-[17:06:43] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] fda_ -> bedwars has connected
-[17:06:47] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] fda_ -> lobby has disconnected
-[17:10:07] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] fda_ (/192.168.137.1:49554) has disconnected
-[17:10:07] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] fda_ -> bedwars has disconnected
-[17:10:39] [Netty epoll Worker #6/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] fda_ (/192.168.137.1:49693) has connected
-[17:10:39] [Netty epoll Worker #6/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] fda_ -> lobby has connected
-[17:11:10] [Netty epoll Worker #6/INFO] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] fda_ (/192.168.137.1:49693): kicked from server lobby: ¡Tiempo de espera agotado! Has sido expulsado del servidor, ¡inténtalo de nuevo!
-[17:11:10] [Netty epoll Worker #6/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] fda_ -> lobby has disconnected
-[17:11:10] [Netty epoll Worker #6/INFO] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] fda_ (/192.168.137.1:49693) has disconnected: Has sido echado de lobby: ¡Tiempo de espera agotado! Has sido expulsado del servidor, ¡inténtalo de nuevo!
-[17:11:10] [Thread-2/INFO] [com.velocitypowered.proxy.VelocityServer]: Shutting down the proxy...
-[17:11:10] [Thread-2/INFO] [com.velocitypowered.proxy.network.ConnectionManager]: Closing endpoint /0.0.0.0:25565
+[17:16:58] [main/INFO] [com.velocitypowered.proxy.VelocityServer]: Booting up Velocity 3.5.0-SNAPSHOT (git-c2fd3c07-b576)...
+[17:16:58] [main/INFO] [com.velocitypowered.proxy.network.ConnectionManager]: Connections will use epoll channels, libdeflate (Linux x86_64) compression, OpenSSL 3.x.x (Linux x86_64) ciphers
+[17:16:59] [main/WARN] [com.velocitypowered.proxy.config.VelocityConfiguration]: The proxy is running in offline mode! This is a security risk and you will NOT receive any support!
+[17:16:59] [main/INFO] [com.velocitypowered.proxy.VelocityServer]: Loading localizations...
+[17:16:59] [main/INFO] [com.velocitypowered.proxy.VelocityServer]: Loading plugins...
+[17:16:59] [main/INFO] [com.velocitypowered.proxy.plugin.VelocityPluginManager]: Loaded plugin authmevelocity 4.2.0 by xQuickGlare, 4drian3d
+[17:16:59] [main/INFO] [com.velocitypowered.proxy.plugin.VelocityPluginManager]: Loaded plugin skinsrestorer 15.10.2 by knat, AlexProgrammerDE, Blackfire62, McLive
+[17:16:59] [main/INFO] [com.velocitypowered.proxy.VelocityServer]: Loaded 3 plugins
+[17:17:00] [AuthMeVelocity - Task Executor #0/INFO] [authmevelocity]:  --- AuthMeVelocity ---
+[17:17:00] [AuthMeVelocity - Task Executor #0/INFO] [authmevelocity]: AuthServers: [lobby]
+[17:17:01] [Netty epoll Boss #0/INFO] [com.velocitypowered.proxy.network.ConnectionManager]: Listening on /[0:0:0:0:0:0:0:0]:25565
+[17:17:01] [main/INFO] [com.velocitypowered.proxy.Velocity]: Done (3.28s)!
+[17:17:02] [SkinsRestorer - Task Executor #0/INFO] [skinsrestorer]: ----------------------------------------------
+[17:17:02] [SkinsRestorer - Task Executor #0/INFO] [skinsrestorer]:     +==================+
+[17:17:02] [SkinsRestorer - Task Executor #0/INFO] [skinsrestorer]:     |   SkinsRestorer  |
+[17:17:02] [SkinsRestorer - Task Executor #0/INFO] [skinsrestorer]:     |------------------|
+[17:17:02] [SkinsRestorer - Task Executor #0/INFO] [skinsrestorer]:     +==================+
+[17:17:02] [SkinsRestorer - Task Executor #0/INFO] [skinsrestorer]: ----------------------------------------------
+[17:17:02] [SkinsRestorer - Task Executor #0/INFO] [skinsrestorer]:     Version: 15.10.2
+[17:17:02] [SkinsRestorer - Task Executor #0/INFO] [skinsrestorer]:     Commit: 5fb8cc7
+[17:17:02] [SkinsRestorer - Task Executor #0/INFO] [skinsrestorer]:     A new version (15.11.0) is available!
+[17:17:02] [SkinsRestorer - Task Executor #0/INFO] [skinsrestorer]:     https://modrinth.com/plugin/skinsrestorer/version/15.11.0
+[17:17:02] [SkinsRestorer - Task Executor #0/INFO] [skinsrestorer]: ----------------------------------------------
+[17:17:02] [SkinsRestorer - Task Executor #0/INFO] [skinsrestorer]: Do you have issues? Read our troubleshooting guide: https://skinsrestorer.net/docs/troubleshooting
+[17:17:02] [SkinsRestorer - Task Executor #0/INFO] [skinsrestorer]: Want to support SkinsRestorer? Consider donating: https://skinsrestorer.net/donate
+[17:24:19] [Thread-2/INFO] [com.velocitypowered.proxy.VelocityServer]: Shutting down the proxy...
+[17:24:19] [Thread-2/INFO] [com.velocitypowered.proxy.network.ConnectionManager]: Closing endpoint /0.0.0.0:25565

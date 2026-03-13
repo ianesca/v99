@@ -1422,3 +1422,31 @@ expected <block end>, but found '<block mapping start>'
 [03-13 17:01:32]: [FINE] The user fda_ has 2 accounts:
 [03-13 17:01:32]: [FINE] §7§afda_§7, juannnnnn.
 [03-13 17:01:32]: [FINE] fda_ logged in 192.168.137.1
+[03-13 17:17:07]: [INFO] AuthMe 5.7.0-SNAPSHOT-b2657 disabled!
+[03-13 17:18:04]: [INFO] SQLite Setup finished
+[03-13 17:18:04]: [INFO] No supported permissions system found! Permissions are disabled!
+[03-13 17:18:05]: [INFO] Hooked successfully into Essentials
+[03-13 17:18:05]: [INFO] AuthMe 5.7.0-SNAPSHOT build n.2657 successfully enabled!
+[03-13 17:18:08]: [INFO] Downloading GEO IP database, because the old database is older than 30 days or doesn't exist
+[03-13 17:18:08]: [WARN] No MaxMind credentials found in the configuration file! GeoIp protections will be disabled.
+[03-13 17:18:08]: [INFO] There is no newer GEO IP database uploaded to MaxMind. Using the old one for now.
+[03-13 17:18:08]: [WARN] Could not download GeoLiteAPI database [FileNotFoundException]: plugins/AuthMe/GeoLite2-Country.mmdb (No existe el fichero o el directorio)
+[03-13 17:18:08]: java.io.FileNotFoundException: plugins/AuthMe/GeoLite2-Country.mmdb (No existe el fichero o el directorio)
+	at java.base/java.io.RandomAccessFile.open0(Native Method)
+	at java.base/java.io.RandomAccessFile.open(RandomAccessFile.java:338)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:257)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:211)
+	at com.maxmind.db.BufferHolder.<init>(BufferHolder.java:19)
+	at com.maxmind.db.Reader.<init>(Reader.java:119)
+	at com.maxmind.geoip2.DatabaseReader.<init>(DatabaseReader.java:104)
+	at com.maxmind.geoip2.DatabaseReader$Builder.build(DatabaseReader.java:233)
+	at authme-5.7.0-SNAPSHOT.jar//fr.xephi.authme.service.GeoIpService.startReading(GeoIpService.java:183)
+	at authme-5.7.0-SNAPSHOT.jar//fr.xephi.authme.service.GeoIpService.updateDatabase(GeoIpService.java:150)
+	at org.bukkit.craftbukkit.scheduler.CraftTask.run(CraftTask.java:78)
+	at org.bukkit.craftbukkit.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:57)
+	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)
+	at java.base/java.lang.Thread.run(Thread.java:1474)
+
+[03-13 17:23:55]: [INFO] AuthMe 5.7.0-SNAPSHOT-b2657 disabled!
