@@ -16,15 +16,15 @@ timestamps:
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1772898162912
-  login: 1772898139976
+  logout: 1773443470191
+  login: 1773443440155
 money: '0'
 last-account-name: fda_
 logoutlocation:
   world: 488aaf14-5ccd-47b3-8c95-230bafc8ccf3
   world-name: world
-  x: -8.310592067666867
-  y: -12.0
-  z: 17.588084924807603
-  yaw: 13.0595703125
-  pitch: -10.949686050415039
+  x: -2.5013636613701373
+  y: -11.0
+  z: 16.0204966160968
+  yaw: -177.59027099609375
+  pitch: 0.6003220677375793

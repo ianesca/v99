@@ -200,3 +200,28 @@
 [16:54:31] [Folia Async Scheduler Thread #0/INFO]: [SkinsRestorer] [GitHubUpdate] Downloaded update in 108140ms
 [16:54:31] [Folia Async Scheduler Thread #0/INFO]: [SkinsRestorer] [GitHubUpdate] Update saved as SkinsRestorer.jar
 [16:54:31] [Folia Async Scheduler Thread #0/INFO]: [SkinsRestorer] [GitHubUpdate] The update will be loaded on the next server restart
+[17:00:47] [User Authenticator #0/INFO]: UUID of player fda_ is e37b8bec-c3d0-350f-a192-6a4f0c1fa6d2
+[17:00:48] [Server thread/INFO]: [HorriblePlayerLoginEventHack] You have plugins listening to the PlayerLoginEvent, this will cause re-configuration APIs to be unavailable: [AuthMe, DeluxeMenus, ProtocolLib]
+[17:00:51] [TAB Processing Thread/INFO]: [TAB] [WARN] Player fda_'s group (none) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.
+[17:00:51] [Server thread/INFO]: fda_ joined the game
+[17:00:51] [Server thread/INFO]: fda_[/192.168.137.1:44514] logged in with entity id 1 at ([world]-8.310592067666867, -12.0, 17.588084924807603)
+[17:01:22] [Server thread/INFO]: fda_ lost connection: ¡Tiempo de espera agotado! Has sido expulsado del servidor, ¡inténtalo de nuevo!
+[17:01:22] [Server thread/INFO]: fda_ left the game
+[17:01:28] [User Authenticator #0/INFO]: UUID of player fda_ is e37b8bec-c3d0-350f-a192-6a4f0c1fa6d2
+[17:01:28] [TAB Processing Thread/INFO]: [TAB] [WARN] Player fda_'s group (none) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.
+[17:01:28] [Server thread/INFO]: fda_ joined the game
+[17:01:28] [Server thread/INFO]: fda_[/192.168.137.1:53796] logged in with entity id 2 at ([world]-2.5013636613701373, -11.0, 16.0204966160968)
+[17:01:32] [Craft Scheduler Thread - 20 - AuthMe/INFO]: [AuthMe] The user fda_ has 2 accounts:
+[17:01:32] [Craft Scheduler Thread - 20 - AuthMe/INFO]: [AuthMe] §7§afda_§7, juannnnnn.
+[17:01:32] [Craft Scheduler Thread - 20 - AuthMe/INFO]: [AuthMe] fda_ logged in 192.168.137.1
+[17:01:58] [Server thread/INFO]: fda_ issued server command: /hols
+[17:06:47] [Server thread/INFO]: fda_ lost connection: Disconnected
+[17:06:47] [Server thread/INFO]: fda_ left the game
+[17:10:39] [User Authenticator #1/INFO]: UUID of player fda_ is e37b8bec-c3d0-350f-a192-6a4f0c1fa6d2
+[17:10:40] [TAB Processing Thread/INFO]: [TAB] [WARN] Player fda_'s group (none) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.
+[17:10:40] [Server thread/INFO]: fda_ joined the game
+[17:10:40] [Server thread/INFO]: fda_[/192.168.137.1:50070] logged in with entity id 3 at ([world]-0.6296849949704587, -9.833890739061784, 14.533419205371965)
+[17:11:10] [Server thread/INFO]: fda_ lost connection: ¡Tiempo de espera agotado! Has sido expulsado del servidor, ¡inténtalo de nuevo!
+[17:11:10] [Server thread/INFO]: fda_ left the game
+[17:11:14] [Server thread/INFO]: Unknown or incomplete command. See below for error
+end<--[HERE]

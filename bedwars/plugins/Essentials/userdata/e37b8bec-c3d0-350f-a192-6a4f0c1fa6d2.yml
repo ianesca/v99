@@ -16,18 +16,18 @@ timestamps:
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1772898188762
-  login: 1772898163136
+  logout: 1773443407843
+  login: 1773443208261
 money: '0'
 last-account-name: fda_
 logoutlocation:
   world: 7a72b1a9-a655-4418-81b0-ac2084c0fdc3
   world-name: world
-  x: -2.0395327769049714
+  x: 17.133049816215014
   y: 20.0
-  z: 120.78848477728745
-  yaw: -140.55006408691406
-  pitch: 13.949999809265137
+  z: 128.22948744783926
+  yaw: 33.600887298583984
+  pitch: 6.600016117095947
 lastlocation:
   world: 02967301-3c06-4d0a-bc25-0826fb76a44a
   world-name: Speedway

@@ -1,12 +1,140 @@
-[09:42:42] [User Authenticator #2/INFO]: UUID of player fda_ is e37b8bec-c3d0-350f-a192-6a4f0c1fa6d2
-[09:42:43] [Server thread/INFO]: fda_ joined the game
-[09:42:43] [Server thread/INFO]: fda_[/192.168.137.1:39692] logged in with entity id 598 at ([world]5.576566798281169, 20.0, 123.32246578583757)
-[09:43:08] [Server thread/INFO]: fda_ lost connection: Disconnected
-[09:43:08] [Server thread/INFO]: fda_ left the game
-[09:44:24] [Server thread/INFO]: Stopping server
-[09:44:24] [Server thread/INFO]: [SBA] Disabling SBA v1.5.18
-[09:44:24] [Server thread/ERROR]: Error occurred while disabling SBA v1.5.18
-java.lang.UnsupportedOperationException: Visual: e22faf73-d82e-2263-a809-85b1175c2808 is already destroyed!
+[17:06:04] [ServerMain/INFO]: [bootstrap] Running Java 25 (OpenJDK 64-Bit Server VM 25.0.2+10-Debian-1deb13u2; Debian null) on Linux 6.17.13+2-amd64 (amd64)
+[17:06:04] [ServerMain/INFO]: [bootstrap] Loading Purpur 1.21.11-2562-HEAD@a917106 (2026-02-18T04:02:52Z) for Minecraft 1.21.11
+[17:06:05] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
+[17:06:06] [ServerMain/INFO]: [PluginInitializerManager] Initialized 9 plugins
+[17:06:06] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (9):
+ - BedWars (0.2.42.2), Essentials (2.22.0-dev+68-5abe8b6), EssentialsChat (2.22.0-dev+68-5abe8b6), EssentialsSpawn (2.22.0-dev+68-5abe8b6), Multiverse-Core (5.5.2), OldCombatMechanics (2.3.0), ProtocolLib (5.4.0), SBA (1.5.18), WorldEdit (7.4.0+7381-3decaf0)
+[17:06:15] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, profilesHost=https://api.mojang.com, name=PROD]
+[17:06:15] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Initialising converters for DataConverter...
+[17:06:16] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Finished initialising converters for DataConverter in 976.5ms
+[17:06:19] [ServerMain/INFO]: Loaded 1470 recipes
+[17:06:20] [ServerMain/INFO]: Loaded 1584 advancements
+[17:06:20] [Server thread/INFO]: Starting minecraft server version 1.21.11
+[17:06:20] [Server thread/INFO]: Loading properties
+[17:06:20] [Server thread/INFO]: This server is running Purpur version 1.21.11-2562-HEAD@a917106 (2026-02-18T04:02:52Z) (Implementing API version 1.21.11-R0.1-SNAPSHOT)
+[17:06:20] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+[17:06:20] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[17:06:20] [Server thread/INFO]: Using 4 threads for Netty based IO
+[17:06:22] [Server thread/INFO]: [MoonriseCommon] Paper is using 1 worker threads, 1 I/O threads
+[17:06:23] [Server thread/INFO]: Default game type: SURVIVAL
+[17:06:23] [Server thread/INFO]: Generating keypair
+[17:06:23] [Server thread/INFO]: Starting Minecraft server on 0.0.0.0:25567
+[17:06:23] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[17:06:23] [Server thread/INFO]: Paper: Using OpenSSL 3.x.x (Linux x86_64) cipher from Velocity.
+[17:06:23] [Server thread/INFO]: [BedWars] Loaded NMS modules for 1.21.11 in namespaces [mojang]
+[17:06:24] [Server thread/INFO]: [SBA] Loaded NMS modules for 1.21.11 in namespaces [mojang]
+[17:06:24] [Server thread/INFO]: [CoreLogging] Loading server plugin Multiverse-Core v5.5.2
+[17:06:24] [Server thread/INFO]: [Essentials] Loading server plugin Essentials v2.22.0-dev+68-5abe8b6
+[17:06:24] [Server thread/INFO]: [BedWars] Loading server plugin BedWars v0.2.42.2
+[17:06:24] [Server thread/INFO]: [EssentialsChat] Loading server plugin EssentialsChat v2.22.0-dev+68-5abe8b6
+[17:06:24] [Server thread/INFO]: [EssentialsSpawn] Loading server plugin EssentialsSpawn v2.22.0-dev+68-5abe8b6
+[17:06:24] [Server thread/INFO]: [ProtocolLib] Loading server plugin ProtocolLib v5.4.0
+[17:06:24] [Server thread/WARN]: [ProtocolLib] Version (MC: 1.21.11) has not yet been tested! Proceed with caution.
+[17:06:24] [Server thread/INFO]: [OldCombatMechanics] Loading server plugin OldCombatMechanics v2.3.0
+[17:06:29] [Server thread/INFO]: [WorldEdit] Loading server plugin WorldEdit v7.4.0+7381-3decaf0
+[17:06:31] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@6a663102]
+[17:06:31] [Server thread/INFO]: [SBA] Loading server plugin SBA v1.5.18
+[17:06:32] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[17:06:32] [Server thread/INFO]: [ProtocolLib] Enabling ProtocolLib v5.4.0
+[17:06:32] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.4.0+7381-3decaf0
+[17:06:32] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[17:06:32] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
+[17:06:33] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.v1_21_11.PaperweightAdapter as the Bukkit adapter
+[17:06:33] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[17:06:33] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[17:06:33] [Server thread/WARN]: Whilst this makes it possible to use Velocity, unless access to your server is properly restricted, it also opens up the ability for hackers to connect with any username they choose.
+[17:06:33] [Server thread/WARN]: Please see https://docs.papermc.io/velocity/security for further information.
+[17:06:33] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[17:06:33] [Server thread/INFO]: Preparing level "world"
+[17:06:34] [Server thread/INFO]: [ca.spottedleaf.moonrise.common.util.MoonriseConstants] NUMA enable flag is not set; however there is NUMA interaction support for this OS.
+[17:06:34] [Server thread/INFO]: [ca.spottedleaf.moonrise.common.util.MoonriseConstants] Detected 1 NUMA nodes.
+[17:06:35] [Server thread/INFO]: Loading 0 persistent chunks for world 'minecraft:overworld'...
+[17:06:35] [Server thread/INFO]: Preparing spawn area: 100%
+[17:06:35] [Server thread/INFO]: Prepared spawn area in 3 ms
+[17:06:35] [Server thread/INFO]: Loading 0 persistent chunks for world 'minecraft:the_nether'...
+[17:06:35] [Server thread/INFO]: Prepared spawn area in 2 ms
+[17:06:35] [Server thread/INFO]: Loading 0 persistent chunks for world 'minecraft:the_end'...
+[17:06:35] [Server thread/INFO]: Prepared spawn area in 1 ms
+[17:06:35] [Server thread/INFO]: Done preparing level "world" (1.664s)
+[17:06:35] [Server thread/INFO]: [Multiverse-Core] Enabling Multiverse-Core v5.5.2
+[17:06:36] [Server thread/INFO]: Loading 0 persistent chunks for world 'minecraft:speedway'...
+[17:06:36] [Server thread/INFO]: Prepared spawn area in 2 ms
+[17:06:37] [Server thread/INFO]: [Multiverse-Core] API service loaded!
+[17:06:37] [Server thread/INFO]: [Multiverse-Core] Version 5.5.2 (API v5.5) Enabled - By dumptruckman, Rigby, fernferret, lithium3141, main--, benwoo1110 and Zax71
+[17:06:37] [Server thread/INFO]: [Multiverse-Core] Loving Multiverse-Core? Please consider supporting the project with a small donation: https://github.com/sponsors/Multiverse
+[17:06:37] [Server thread/INFO]: [Essentials] Enabling Essentials v2.22.0-dev+68-5abe8b6
+[17:06:38] [Server thread/INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
+[17:06:38] [Server thread/INFO]: [Essentials] No kits found to migrate.
+[17:06:38] [Server thread/INFO]: [Essentials] Selected Paper 1.13+ Tile Entity Provider as the provider for TileEntityProvider
+[17:06:38] [Server thread/INFO]: [Essentials] Selected 1.14.4+ Persistent Data Container Provider as the provider for PersistentDataProvider
+[17:06:38] [Server thread/INFO]: [Essentials] Selected Paper Container Provider as the provider for ContainerProvider
+[17:06:38] [Server thread/INFO]: [Essentials] Selected Paper Material Tag Provider as the provider for MaterialTagProvider
+[17:06:38] [Server thread/INFO]: [Essentials] Selected 1.21+ InventoryView Interface ABI Provider as the provider for InventoryViewProvider
+[17:06:38] [Server thread/INFO]: [Essentials] Selected 1.21.4+ Sync Commands Provider as the provider for SyncCommandsProvider
+[17:06:38] [Server thread/INFO]: [Essentials] Selected 1.12.2+ Player Locale Provider as the provider for PlayerLocaleProvider
+[17:06:38] [Server thread/INFO]: [Essentials] Selected Paper Serialization Provider as the provider for SerializationProvider
+[17:06:38] [Server thread/INFO]: [Essentials] Selected 1.8.3+ Spawner Item Provider as the provider for SpawnerItemProvider
+[17:06:38] [Server thread/INFO]: [Essentials] Selected 1.14+ Sign Data Provider as the provider for SignDataProvider
+[17:06:38] [Server thread/INFO]: [Essentials] Selected 1.20.4+ Damage Event Provider as the provider for DamageEventProvider
+[17:06:38] [Server thread/INFO]: [Essentials] Selected 1.20.6+ Potion Meta Provider as the provider for PotionMetaProvider
+[17:06:38] [Server thread/INFO]: [Essentials] Selected 1.13+ Spawn Egg Provider as the provider for SpawnEggProvider
+[17:06:38] [Server thread/INFO]: [Essentials] Selected Reflection Online Mode Provider as the provider for OnlineModeProvider
+[17:06:38] [Server thread/INFO]: [Essentials] Selected Reflection Formatted Command Alias Provider as the provider for FormattedCommandAliasProvider
+[17:06:38] [Server thread/INFO]: [Essentials] Selected Paper Biome Key Provider as the provider for BiomeKeyProvider
+[17:06:38] [Server thread/INFO]: [Essentials] Selected Legacy Biome Name Provider as the provider for BiomeNameProvider
+[17:06:38] [Server thread/INFO]: [Essentials] Selected 1.11+ Item Unbreakable Provider as the provider for ItemUnbreakableProvider
+[17:06:38] [Server thread/INFO]: [Essentials] Selected 1.12+ Spawner Block Provider as the provider for SpawnerBlockProvider
+[17:06:38] [Server thread/INFO]: [Essentials] Selected Paper Tick Count Provider as the provider for TickCountProvider
+[17:06:38] [Server thread/INFO]: [Essentials] Selected 1.17.1+ World Info Provider as the provider for WorldInfoProvider
+[17:06:38] [Server thread/INFO]: [Essentials] Selected Paper Known Commands Provider as the provider for KnownCommandsProvider
+[17:06:38] [Server thread/INFO]: [Essentials] Selected Paper Server State Provider as the provider for ServerStateProvider
+[17:06:38] [Server thread/INFO]: [Essentials] Selected 1.20.5+ Banner Data Provider as the provider for BannerDataProvider
+[17:06:38] [Server thread/INFO]: [Essentials] Loaded 46309 items from items.json.
+[17:06:38] [Server thread/INFO]: [Essentials] Using locale es_MX
+[17:06:38] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
+[17:06:38] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
+[17:06:38] [Server thread/INFO]: [Essentials] Using superperms-based permissions.
+[17:06:38] [Server thread/INFO]: [BedWars] Enabling BedWars v0.2.42.2
+[17:06:39] [Server thread/INFO]: [BedWars] Successfully loaded messages for BedWars! Language: English
+[17:06:39] [Server thread/INFO]: [BedWars] Loading statistics from YAML-File ...
+[17:06:39] [Server thread/INFO]: =====================  by ScreamingSandals <Misat11, Iamceph, Pronze, ZlataOvce>
+[17:06:39] [Server thread/INFO]: + Screaming BedWars +  Version: 0.2.42.2
+[17:06:39] [Server thread/INFO]: =====================  STABLE VERSION
+[17:06:39] [Server thread/INFO]: [BW] Arena Speedway loaded!
+[17:06:39] [Server thread/INFO]: Everything is loaded! If you like our work, consider visiting our Patreon! <3
+[17:06:39] [Server thread/INFO]: https://www.patreon.com/screamingsandals
+[17:06:39] [Server thread/INFO]: [EssentialsChat] Enabling EssentialsChat v2.22.0-dev+68-5abe8b6
+[17:06:39] [Server thread/INFO]: [EssentialsChat] Starting Metrics. Opt-out using the global bStats config.
+[17:06:39] [Server thread/INFO]: [EssentialsSpawn] Enabling EssentialsSpawn v2.22.0-dev+68-5abe8b6
+[17:06:39] [Server thread/INFO]: [EssentialsSpawn] Starting Metrics. Opt-out using the global bStats config.
+[17:06:39] [Server thread/INFO]: [OldCombatMechanics] Enabling OldCombatMechanics v2.3.0
+[17:06:39] [packetevents-update-check-thread/INFO]: [packetevents] Checking for updates, please wait...
+[17:06:39] [Server thread/INFO]: [OldCombatMechanics] Paper sword blocking components enabled (no offhand shield swap).
+[17:06:40] [Server thread/INFO]: [OldCombatMechanics] OldCombatMechanics v2.3.0 has been enabled
+[17:06:40] [Server thread/INFO]: [SBA] Enabling SBA v1.5.18
+[17:06:41] [Server thread/INFO]: [SBA] SBA initialized using Bedwars 0.2.42.2
+[17:06:42] [packetevents-update-check-thread/INFO]: [packetevents] There is an update available for PacketEvents! Your build: (2.11.2+f0b29d026-SNAPSHOT) | Latest release: (2.11.2)
+[17:06:42] [Server thread/INFO]: [SBA] Plugin has finished loading!
+[17:06:42] [Server thread/INFO]: [SBA] SBA Initialized on JAVA 25.0.2
+[17:06:42] [Server thread/INFO]: [SBA] SBA Commit is on par with 33e094c
+[17:06:42] [Server thread/INFO]: [spark] Starting background profiler...
+[17:06:43] [Server thread/INFO]: Running delayed init tasks
+[17:06:43] [Craft Scheduler Thread - 3 - Essentials/INFO]: [Essentials] Obteniendo información de versión...
+[17:06:43] [Thread-8/INFO]: No updates found
+[17:06:43] [Server thread/INFO]: Done (40.393s)! For help, type "help"
+[17:06:45] [Craft Scheduler Thread - 3 - Essentials/WARN]: [Essentials] ¡Estás a 4 compilación(es) de desactualización de EssentialsX!
+[17:06:45] [Craft Scheduler Thread - 3 - Essentials/WARN]: [Essentials] Descárgala aquí: https://essentialsx.net/downloads.html
+[17:06:46] [User Authenticator #0/INFO]: UUID of player fda_ is e37b8bec-c3d0-350f-a192-6a4f0c1fa6d2
+[17:06:46] [Server thread/INFO]: [HorriblePlayerLoginEventHack] You have plugins listening to the PlayerLoginEvent, this will cause re-configuration APIs to be unavailable: [SBA, ProtocolLib]
+[17:06:48] [Server thread/INFO]: fda_ joined the game
+[17:06:48] [Server thread/INFO]: fda_[/192.168.137.1:38354] logged in with entity id 10 at ([world]-2.0395327769049714, 20.0, 120.78848477728745)
+[17:10:07] [Server thread/INFO]: fda_ lost connection: Disconnected
+[17:10:08] [Server thread/INFO]: fda_ left the game
+[17:11:23] [Server thread/INFO]: Stopping the server
+[17:11:23] [Server thread/INFO]: Stopping server
+[17:11:23] [Server thread/INFO]: [SBA] Disabling SBA v1.5.18
+[17:11:23] [Server thread/ERROR]: Error occurred while disabling SBA v1.5.18
+java.lang.UnsupportedOperationException: Visual: b5aec88f-b009-2e89-9d11-7bd96961e832 is already destroyed!
 	at SBA-1.5.18.jar//sba.sl.vi.impl.AbstractLocatableVisual.destroy(AbstractLocatableVisual.java:85) ~[?:?]
 	at SBA-1.5.18.jar//sba.sl.npc.NPCImpl.destroy(NPCImpl.java:248) ~[?:?]
 	at SBA-1.5.18.jar//io.github.pronze.sba.service.GamesInventoryService.lambda$destroy$12(GamesInventoryService.java:261) ~[?:?]
@@ -28,76 +156,53 @@ java.lang.UnsupportedOperationException: Visual: e22faf73-d82e-2263-a809-85b1175
 	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1407) ~[purpur-1.21.11.jar:1.21.11-2562-a917106]
 	at net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:392) ~[purpur-1.21.11.jar:1.21.11-2562-a917106]
 	at java.base/java.lang.Thread.run(Thread.java:1474) ~[?:?]
-[09:44:24] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v7.4.0+7381-3decaf0
-[09:44:24] [Server console handler/ERROR]: Caught previously unhandled exception :
-java.io.IOError: java.io.IOException: Error de entrada/salida
-	at org.jline.keymap.BindingReader.readCharacter(BindingReader.java:170) ~[jline-reader-3.20.0.jar:?]
-	at org.jline.keymap.BindingReader.readBinding(BindingReader.java:110) ~[jline-reader-3.20.0.jar:?]
-	at org.jline.keymap.BindingReader.readBinding(BindingReader.java:61) ~[jline-reader-3.20.0.jar:?]
-	at org.jline.reader.impl.LineReaderImpl.doReadBinding(LineReaderImpl.java:923) ~[jline-reader-3.20.0.jar:?]
-	at org.jline.reader.impl.LineReaderImpl.readBinding(LineReaderImpl.java:956) ~[jline-reader-3.20.0.jar:?]
-	at org.jline.reader.impl.LineReaderImpl.readLine(LineReaderImpl.java:651) ~[jline-reader-3.20.0.jar:?]
-	at org.jline.reader.impl.LineReaderImpl.readLine(LineReaderImpl.java:468) ~[jline-reader-3.20.0.jar:?]
-	at net.minecrell.terminalconsole.SimpleTerminalConsole.readCommands(SimpleTerminalConsole.java:158) ~[terminalconsoleappender-1.3.0.jar:?]
-	at net.minecrell.terminalconsole.SimpleTerminalConsole.start(SimpleTerminalConsole.java:141) ~[terminalconsoleappender-1.3.0.jar:?]
-	at net.minecraft.server.dedicated.DedicatedServer$1.run(DedicatedServer.java:199) ~[purpur-1.21.11.jar:1.21.11-2562-a917106]
-Caused by: java.io.IOException: Error de entrada/salida
-	at java.base/java.io.FileInputStream.read0(Native Method) ~[?:?]
-	at java.base/java.io.FileInputStream.read(FileInputStream.java:201) ~[?:?]
-	at java.base/java.io.FilterInputStream.read(FilterInputStream.java:71) ~[?:?]
-	at org.jline.terminal.impl.AbstractPty$1.read(AbstractPty.java:58) ~[jline-terminal-3.27.1.jar:?]
-	at org.jline.terminal.impl.AbstractPty$PtyInputStream.read(AbstractPty.java:124) ~[jline-terminal-3.27.1.jar:?]
-	at org.jline.utils.NonBlockingInputStream.read(NonBlockingInputStream.java:62) ~[jline-terminal-3.27.1.jar:?]
-	at org.jline.utils.NonBlocking$NonBlockingInputStreamReader.read(NonBlocking.java:157) ~[jline-terminal-3.27.1.jar:?]
-	at org.jline.utils.NonBlockingReader.read(NonBlockingReader.java:56) ~[jline-terminal-3.27.1.jar:?]
-	at org.jline.keymap.BindingReader.readCharacter(BindingReader.java:160) ~[jline-reader-3.20.0.jar:?]
-	... 9 more
-[09:44:24] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
-[09:44:24] [Server thread/INFO]: [OldCombatMechanics] Disabling OldCombatMechanics v2.3.0
-[09:44:24] [Server thread/INFO]: [OldCombatMechanics] OldCombatMechanics v2.3.0 has been disabled
-[09:44:24] [Server thread/INFO]: [ProtocolLib] Disabling ProtocolLib v5.4.0
-[09:44:24] [Server thread/INFO]: [EssentialsSpawn] Disabling EssentialsSpawn v2.22.0-dev+68-5abe8b6
-[09:44:24] [Server thread/INFO]: [EssentialsChat] Disabling EssentialsChat v2.22.0-dev+68-5abe8b6
-[09:44:24] [Server thread/INFO]: [BedWars] Disabling BedWars v0.2.42.2
-[09:44:24] [Server thread/INFO]: [Essentials] Disabling Essentials v2.22.0-dev+68-5abe8b6
-[09:44:24] [Server thread/INFO]: [Multiverse-Core] Disabling Multiverse-Core v5.5.2
-[09:44:24] [Server thread/INFO]: [Multiverse-Core] - Disabled
-[09:44:24] [Server thread/INFO]: Saving players
-[09:44:24] [Server thread/INFO]: Saving worlds
-[09:44:24] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[09:44:24] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
-[09:44:24] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
-[09:44:24] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
-[09:44:24] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'world' in 0.00s
-[09:44:24] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world'
-[09:44:24] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world'
-[09:44:24] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
-[09:44:24] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
-[09:44:24] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
-[09:44:24] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
-[09:44:24] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'world_nether' in 0.00s
-[09:44:24] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_nether'
-[09:44:24] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_nether'
-[09:44:24] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
-[09:44:25] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
-[09:44:25] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
-[09:44:25] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
-[09:44:25] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'world_the_end' in 0.00s
-[09:44:25] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_the_end'
-[09:44:25] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_the_end'
-[09:44:25] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Speedway]'/minecraft:speedway
-[09:44:25] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'Speedway'
-[09:44:25] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'Speedway'
-[09:44:25] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'Speedway'
-[09:44:25] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'Speedway' in 0.00s
-[09:44:25] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'Speedway'
-[09:44:25] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'Speedway'
-[09:44:25] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[09:44:25] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[09:44:25] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[09:44:25] [Server thread/INFO]: ThreadedAnvilChunkStorage (Speedway): All chunks are saved
-[09:44:25] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
-[09:44:25] [Server thread/INFO]: Waiting for all RegionFile I/O tasks to complete...
-[09:44:25] [Server thread/INFO]: All RegionFile I/O tasks to complete
-[09:44:25] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of worker pool for up to 60s...
-[09:44:25] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of I/O pool for up to 60s...
+[17:11:23] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v7.4.0+7381-3decaf0
+[17:11:23] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
+[17:11:23] [Server thread/INFO]: [OldCombatMechanics] Disabling OldCombatMechanics v2.3.0
+[17:11:23] [Server thread/INFO]: [OldCombatMechanics] OldCombatMechanics v2.3.0 has been disabled
+[17:11:23] [Server thread/INFO]: [ProtocolLib] Disabling ProtocolLib v5.4.0
+[17:11:23] [Server thread/INFO]: [EssentialsSpawn] Disabling EssentialsSpawn v2.22.0-dev+68-5abe8b6
+[17:11:23] [Server thread/INFO]: [EssentialsChat] Disabling EssentialsChat v2.22.0-dev+68-5abe8b6
+[17:11:23] [Server thread/INFO]: [BedWars] Disabling BedWars v0.2.42.2
+[17:11:23] [Server thread/INFO]: [Essentials] Disabling Essentials v2.22.0-dev+68-5abe8b6
+[17:11:23] [Server thread/INFO]: [Multiverse-Core] Disabling Multiverse-Core v5.5.2
+[17:11:23] [Server thread/INFO]: [Multiverse-Core] - Disabled
+[17:11:23] [Server thread/INFO]: Saving players
+[17:11:23] [Server thread/INFO]: Saving worlds
+[17:11:23] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[17:11:23] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
+[17:11:23] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
+[17:11:23] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
+[17:11:23] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'world' in 0.00s
+[17:11:23] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world'
+[17:11:23] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world'
+[17:11:24] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[17:11:24] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
+[17:11:24] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
+[17:11:24] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
+[17:11:24] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'world_nether' in 0.00s
+[17:11:24] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_nether'
+[17:11:24] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_nether'
+[17:11:24] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[17:11:24] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
+[17:11:24] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
+[17:11:24] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
+[17:11:24] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'world_the_end' in 0.00s
+[17:11:24] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_the_end'
+[17:11:24] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_the_end'
+[17:11:24] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Speedway]'/minecraft:speedway
+[17:11:24] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'Speedway'
+[17:11:24] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'Speedway'
+[17:11:24] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'Speedway'
+[17:11:24] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'Speedway' in 0.00s
+[17:11:24] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'Speedway'
+[17:11:24] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'Speedway'
+[17:11:24] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[17:11:24] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[17:11:24] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[17:11:24] [Server thread/INFO]: ThreadedAnvilChunkStorage (Speedway): All chunks are saved
+[17:11:24] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[17:11:24] [Server thread/INFO]: Waiting for all RegionFile I/O tasks to complete...
+[17:11:24] [Server thread/INFO]: All RegionFile I/O tasks to complete
+[17:11:24] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of worker pool for up to 60s...
+[17:11:24] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of I/O pool for up to 60s...
